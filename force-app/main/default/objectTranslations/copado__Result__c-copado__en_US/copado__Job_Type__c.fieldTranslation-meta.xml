@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- API name of the job that triggered the result. This information can be used for reporting purposes. --></help>
+    <label><!-- Job API Name --></label>
+    <name>copado__Job_Type__c</name>
+    <picklistValues>
+        <masterLabel>Integration</masterLabel>
+        <translation><!-- Integration --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

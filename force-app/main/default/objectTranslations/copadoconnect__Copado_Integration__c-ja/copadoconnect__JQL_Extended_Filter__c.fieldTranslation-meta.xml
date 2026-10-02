@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>JQLフィルターは同期基準を定義します。重複をチェックするには、有効化する前に JQL フィルタを検証してください。複数の統合レコード (同じJIRA プロジェクトをもつ) が同じJQLフィルタ値を持つ場合、同期は失敗します。</help>
+    <label><!-- JQL Extended Filter --></label>
+    <name>copadoconnect__JQL_Extended_Filter__c</name>
+</CustomFieldTranslation>

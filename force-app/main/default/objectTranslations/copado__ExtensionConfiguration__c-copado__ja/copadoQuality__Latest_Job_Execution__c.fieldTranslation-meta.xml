@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Latest Job Execution --></label>
+    <name>copadoQuality__Latest_Job_Execution__c</name>
+    <relationshipLabel><!-- Extension Configurations --></relationshipLabel>
+</CustomFieldTranslation>

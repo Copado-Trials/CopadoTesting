@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これにより、検証用デプロイが作成されます。 チェックすると、Gitメタデータと通常のメタデータがマージされ、1つの検証用デプロイメントが作成されます。</help>
+    <label><!-- Validate Only --></label>
+    <name>copado__Validate_Only__c</name>
+</CustomFieldTranslation>

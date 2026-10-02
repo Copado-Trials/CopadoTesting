@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザーストーリーをより高い環境（PROD / TEST）から下の環境（TEST / DEV）にどのように移動させますか。</help>
+    <label><!-- Back-Promotion Execution --></label>
+    <name>copado__Back_Promotion_Behavior__c</name>
+    <picklistValues>
+        <masterLabel>Automated</masterLabel>
+        <translation>自動化</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation>無効</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation>マニュアル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled</masterLabel>
+        <translation>スケジュール</translation>
+    </picklistValues>
+</CustomFieldTranslation>

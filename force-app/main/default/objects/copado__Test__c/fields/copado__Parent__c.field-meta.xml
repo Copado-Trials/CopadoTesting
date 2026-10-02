@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Parent__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( NOT( ISBLANK( copado__Parent_Id__c ) ) , HYPERLINK(&quot;/&quot;+copado__Parent_Id__c, copado__Parent_Id__c, &quot;_self&quot;) , &quot;&quot;)</formula>
+    <label>Parent</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

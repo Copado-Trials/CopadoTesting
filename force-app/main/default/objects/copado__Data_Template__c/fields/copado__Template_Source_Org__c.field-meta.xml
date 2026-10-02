@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Template_Source_Org__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The main objects, fields and related objects will be listed based on the Salesforce Org data model of the selected credential. The Salesforce user linked to the credential must have access to all the fields and objects necessary for your deployments.</inlineHelpText>
+    <label>Template Schema Credential</label>
+    <referenceTo>copado__Org__c</referenceTo>
+    <relationshipLabel>Data Templates</relationshipLabel>
+    <relationshipName>Data_Templates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, committing changes on user stories linked to this Pipeline will not be allowed --></help>
+    <label><!-- Block Commits --></label>
+    <name>copado__Block_Commits__c</name>
+</CustomFieldTranslation>

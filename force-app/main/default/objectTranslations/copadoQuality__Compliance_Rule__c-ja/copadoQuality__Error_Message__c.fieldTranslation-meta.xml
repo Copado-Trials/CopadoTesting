@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルール違反の条件を書き込むテキストボックス。ルール違反時のメッセージを表示します。例：標準プロファイルは顧客のPIIフィールドにアクセスできません。</help>
+    <label><!-- Error Message --></label>
+    <name>copadoQuality__Error_Message__c</name>
+</CustomFieldTranslation>

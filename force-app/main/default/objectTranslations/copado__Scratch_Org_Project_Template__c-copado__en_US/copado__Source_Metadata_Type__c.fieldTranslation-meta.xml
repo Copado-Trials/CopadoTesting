@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source Metadata Type --></label>
+    <name>copado__Source_Metadata_Type__c</name>
+    <picklistValues>
+        <masterLabel>Branch</masterLabel>
+        <translation><!-- Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Git Artifacts</masterLabel>
+        <translation><!-- Git Artifacts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metadata</masterLabel>
+        <translation><!-- Metadata --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Patch a Release (Beta)</masterLabel>
+        <translation><!-- Patch a Release (Beta) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Second-Generation Packages</masterLabel>
+        <translation><!-- Second-Generation Packages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unlocked Packages</masterLabel>
+        <translation><!-- Unlocked Packages --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unmanaged Packages</masterLabel>
+        <translation><!-- Unmanaged Packages --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

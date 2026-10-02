@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The actual effort the team put into the implementation, reviews, testing, and documentation of the User Story. --></help>
+    <label><!-- Actual Points --></label>
+    <name>copado__Story_Points_SFDC__c</name>
+</CustomFieldTranslation>

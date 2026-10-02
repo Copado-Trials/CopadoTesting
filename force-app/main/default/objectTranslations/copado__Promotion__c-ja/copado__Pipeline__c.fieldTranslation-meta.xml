@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目は、ソースフォーマットパイプラインでのみ使用して、高度なユーザーストーリーのグループ化を有効にしてください。
+
+- 同じリリース内の異なるプロジェクトからユーザーストーリーをグループ化する場合：リリース（関連付けられたプロジェクトがないもの）とパイプラインを選択してください。
+
+- 任意のプロジェクトおよびリリースからユーザーストーリーをグループ化する場合：パイプラインのみを選択してください。
+
+プロジェクトおよび/またはリリース項目を使用した標準的なプロモーションを行う場合は、この項目を空のままにしてください。</help>
+    <label><!-- Pipeline --></label>
+    <name>copado__Pipeline__c</name>
+    <relationshipLabel><!-- Promotions --></relationshipLabel>
+</CustomFieldTranslation>

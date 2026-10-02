@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Latest OAuth authentication validation date. --></help>
+    <label><!-- Validated Date --></label>
+    <name>copado__Validated_Date__c</name>
+</CustomFieldTranslation>

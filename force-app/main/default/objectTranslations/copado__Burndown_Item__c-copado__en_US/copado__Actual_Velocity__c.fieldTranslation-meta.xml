@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sprint Actual Velocity on a particular date on which Sprint Snapshot Batch is executed --></help>
+    <label><!-- Actual Velocity --></label>
+    <name>copado__Actual_Velocity__c</name>
+</CustomFieldTranslation>

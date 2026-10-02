@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Available_for_Pool__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Flag this environment as eligible to be included in an environment pool. When enabled, this environment becomes selectable within the Environment Pool management application.</inlineHelpText>
+    <label>Available for Pool</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

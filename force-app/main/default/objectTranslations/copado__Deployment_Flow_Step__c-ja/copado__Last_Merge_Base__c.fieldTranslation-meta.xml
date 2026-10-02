@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ソースブランチとターゲットブランチが同期していた最後日付</help>
+    <label><!-- Last Merge Base --></label>
+    <name>copado__Last_Merge_Base__c</name>
+</CustomFieldTranslation>

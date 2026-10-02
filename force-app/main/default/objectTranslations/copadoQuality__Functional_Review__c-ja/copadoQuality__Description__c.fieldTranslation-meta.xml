@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>例えば、アプリケーションのどの部分に焦点を当てるべきか、あるいは詳細な情報はどこにあるのか、などのアウトラインを提供します。レビュアーが参照できるように、ドキュメントやビデオへのリンクを含めてください。</help>
+    <label><!-- Description --></label>
+    <name>copadoQuality__Description__c</name>
+</CustomFieldTranslation>

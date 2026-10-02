@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status - Deprecated --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation>アクティブ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inactive</masterLabel>
+        <translation>非有効</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Setup Pending</masterLabel>
+        <translation>セットアップ保留</translation>
+    </picklistValues>
+</CustomFieldTranslation>

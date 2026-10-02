@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ステップに関連付けられたジョブの実行</help>
+    <label><!-- Job Execution --></label>
+    <name>copado__JobExecution__c</name>
+    <relationshipLabel><!-- Job Steps --></relationshipLabel>
+</CustomFieldTranslation>

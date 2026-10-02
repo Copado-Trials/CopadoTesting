@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sum of Actual Points and Actual Points Other. Use this field along with Actual Points Other if you need to split your User Story effort among different scopes. --></help>
+    <label><!-- Total Actual Points --></label>
+    <name>copado__Total_Actual_Points__c</name>
+</CustomFieldTranslation>

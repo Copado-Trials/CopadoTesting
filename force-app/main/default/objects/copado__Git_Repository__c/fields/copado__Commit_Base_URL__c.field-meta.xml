@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Commit_Base_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field enables Copado to create a link to the Git commits&apos; information on your provider&apos;s end.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Base URL of your Repository commits, e.g.: https://github.com/[COMPANY]/[REPOSITORY]/commit/</inlineHelpText>
+    <label>Commit Base URL</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

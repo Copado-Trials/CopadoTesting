@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How should user stories be deployed from lower (dev/test) environments to higher environments (test/prod) --></help>
+    <label><!-- Promotion Execution --></label>
+    <name>copado__Promotion_Behavior__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__From_Org__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select the Source Credential for which you would like to compare the Metadata. This Credential will be the Credential from which you would like to migrate Metadata.</inlineHelpText>
+    <label>Source Credential</label>
+    <referenceTo>copado__Org__c</referenceTo>
+    <relationshipLabel>Org Differences (Source Credential)</relationshipLabel>
+    <relationshipName>FromOrgDiffs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- the name of the package version which entered by user while version creation. --></help>
+    <label><!-- Version Name --></label>
+    <name>copado__Version_Name__c</name>
+</CustomFieldTranslation>

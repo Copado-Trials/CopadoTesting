@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__URI__c</fullName>
+    <deprecated>false</deprecated>
+    <description>HTTPS or SSH URL to connect to the Git Repository.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>HTTPS or SSH URL to connect to the Git Repository.</inlineHelpText>
+    <label>URI</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

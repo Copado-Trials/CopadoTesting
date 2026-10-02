@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Config Json stores Job step related configuration information, for example in case of manual step it contains manual task assignee and instructions. --></help>
+    <label><!-- ConfigJson --></label>
+    <name>copado__ConfigJson__c</name>
+</CustomFieldTranslation>

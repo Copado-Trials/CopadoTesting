@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Base_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Optional Base URL where this test will be run, if Credentials are not specified.</description>
+    <inlineHelpText>Optional Base URL where this test will be run, if Credentials are not specified.</inlineHelpText>
+    <label>Base URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

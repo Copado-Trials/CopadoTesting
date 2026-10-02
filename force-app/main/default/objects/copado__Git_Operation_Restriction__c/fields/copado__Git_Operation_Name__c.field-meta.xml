@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Git_Operation_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field will be used to hide git operation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the names of Git Operations you want to restrict seperated with semi-colon (;) For example; if you want to restrict Destructive Changes and Full Profiles &amp; Permission Sets enter Destructive Changes;Full Profiles &amp; Permission Sets</inlineHelpText>
+    <label>Git Operation Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

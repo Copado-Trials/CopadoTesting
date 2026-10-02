@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Dependent_Team__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Team that is dependent on another team to provide the User Story.</description>
+    <inlineHelpText>The Team that is dependent on another team to provide the User Story.</inlineHelpText>
+    <label>Child User Story Team</label>
+    <referenceTo>copado__Team__c</referenceTo>
+    <relationshipLabel>User Story Dependencies (Dependent Team)</relationshipLabel>
+    <relationshipName>Team_Dependencies_For_Team</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

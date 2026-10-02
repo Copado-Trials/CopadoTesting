@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Scope__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Use this field to specify the files for which you want to take the snapshot. The format may vary depending on the extension that you are using. Please refer to your extension documentation.</inlineHelpText>
+    <label>Scope</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

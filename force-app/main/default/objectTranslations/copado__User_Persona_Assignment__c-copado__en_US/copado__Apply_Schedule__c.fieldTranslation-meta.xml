@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Do not edit manually. This field is used to control the permission scheduler --></help>
+    <label><!-- Apply Schedule --></label>
+    <name>copado__Apply_Schedule__c</name>
+</CustomFieldTranslation>

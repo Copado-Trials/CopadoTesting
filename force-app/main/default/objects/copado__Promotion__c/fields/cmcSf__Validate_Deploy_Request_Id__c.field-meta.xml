@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Validate_Deploy_Request_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>After a validation, if Quick Deploy is available on the target org, this field contains the validation id. If the promotion is deployed, the quick deploy will be used automatically.</inlineHelpText>
+    <label>Validate Deploy Request Id</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

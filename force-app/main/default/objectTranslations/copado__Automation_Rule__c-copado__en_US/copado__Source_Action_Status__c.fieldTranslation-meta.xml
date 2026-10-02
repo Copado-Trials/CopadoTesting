@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Define whether the automation rule should be triggered after a successful or failed (error) execution of the trigger action. --></help>
+    <label><!-- Trigger Action Status --></label>
+    <name>copado__Source_Action_Status__c</name>
+    <picklistValues>
+        <masterLabel>Error</masterLabel>
+        <translation><!-- Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Successful</masterLabel>
+        <translation><!-- Successful --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

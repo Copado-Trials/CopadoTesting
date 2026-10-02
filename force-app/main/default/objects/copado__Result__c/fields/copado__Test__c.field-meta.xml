@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Test__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Test parent object which triggered the execution.</description>
+    <inlineHelpText>The Test parent object which triggered the execution.</inlineHelpText>
+    <label>Test</label>
+    <referenceTo>copado__Test__c</referenceTo>
+    <relationshipLabel>Results</relationshipLabel>
+    <relationshipName>Results</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

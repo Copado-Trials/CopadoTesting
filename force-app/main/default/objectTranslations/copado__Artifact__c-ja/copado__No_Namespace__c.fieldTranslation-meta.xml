@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>名前空間なしでパッケージ作成を可能にします。ロック解除されたパッケージにのみで利用可能です。</help>
+    <label><!-- No Namespace --></label>
+    <name>copado__No_Namespace__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Files_to_be_deployed__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>For supported metadata items only.</inlineHelpText>
+    <label>Files to be deployed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Deploy all Files</fullName>
+                <default>true</default>
+                <label>Deploy all Files</label>
+            </value>
+            <value>
+                <fullName>Deploy only Committed Files</fullName>
+                <default>false</default>
+                <label>Deploy only Committed Files</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Register what resources are available after the step completes successfully. You can apply quality gates to these resources locally within the Function context. --></help>
+    <label><!-- Resource Observations --></label>
+    <name>copado__Resource_Observations__c</name>
+    <picklistValues>
+        <masterLabel>Local branch ready</masterLabel>
+        <translation><!-- Local branch ready --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

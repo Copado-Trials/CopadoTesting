@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__DataJSON__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If &apos;URL Callout&apos; is selected as the type, this stores the details of that callout.</description>
+    <inlineHelpText>If &apos;URL Callout&apos; is selected as the type, this stores the details of that callout.</inlineHelpText>
+    <label>DataJSON</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

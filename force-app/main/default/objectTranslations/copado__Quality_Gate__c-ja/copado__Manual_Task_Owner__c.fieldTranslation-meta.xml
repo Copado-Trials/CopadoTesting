@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>タイプとして「マニュアル承認」、「マニュアルテスト」、「プルリクエスト」を選択した場合、このタスクは誰に割り当てますか？</help>
+    <label><!-- Manual Task Owner --></label>
+    <name>copado__Manual_Task_Owner__c</name>
+    <relationshipLabel><!-- Automations --></relationshipLabel>
+</CustomFieldTranslation>

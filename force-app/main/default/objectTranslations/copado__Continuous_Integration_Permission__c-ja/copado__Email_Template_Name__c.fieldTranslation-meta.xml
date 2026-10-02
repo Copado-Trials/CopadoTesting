@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ここで「メールテンプレート名」を選択します。テンプレートがここに表示されていない場合、管理者が継続的インテグレーション権限オブジェクト上で、このピックリストをカスタマイズして追加する必要があります。</help>
+    <label><!-- Email Template Name --></label>
+    <name>copado__Email_Template_Name__c</name>
+    <picklistValues>
+        <masterLabel>Build Task Status Notification</masterLabel>
+        <translation>タスクステータス通知を構築</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>選択したファイルのみの差分を計算するには、このチェックボックスを選択して下さい。</help>
+    <label><!-- Partial Selection --></label>
+    <name>copado__Partial_Selection__c</name>
+</CustomFieldTranslation>

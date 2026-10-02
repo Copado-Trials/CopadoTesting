@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__EndDate_Should_be_Greater_than_StartDate</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(OR(ISCHANGED(copado__End_Date__c),ISCHANGED(copado__Start_Date__c)), copado__End_Date__c &lt;= copado__Start_Date__c), true, false)</errorConditionFormula>
+    <errorMessage>You must introduce an End Date greater than the Start Date.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Sprint_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>copado__Status__c</fields>
+    <fields>copado__End_Date__c</fields>
+    <fields>copado__Working_Days_Left__c</fields>
+    <fields>copado__InitialPlannedVelocity__c</fields>
+    <fields>copado__Planned_Velocity__c</fields>
+    <fields>copado__Actual_Velocity__c</fields>
+    <label>Sprint Compact Layout</label>
+</CompactLayout>

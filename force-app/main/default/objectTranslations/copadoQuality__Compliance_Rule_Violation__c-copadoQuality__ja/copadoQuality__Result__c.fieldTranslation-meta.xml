@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>結果</label>
+    <name>copadoQuality__Result__c</name>
+    <relationshipLabel>コンプライアンス・ルール違反</relationshipLabel>
+</CustomFieldTranslation>

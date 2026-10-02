@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ブランチを選択した場合、ブランチ管理ページは従来通り動作し、ユーザーストーリーを選択した場合、ユーザーストーリーに基づいた結果が表示されます。</help>
+    <label><!-- Calculate Based on --></label>
+    <name>copado__Calculate_Based_on__c</name>
+    <picklistValues>
+        <masterLabel>Branch</masterLabel>
+        <translation>ブランチ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Story</masterLabel>
+        <translation>ユーザーストーリー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

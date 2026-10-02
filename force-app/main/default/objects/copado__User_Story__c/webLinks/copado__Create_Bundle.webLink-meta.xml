@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Create_Bundle</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Bundle</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/flow/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}User_Story_Bundle</url>
+</WebLink>

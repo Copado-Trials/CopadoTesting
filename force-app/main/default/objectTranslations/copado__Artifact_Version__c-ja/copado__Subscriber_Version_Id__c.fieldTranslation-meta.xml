@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>セールスフォース環境にパッケージをインストールするには、インストールURLはサブスクライバーIDを必要とします。インストールURLをご参照ください。</help>
+    <label><!-- Subscriber Version Id --></label>
+    <name>copado__Subscriber_Version_Id__c</name>
+</CustomFieldTranslation>

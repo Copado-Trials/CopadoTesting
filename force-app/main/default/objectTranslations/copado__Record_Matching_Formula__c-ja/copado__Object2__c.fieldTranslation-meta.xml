@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ドロップダウンからオブジェクトを選択して、式を設定します。式に使用できる項目は、選択したオブジェクトおよびソース組織によって異なります。</help>
+    <label><!-- Object --></label>
+    <name>copado__Object2__c</name>
+</CustomFieldTranslation>

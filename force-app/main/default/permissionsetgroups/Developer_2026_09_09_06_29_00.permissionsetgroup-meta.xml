@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Developer_2026_09_09_06_29_00</label>
+    <permissionSets>Developer_2026_09_09_06_29_00_PS</permissionSets>
+    <permissionSets>cmcSf__Access_Pipeline_Manager</permissionSets>
+    <permissionSets>cmcSf__CMC_SFDX_Admin</permissionSets>
+    <permissionSets>copadoQuality__CCH_User</permissionSets>
+    <permissionSets>copadoQuality__CRT_Admin</permissionSets>
+    <permissionSets>copadoQuality__Functional_Review_Admin</permissionSets>
+    <permissionSets>copadoQuality__PMD_Admin</permissionSets>
+    <permissionSets>copado__Access_AQF</permissionSets>
+    <permissionSets>copado__Copado_Functions_User</permissionSets>
+    <permissionSets>copado__Copado_Job_Engine</permissionSets>
+    <permissionSets>copado__Copado_User</permissionSets>
+    <permissionSets>copado__Execute_Automations</permissionSets>
+    <permissionSets>copado__Execute_Tests</permissionSets>
+    <permissionSets>copado__Manual_Tests_Admin</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

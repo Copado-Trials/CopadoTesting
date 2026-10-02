@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Promotion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>It is a container used to deploy one or multiple user stories from one environment to another following a designated pipeline.</description>
+    <inlineHelpText>Lookup field to the promotion that triggered the execution.</inlineHelpText>
+    <label>Promotion</label>
+    <referenceTo>copado__Promotion__c</referenceTo>
+    <relationshipLabel>Job Executions</relationshipLabel>
+    <relationshipName>JobExecutions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

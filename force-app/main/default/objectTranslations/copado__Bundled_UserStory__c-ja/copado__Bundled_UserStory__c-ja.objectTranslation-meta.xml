@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Bundled User Story --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Bundle --></label>
+        <name>copado__Bundle</name>
+    </fieldSets>
+    <nameFieldLabel><!-- Bundled User Story Name --></nameFieldLabel>
+</CustomObjectTranslation>

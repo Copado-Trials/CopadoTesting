@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Id of the related job execution that performs additional steps and operations, such as running a test. --></help>
+    <label><!-- Sub Job Execution --></label>
+    <name>copado__Sub_Job_Execution__c</name>
+</CustomFieldTranslation>

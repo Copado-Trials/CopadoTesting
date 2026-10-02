@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The artifact record which cannot be installed or managed without the depending artifact --></help>
+    <label><!-- Dependent Package --></label>
+    <name>copado__Dependent_Artifact__c</name>
+    <relationshipLabel><!-- Package Dependencies (Dependent Artifact) --></relationshipLabel>
+</CustomFieldTranslation>

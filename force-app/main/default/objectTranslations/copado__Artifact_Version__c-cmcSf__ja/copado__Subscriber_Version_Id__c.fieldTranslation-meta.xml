@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- In order to install a package to a Salesforce environment, installation URL requires a subscriber Id. Please refer to installation URLs. --></help>
+    <label><!-- Subscriber Version Id --></label>
+    <name>copado__Subscriber_Version_Id__c</name>
+</CustomFieldTranslation>

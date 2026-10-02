@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If &apos;Static Code Analysis&apos; is selected as the type, which static analysis settings should be used? --></help>
+    <label><!-- Static Code Analysis Settings --></label>
+    <name>copado__Static_Code_Analysis_Settings__c</name>
+    <relationshipLabel><!-- Automations --></relationshipLabel>
+</CustomFieldTranslation>

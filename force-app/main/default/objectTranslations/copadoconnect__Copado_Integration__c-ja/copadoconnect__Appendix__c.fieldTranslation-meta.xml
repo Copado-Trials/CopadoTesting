@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>JIRA とセールスフォース間で 1 対多のプロジェクトマッピングを作成する場合は、同じプロジェクトキーの下にある各 Copado 統合レコードに一意のテキスト値を指定して、この項目を使用してください。これは、プロバイダとして JIRA/ADO にのみ使用されます。</help>
+    <label><!-- Appendix --></label>
+    <name>copadoconnect__Appendix__c</name>
+</CustomFieldTranslation>

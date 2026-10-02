@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a mandatory field if you intend to publish your automation template as copado extension package --></help>
+    <label><!-- Api Name --></label>
+    <name>copado__ApiName__c</name>
+</CustomFieldTranslation>

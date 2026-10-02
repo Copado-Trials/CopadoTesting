@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Exclude_From_Auto_Resolve__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Conflicts found in the selected metadata types are not auto-resolved by Copado when merging feature branches into the promotion branch. The conflicts can be manually resolved using Copado.</description>
+    <inlineHelpText>Select the metadata types that you want to manually resolve when a conflict occurs while merging the feature branch into the promotion branch.This field only affects metadata format pipelines and not source format pipelines.</inlineHelpText>
+    <label>Exclude From Auto Resolve</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>copado__Auto_Resolve_Exceptions</valueSetName>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

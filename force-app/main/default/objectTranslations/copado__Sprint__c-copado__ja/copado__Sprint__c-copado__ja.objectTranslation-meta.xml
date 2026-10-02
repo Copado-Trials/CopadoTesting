@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スプリント</value>
+    </caseValues>
+    <nameFieldLabel>スプリント名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>完了日（End Date)は開始日より後である必要があります。</errorMessage>
+        <name>copado__EndDate_Should_be_Greater_than_StartDate</name>
+    </validationRules>
+</CustomObjectTranslation>

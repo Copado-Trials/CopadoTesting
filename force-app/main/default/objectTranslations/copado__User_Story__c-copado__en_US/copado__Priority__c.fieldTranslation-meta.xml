@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Numeric value to determine which User Stories are more urgent and should be completed first. --></help>
+    <label><!-- Priority --></label>
+    <name>copado__Priority__c</name>
+</CustomFieldTranslation>

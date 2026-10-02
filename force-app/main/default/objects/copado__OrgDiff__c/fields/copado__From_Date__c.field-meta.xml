@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__From_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If a value is entered only modification after this date (inclusive) will be added in the Diff</inlineHelpText>
+    <label>From Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Peer-Review</fullName>
+                <default>false</default>
+                <label>Peer-Review</label>
+            </value>
+            <value>
+                <fullName>User Acceptance Testing</fullName>
+                <default>false</default>
+                <label>User Acceptance Testing</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Regression</fullName>
+                <default>false</default>
+                <label>Regression</label>
+            </value>
+            <value>
+                <fullName>Usability</fullName>
+                <default>false</default>
+                <label>Usability</label>
+            </value>
+            <value>
+                <fullName>User Interface</fullName>
+                <default>false</default>
+                <label>User Interface</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

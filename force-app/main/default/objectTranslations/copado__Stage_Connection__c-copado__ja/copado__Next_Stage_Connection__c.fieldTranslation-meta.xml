@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Leave this field empty if this is the last stage of your pipeline. Otherwise, select the next higher stage. You can only select stage connections that belong to this pipeline. --></help>
+    <label>次のステージ接続</label>
+    <lookupFilter>
+        <errorMessage>同じパイプラインに属しているステージ接続を選択する事ができます。</errorMessage>
+    </lookupFilter>
+    <name>copado__Next_Stage_Connection__c</name>
+    <relationshipLabel>前のステージ接続</relationshipLabel>
+</CustomFieldTranslation>

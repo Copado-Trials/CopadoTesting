@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indicates if this is a password protected package version --></help>
+    <label><!-- Has Installation Key --></label>
+    <name>cmcSf__Has_Installation_Key__c</name>
+</CustomFieldTranslation>

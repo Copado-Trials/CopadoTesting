@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Pipeline where this automation will be executed. If no Stage or Environment is defined, this automation will applied to the entire pipeline and can be considered the default rule --></help>
+    <label><!-- Pipeline --></label>
+    <name>copado__Pipeline__c</name>
+    <relationshipLabel><!-- Automation Rules --></relationshipLabel>
+</CustomFieldTranslation>

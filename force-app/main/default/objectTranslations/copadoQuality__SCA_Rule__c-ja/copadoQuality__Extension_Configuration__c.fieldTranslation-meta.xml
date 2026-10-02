@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Extension Configuration --></label>
+    <name>copadoQuality__Extension_Configuration__c</name>
+    <relationshipLabel><!-- SCA Rules --></relationshipLabel>
+</CustomFieldTranslation>

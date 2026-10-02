@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ancestor Idは、既存のプロモート (公開) パッケージバージョンを指定するために使用されます。パッケージバージョン ID (04t) またはパッケージバージョンのエイリアスとして指定されます。コパードでは、この項目はプロジェクト構成 (sfdx-project.json) の値を反映しており、UI から編集することはできません。どのバージョンを祖先として指定するかには注意が必要です。パッケージの継承関係は、どのバージョンへのアップグレードが許可されるかに影響を与えるためです。</help>
+    <label><!-- Ancestor Id --></label>
+    <name>cmcSf__Ancestor_Id__c</name>
+</CustomFieldTranslation>

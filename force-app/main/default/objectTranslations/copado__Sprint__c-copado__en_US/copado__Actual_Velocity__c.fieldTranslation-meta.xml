@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This value is calculated by adding up the total planned points of the user stories in the sprint when their status is changed to Completed. This status can be configured in the Actual Velocity Statuses custom metadata type. Please refer to the Copado Sprint Velocity article for more information. --></help>
+    <label><!-- Actual Velocity --></label>
+    <name>copado__Actual_Velocity__c</name>
+</CustomFieldTranslation>

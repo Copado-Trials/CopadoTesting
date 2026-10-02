@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation><!-- Approved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permissions Assigned</masterLabel>
+        <translation><!-- Permissions Assigned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permissions Revoked</masterLabel>
+        <translation><!-- Permissions Revoked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation><!-- Rejected --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

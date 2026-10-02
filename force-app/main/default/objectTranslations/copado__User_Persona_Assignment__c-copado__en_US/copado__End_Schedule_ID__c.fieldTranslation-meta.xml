@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the Apex Job ID for the scheduled permission revokal --></help>
+    <label><!-- End Schedule ID --></label>
+    <name>copado__End_Schedule_ID__c</name>
+</CustomFieldTranslation>

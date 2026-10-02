@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If you have turned on the Mask API Key setting you will see a placeholder {USER_API_KEY} instead of your user&apos;s API Key after the api_key parameter --></help>
+    <label><!-- Called URL --></label>
+    <name>copado__Called_URL__c</name>
+</CustomFieldTranslation>

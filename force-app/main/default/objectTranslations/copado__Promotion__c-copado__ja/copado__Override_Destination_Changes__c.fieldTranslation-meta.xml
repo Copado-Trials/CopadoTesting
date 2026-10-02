@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When enabled, files from the source environment will be deployed directly, overriding any work in progress in the destination environment. When disabled, Copado will check for work in progress and prompt for conflict resolution if changes are detected. --></help>
+    <label>宛先の変更を上書き</label>
+    <name>copado__Override_Destination_Changes__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Snapshot Commit</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Snapshot Commits</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CBM Fields --></label>
+        <name>copado__CBM_Fields</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- The commit status cannot be &apos;Pending&apos; or &apos;No changes&apos; whenever there is a commit Id. --></errorMessage>
+        <name>copado__Commit_Id_Status_Complete</name>
+    </validationRules>
+</CustomObjectTranslation>

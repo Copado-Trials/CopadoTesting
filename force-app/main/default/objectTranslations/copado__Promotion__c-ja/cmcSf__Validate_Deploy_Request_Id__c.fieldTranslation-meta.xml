@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>検証後、対象組織でクイックデプロイが利用可能な場合、このフィールドには検証IDが含まれます。プロモーションがデプロイされると、クイックデプロイが自動的に使用されます。</help>
+    <label><!-- Validate Deploy Request Id --></label>
+    <name>cmcSf__Validate_Deploy_Request_Id__c</name>
+</CustomFieldTranslation>

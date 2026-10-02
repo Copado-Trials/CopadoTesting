@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Platform__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field auto-populates and displays the pipeline platform</description>
+    <externalId>false</externalId>
+    <formula>BLANKVALUE( 
+    TEXT(copado__Project__r.copado__Deployment_Flow__r.copado__Platform__c) ,  
+    BLANKVALUE(  
+        TEXT(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Platform__c), 
+        &apos;&apos;
+    ) 
+)</formula>
+    <inlineHelpText>This field auto-populates and displays the pipeline platform</inlineHelpText>
+    <label>Platform</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

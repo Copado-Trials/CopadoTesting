@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Computational resources available for a function. --></help>
+    <label><!-- Function Worker Size --></label>
+    <name>copado__Function_Worker_Size__c</name>
+    <picklistValues>
+        <masterLabel>L</masterLabel>
+        <translation><!-- L --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation><!-- M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S</masterLabel>
+        <translation><!-- S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XL</masterLabel>
+        <translation><!-- XL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

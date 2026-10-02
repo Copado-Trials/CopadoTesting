@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>名前がこの値と一致するメタデータのみを照合します（メタデータ名= &apos;すべて&apos;が選択されている場合は無視されます）</help>
+    <label><!-- Value --></label>
+    <name>copado__Value__c</name>
+</CustomFieldTranslation>

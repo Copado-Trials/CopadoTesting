@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Minimum code coverage required for deploying changes from this Environment. --></help>
+    <label><!-- Minimum Apex Test Coverage --></label>
+    <name>copado__Minimum_Apex_Test_Coverage__c</name>
+</CustomFieldTranslation>

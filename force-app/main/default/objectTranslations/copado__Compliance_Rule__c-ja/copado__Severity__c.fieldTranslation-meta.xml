@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Lightningプラットフォームで報告するフィールド、Copado このフィールド上で動作しません。</help>
+    <label><!-- Severity --></label>
+    <name>copado__Severity__c</name>
+</CustomFieldTranslation>

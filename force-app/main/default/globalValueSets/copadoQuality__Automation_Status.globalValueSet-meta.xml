@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Review</fullName>
+        <default>false</default>
+        <label>Under Review</label>
+    </customValue>
+    <customValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Partially Automated</fullName>
+        <default>false</default>
+        <label>Partially Automated</label>
+    </customValue>
+    <customValue>
+        <fullName>Automated</fullName>
+        <default>false</default>
+        <label>Automated</label>
+    </customValue>
+    <customValue>
+        <fullName>Discarded</fullName>
+        <default>false</default>
+        <label>Discarded</label>
+    </customValue>
+    <description>Used on FRS-FR objects</description>
+    <masterLabel>Automation Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

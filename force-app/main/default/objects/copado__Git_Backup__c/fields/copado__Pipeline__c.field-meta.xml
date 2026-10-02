@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Pipeline__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Pipeline where the Git snapshot will be applied. It must be associated to the specified credential.</inlineHelpText>
+    <label>Pipeline</label>
+    <referenceTo>copado__Deployment_Flow__c</referenceTo>
+    <relationshipLabel>Git Snapshots</relationshipLabel>
+    <relationshipName>Git_Snapshots</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

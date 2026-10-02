@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide the script with the commands you would like the function to execute. --></help>
+    <label><!-- Script --></label>
+    <name>copado__Script__c</name>
+</CustomFieldTranslation>

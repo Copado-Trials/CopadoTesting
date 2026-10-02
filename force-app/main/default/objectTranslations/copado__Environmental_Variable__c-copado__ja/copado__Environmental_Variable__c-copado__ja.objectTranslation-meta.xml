@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>環境変数</value>
+    </caseValues>
+    <fieldSets>
+        <label>関連リスト</label>
+        <name>copado__RelatedList</name>
+    </fieldSets>
+    <nameFieldLabel>環境変数名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>値は必須情報です</errorMessage>
+        <name>copado__Value_is_required</name>
+    </validationRules>
+</CustomObjectTranslation>

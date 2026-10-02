@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>外部CI ジョブ結果</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Related List Fields --></label>
+        <name>copado__relatedListFields</name>
+    </fieldSets>
+    <nameFieldLabel>外部 CI ジョブ結果名</nameFieldLabel>
+</CustomObjectTranslation>

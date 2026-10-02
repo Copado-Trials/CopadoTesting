@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ParentId__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK( copado__Deployment__c )), copado__Deployment__c, 
+    IF(NOT(ISBLANK( copado__Promotion__c )), copado__Promotion__c, 
+        IF(NOT(ISBLANK( copado__UserStoryCommit__c )), copado__UserStoryCommit__c, 
+            IF(NOT(ISBLANK( copado__Snapshot__c )), copado__Snapshot__c,  copado__ParentRecord_Id__c)
+        )
+    )
+)</formula>
+    <label>Parent Id(Formula)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

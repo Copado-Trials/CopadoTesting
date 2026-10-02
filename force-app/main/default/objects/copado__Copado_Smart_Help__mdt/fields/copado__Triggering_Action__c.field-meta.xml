@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Triggering_Action__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Select if you want the tip to be display immediately or only when the triggering action is met</inlineHelpText>
+    <label>Triggering Action</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Copado Metadata Grid selection</fullName>
+                <default>true</default>
+                <label>Copado Metadata Grid selection</label>
+            </value>
+            <value>
+                <fullName>Always show</fullName>
+                <default>false</default>
+                <label>Always show</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

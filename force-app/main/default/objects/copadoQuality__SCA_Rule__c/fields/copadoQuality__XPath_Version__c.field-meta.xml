@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__XPath_Version__c</fullName>
+    <deprecated>false</deprecated>
+    <label>XPath Version</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1.0</fullName>
+                <default>false</default>
+                <label>1.0</label>
+            </value>
+            <value>
+                <fullName>2.0</fullName>
+                <default>false</default>
+                <label>2.0</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

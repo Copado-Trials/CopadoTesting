@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この基準を満たすユーザーストーリーのみが自動的にプロモーション対象になります。</help>
+    <label><!-- Promotion Criteria --></label>
+    <name>copado__Promotion_Criteria__c</name>
+</CustomFieldTranslation>

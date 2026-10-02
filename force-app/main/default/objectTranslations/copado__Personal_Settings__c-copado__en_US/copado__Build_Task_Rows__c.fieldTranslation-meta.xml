@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This value determines the number of build task rows that should be displayed when viewing a Continuous Integration. --></help>
+    <label><!-- Build Task Rows --></label>
+    <name>copado__Build_Task_Rows__c</name>
+</CustomFieldTranslation>

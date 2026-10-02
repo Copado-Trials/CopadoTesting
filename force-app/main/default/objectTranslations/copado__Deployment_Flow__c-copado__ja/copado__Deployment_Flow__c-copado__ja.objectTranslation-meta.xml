@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン</value>
+    </caseValues>
+    <fieldSets>
+        <label>追加情報</label>
+        <name>copado__Additional_Information</name>
+    </fieldSets>
+    <nameFieldLabel>パイプライン名</nameFieldLabel>
+    <webLinks>
+        <label>ルールエディタの検索＆置換</label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+    <webLinks>
+        <label>パイプラインマネージャー（MFP）</label>
+        <name>copado__Manage_Branches</name>
+    </webLinks>
+    <webLinks>
+        <label>環境変数の管理</label>
+        <name>copado__Manage_Environment_Variables</name>
+    </webLinks>
+    <webLinks>
+        <label>回帰テストを管理</label>
+        <name>copado__Manage_Regression_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label>パイプラインウィザード</label>
+        <name>copado__Pipeline_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label>メインブランチを選択</label>
+        <name>copado__Select_Main_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

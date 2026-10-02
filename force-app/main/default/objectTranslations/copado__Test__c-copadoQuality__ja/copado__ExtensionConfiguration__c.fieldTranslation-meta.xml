@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The displayed values are based on the active Extension Configuration records available in your org. --></help>
+    <label><!-- Tool Configuration --></label>
+    <lookupFilter>
+        <errorMessage><!-- Make sure the selected Extension Configuration is valid and active. --></errorMessage>
+    </lookupFilter>
+    <name>copado__ExtensionConfiguration__c</name>
+    <relationshipLabel><!-- Tests --></relationshipLabel>
+</CustomFieldTranslation>

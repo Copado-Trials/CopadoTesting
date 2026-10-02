@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Sandbox_Installation_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&apos;https://test.salesforce.com/packaging/installPackage.apexp?p0=&apos;+copado__Subscriber_Version_Id__c, &apos;https://test.salesforce.com/packaging/installPackage.apexp?p0=&apos;+copado__Subscriber_Version_Id__c, &apos;_blank&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Use this URL in order to install this package in a sandbox environment.</inlineHelpText>
+    <label>Sandbox Installation URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

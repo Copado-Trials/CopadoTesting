@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deployment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deployments</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- CustomFields --></label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Deployment Modal --></label>
+        <name>copado__Pipeline_Deployment_Modal</name>
+    </fieldSets>
+    <recordTypes>
+        <description><!-- Create multiple types of deployment steps. (Technical knowledge needed) --></description>
+        <label><!-- Advanced (multi-step) --></label>
+        <name>copado__Advanced_multi_step</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Group of steps to be executed in the future. --></description>
+        <label><!-- Automation Template --></label>
+        <name>copado__Automation_Template</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select a Data Template to be deployed in a point and click process. --></description>
+        <label><!-- Data Deployment --></label>
+        <name>copado__Data_Deployment</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Select the metadata manually to be deployed in a point and click process. --></description>
+        <label><!-- Metadata Deployment --></label>
+        <name>copado__Metadata_Deployment</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Cancel_Deployment --></label>
+        <name>copado__Cancel_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Deploy --></label>
+        <name>copado__Deploy</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Template --></label>
+        <name>copado__Import_Template</name>
+    </webLinks>
+</CustomObjectTranslation>

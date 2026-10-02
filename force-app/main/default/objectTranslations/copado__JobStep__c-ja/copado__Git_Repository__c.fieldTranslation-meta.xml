@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ジョブステップが適用されるパイプラインにリンクされている Git リポジトリレコードのID</help>
+    <label><!-- Git Repository --></label>
+    <name>copado__Git_Repository__c</name>
+</CustomFieldTranslation>

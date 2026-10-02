@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザーストーリーがキャンセルされた理由を説明し、この情報を利用できるようにします。</help>
+    <label><!-- Cancellation Reason --></label>
+    <name>copado__Cancellation_Reason__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>バックプロモーションのスケジュール（スケジュールされている場合）</help>
+    <label><!-- Back-Promotion Schedule --></label>
+    <name>copado__Back_Promotion_Schedule__c</name>
+</CustomFieldTranslation>

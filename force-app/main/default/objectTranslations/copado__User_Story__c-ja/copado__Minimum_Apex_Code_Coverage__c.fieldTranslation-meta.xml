@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>最低限のApexコードカバー率が必要です。この値がユーザーストーリーの環境で設定されている値より低い場合、環境の値が自動的に適用されます。</help>
+    <label><!-- Minimum Apex Code Coverage --></label>
+    <name>copado__Minimum_Apex_Code_Coverage__c</name>
+</CustomFieldTranslation>

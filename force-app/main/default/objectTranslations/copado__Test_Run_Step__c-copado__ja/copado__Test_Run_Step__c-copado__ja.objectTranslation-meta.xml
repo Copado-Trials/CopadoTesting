@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>テスト実行ステップ</value>
+    </caseValues>
+    <fieldSets>
+        <label>テストラン実行項目セット</label>
+        <name>copado__TestRunExecutionFieldSet</name>
+    </fieldSets>
+    <nameFieldLabel>テスト実行ステップ名</nameFieldLabel>
+</CustomObjectTranslation>

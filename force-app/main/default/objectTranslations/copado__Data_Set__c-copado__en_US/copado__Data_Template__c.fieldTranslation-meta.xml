@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The selected Data Template will be used as a base for object relationships, related fields and filtering. --></help>
+    <label><!-- Data Template --></label>
+    <name>copado__Data_Template__c</name>
+    <relationshipLabel><!-- Data Sets --></relationshipLabel>
+</CustomFieldTranslation>

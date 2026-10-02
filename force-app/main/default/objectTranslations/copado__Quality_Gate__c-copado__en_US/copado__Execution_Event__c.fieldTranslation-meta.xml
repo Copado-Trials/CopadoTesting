@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The event that triggers this automation. --></help>
+    <label><!-- Execution Event --></label>
+    <name>copado__Execution_Event__c</name>
+    <picklistValues>
+        <masterLabel>Deployment</masterLabel>
+        <translation><!-- Deployment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Deployment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Deployment in Copado is the process of moving one or multiple changes from one environment to another, following a designated Pipeline.</description>
+    <inlineHelpText>Lookup field to the deployment that triggered the execution.</inlineHelpText>
+    <label>Deployment</label>
+    <referenceTo>copado__Deployment__c</referenceTo>
+    <relationshipLabel>Job Executions</relationshipLabel>
+    <relationshipName>JobExecutions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

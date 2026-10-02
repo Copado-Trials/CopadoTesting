@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Steps_Passed__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Steps Passed</label>
+    <summaryFilterItems>
+        <field>copado__Test_Run_Step__c.copado__Status__c</field>
+        <operation>equals</operation>
+        <value>Passed, Passed with comments</value>
+    </summaryFilterItems>
+    <summaryForeignKey>copado__Test_Run_Step__c.copado__Test_Run__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

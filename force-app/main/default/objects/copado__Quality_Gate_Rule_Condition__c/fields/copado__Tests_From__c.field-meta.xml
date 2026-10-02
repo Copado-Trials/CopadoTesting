@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Tests_From__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select from where the tests to be executed as part of the Quality Gate are retrieved.</inlineHelpText>
+    <label>Tests From</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>User Story</fullName>
+                <default>true</default>
+                <label>User Story</label>
+            </value>
+            <value>
+                <fullName>Feature</fullName>
+                <default>false</default>
+                <label>Feature</label>
+            </value>
+            <value>
+                <fullName>Application</fullName>
+                <default>false</default>
+                <label>Application</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

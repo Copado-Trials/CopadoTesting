@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__User_Story_Progress_Range_Validation</fullName>
+    <active>true</active>
+    <description>If User Story has Progress%, it should be in a valid range of 0 to 100.</description>
+    <errorConditionFormula>NOT(ISNULL( copado__Progress__c )) &amp;&amp; (copado__Progress__c &lt; 0 || copado__Progress__c &gt; 1)</errorConditionFormula>
+    <errorMessage>Enter a value between 0 to 100 to specify the Progress in percentage.</errorMessage>
+</ValidationRule>

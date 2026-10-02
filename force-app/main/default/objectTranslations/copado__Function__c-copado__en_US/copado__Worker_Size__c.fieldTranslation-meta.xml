@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Picklist field that defines the size of the worker. The available options are S, M, L, and XL. --></help>
+    <label><!-- Worker Size --></label>
+    <name>copado__Worker_Size__c</name>
+    <picklistValues>
+        <masterLabel>L</masterLabel>
+        <translation><!-- L --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation><!-- M --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S</masterLabel>
+        <translation><!-- S --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XL</masterLabel>
+        <translation><!-- XL --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

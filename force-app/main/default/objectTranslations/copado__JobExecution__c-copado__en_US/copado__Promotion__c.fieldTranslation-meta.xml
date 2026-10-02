@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Lookup field to the promotion that triggered the execution. --></help>
+    <label><!-- Promotion --></label>
+    <name>copado__Promotion__c</name>
+    <relationshipLabel><!-- Job Executions --></relationshipLabel>
+</CustomFieldTranslation>

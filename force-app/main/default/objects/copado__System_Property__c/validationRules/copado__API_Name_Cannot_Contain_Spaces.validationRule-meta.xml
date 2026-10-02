@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__API_Name_Cannot_Contain_Spaces</fullName>
+    <active>true</active>
+    <errorConditionFormula>CONTAINS(copado__API_Name__c, &apos; &apos;)</errorConditionFormula>
+    <errorDisplayField>copado__API_Name__c</errorDisplayField>
+    <errorMessage>The API Name cannot contain blank spaces.</errorMessage>
+</ValidationRule>

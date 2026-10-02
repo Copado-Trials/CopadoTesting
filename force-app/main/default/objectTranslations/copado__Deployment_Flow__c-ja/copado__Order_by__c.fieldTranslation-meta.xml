@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目を入力して、フォワードプロモーション時のユーザーストーリーのマージ順を昇順または降順に設定します（例：copado__Priority__c asc）。バックプロモーションの場合、ユーザーストーリーは元のフォワードプロモーションでマージされた順序で自動的にマージされるため、この項目は無視されます。パイプラインレベルで設定すると、このパイプラインで作成されたすべてのプロモーションにこの値が自動的に継承されます。</help>
+    <label><!-- Order User Stories by --></label>
+    <name>copado__Order_by__c</name>
+</CustomFieldTranslation>

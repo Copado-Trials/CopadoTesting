@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The action to be performed by Copado when a rule violation occurs. Abort Process stops the Copado action and documents the violation in the result, but doesn’t send an email notification. Continue with Alert sends an email notification and documents the violation in the result, but doesn’t stop the action. Document Only doesn’t send an email notification and doesn’t stop the action, but documents the violation in the result.</inlineHelpText>
+    <label>Action</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abort Process</fullName>
+                <default>true</default>
+                <label>Abort Process</label>
+            </value>
+            <value>
+                <fullName>Continue with alert</fullName>
+                <default>false</default>
+                <label>Continue with alert</label>
+            </value>
+            <value>
+                <fullName>Document Only</fullName>
+                <default>false</default>
+                <label>Document Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

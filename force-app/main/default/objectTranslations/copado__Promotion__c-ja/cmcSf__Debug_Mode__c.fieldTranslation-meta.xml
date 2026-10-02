@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これを有効にすると、git リポジトリの copadoDebug/&lt;PromotionNumber&gt; というブランチにあるデプロイ先の組織に (このプロモーションの一部として) デプロイされたソースファイルを見ることができます。</help>
+    <label><!-- Debug Mode --></label>
+    <name>cmcSf__Debug_Mode__c</name>
+</CustomFieldTranslation>

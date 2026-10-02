@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>セールスフォースの設定ファイルは、XML形式です。差分を読みやすくするために、別の形式に変更することができます。</help>
+    <label><!-- Format --></label>
+    <name>copado__Format__c</name>
+    <picklistValues>
+        <masterLabel>JSON</masterLabel>
+        <translation><!-- JSON --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>XML</masterLabel>
+        <translation><!-- XML --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>YAML</masterLabel>
+        <translation><!-- YAML --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

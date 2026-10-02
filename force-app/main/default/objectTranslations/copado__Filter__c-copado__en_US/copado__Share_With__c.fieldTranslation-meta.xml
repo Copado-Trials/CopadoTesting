@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Share With --></label>
+    <name>copado__Share_With__c</name>
+    <picklistValues>
+        <masterLabel>All</masterLabel>
+        <translation><!-- All --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Me</masterLabel>
+        <translation><!-- Me --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Lookup field to the user linked to the system property. --></help>
+    <label><!-- User --></label>
+    <name>copado__User__c</name>
+    <relationshipLabel><!-- System Properties --></relationshipLabel>
+</CustomFieldTranslation>

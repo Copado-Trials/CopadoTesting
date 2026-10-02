@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Compliance_Scan_Result__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Compliance Scan Result</label>
+    <referenceTo>copado__Compliance_Scan_Result__c</referenceTo>
+    <relationshipLabel>Compliance Findings</relationshipLabel>
+    <relationshipName>Compliance_Findings</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Department --></label>
+    <name>copado__Department__c</name>
+    <picklistValues>
+        <masterLabel>Analytics</masterLabel>
+        <translation>アナリティクス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Capacity</masterLabel>
+        <translation>キャパシティー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Core</masterLabel>
+        <translation>コア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Core Infrastructure</masterLabel>
+        <translation>コアインフラストラクチャ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Center Automation</masterLabel>
+        <translation>データセンターのオートメーション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation><!-- IT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industry</masterLabel>
+        <translation>インダストリー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing</masterLabel>
+        <translation>マーケティング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matrix</masterLabel>
+        <translation>マトリックス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mobile</masterLabel>
+        <translation>モバイル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Network and Systems Platform</masterLabel>
+        <translation>ネットワークとシステムのプラットフォーム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Path-To-Production</masterLabel>
+        <translation>本番環境へのパス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Platform</masterLabel>
+        <translation>プラットフォーム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production Support</masterLabel>
+        <translation>プロダクションサポート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Productivity</masterLabel>
+        <translation>プロダクティビティー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Programmatic UI</masterLabel>
+        <translation>プログラムUI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R&amp;D App Delivery</masterLabel>
+        <translation>R&amp;Dアプリデリバリー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reliability</masterLabel>
+        <translation>システム信頼性</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales</masterLabel>
+        <translation>販売</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security</masterLabel>
+        <translation>セキュリティ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service</masterLabel>
+        <translation>サービス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shared Services</masterLabel>
+        <translation>共有サービス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trust</masterLabel>
+        <translation>トラスト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

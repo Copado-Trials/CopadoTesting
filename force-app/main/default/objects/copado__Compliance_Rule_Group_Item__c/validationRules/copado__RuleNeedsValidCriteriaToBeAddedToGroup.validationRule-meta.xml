@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__RuleNeedsValidCriteriaToBeAddedToGroup</fullName>
+    <active>true</active>
+    <description>A compliance rule needs at least one valid criteria row in order to be added to a Compliance Rule Group.</description>
+    <errorConditionFormula>NOT(copado__Compliance_Rule__r.copado__Is_Valid__c)</errorConditionFormula>
+    <errorMessage>This compliance rule does not have any criteria. A compliance rule needs at least one valid criteria row in order to be added to a Compliance Rule Group.</errorMessage>
+</ValidationRule>

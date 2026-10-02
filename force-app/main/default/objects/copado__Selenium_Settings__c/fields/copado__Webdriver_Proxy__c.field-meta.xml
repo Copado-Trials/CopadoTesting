@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Webdriver_Proxy__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enables Saucelabs Connect or Browserstack Local Testing</description>
+    <inlineHelpText>Use a local proxy to access an org behind a VPN? This enables Saucelabs Connect or Browserstack Local Testing.</inlineHelpText>
+    <label>Webdriver Proxy</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

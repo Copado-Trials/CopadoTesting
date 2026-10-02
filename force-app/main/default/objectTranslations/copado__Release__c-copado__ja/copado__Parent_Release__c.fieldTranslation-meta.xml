@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Informative field to define a parent release --></help>
+    <label>親のリリース</label>
+    <name>copado__Parent_Release__c</name>
+    <relationshipLabel>子リリース</relationshipLabel>
+</CustomFieldTranslation>

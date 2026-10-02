@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Stage_and_Environment_both_populated</fullName>
+    <active>true</active>
+    <description>Prevents Stage and Environment fields are both populated, only one of them should be populated.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(copado__Stage__c)), NOT(ISBLANK(copado__Environment__c)))</errorConditionFormula>
+    <errorMessage>Environment and Stage fields cannot be selected at the same time. Define the most granular filters using Environments, or broader filters using Stage.</errorMessage>
+</ValidationRule>

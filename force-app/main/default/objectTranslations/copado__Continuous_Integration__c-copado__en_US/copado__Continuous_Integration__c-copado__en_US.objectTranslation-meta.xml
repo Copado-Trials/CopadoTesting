@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Continuous Integration</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Continuous Integrations</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- CustomFields --></label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <sharingReasons>
+        <label><!-- Continuous Integration Permission --></label>
+        <name>copado__ContinuousIntegrationPermission</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

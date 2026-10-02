@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This value is automatically set and updated by Copado. --></help>
+    <label><!-- Oauth Signature --></label>
+    <name>copado__Oauth_Signature__c</name>
+</CustomFieldTranslation>

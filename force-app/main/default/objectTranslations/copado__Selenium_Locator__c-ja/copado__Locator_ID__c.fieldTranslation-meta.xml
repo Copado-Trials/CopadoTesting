@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この値はユーザー定義です。ロケーターIDを設定すると、Seleniumテストケースのスクリプトで {!Locator.ID} のように使用することができます。例： {!Locator.ACCOUNT_SAVE_BUTTON}</help>
+    <label><!-- Locator ID --></label>
+    <name>copado__Locator_ID__c</name>
+</CustomFieldTranslation>

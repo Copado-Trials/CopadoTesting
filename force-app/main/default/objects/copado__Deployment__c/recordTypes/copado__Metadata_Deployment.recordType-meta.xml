@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Metadata_Deployment</fullName>
+    <active>true</active>
+    <description>Select the metadata manually to be deployed in a point and click process.</description>
+    <label>Metadata Deployment</label>
+    <picklistValues>
+        <picklist>copado__Execution_Context__c</picklist>
+        <values>
+            <fullName>Deployment</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>copado__Schedule__c</picklist>
+        <values>
+            <fullName>Deploy later</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deploy now</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>copado__Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed with Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merge Conflict</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scheduled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

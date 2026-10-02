@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>システムプロパティ</value>
+    </caseValues>
+    <nameFieldLabel>プロパティ名</nameFieldLabel>
+    <sharingReasons>
+        <label>公開</label>
+        <name>copado__isPublic</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage>API名に空白スペースを含めることはできません。</errorMessage>
+        <name>copado__API_Name_Cannot_Contain_Spaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Is Globalチェックボックスが選択されている場合は、環境、パイプライン、ユーザーのルックアップは空である必要があります。</errorMessage>
+        <name>copado__Lookups_empty_for_Global_Property</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>非グローバルプロパティは、1つの親にのみ関連付けることができます。環境、パイプライン、ユーザーのいずれか1つの親にしか関連付けられません。</errorMessage>
+        <name>copado__Only_One_Parent_Is_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>このシステム・プロパティには値を指定する必要があります。</errorMessage>
+        <name>copado__Value_cannot_be_empty</name>
+    </validationRules>
+</CustomObjectTranslation>

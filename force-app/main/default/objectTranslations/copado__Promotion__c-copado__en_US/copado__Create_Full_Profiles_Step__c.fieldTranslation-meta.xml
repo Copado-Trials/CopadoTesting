@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select this checkbox if you wish to move added permission sets to a Full Permission Sets step. Doing this will remove the permission sets from the Metadata step. --></help>
+    <label><!-- Create Full Profiles Step --></label>
+    <name>copado__Create_Full_Profiles_Step__c</name>
+</CustomFieldTranslation>

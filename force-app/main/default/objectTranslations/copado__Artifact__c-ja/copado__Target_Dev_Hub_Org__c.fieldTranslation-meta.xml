@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パッケージとそのバージョンの作成と保存に使用されるDev Hubのコパード組織クレデンシャル</help>
+    <label><!-- Target Dev Hub Org --></label>
+    <lookupFilter>
+        <errorMessage><!-- Only dev hub org credentials can be selected. Given value not found or it is not a dev hub org. --></errorMessage>
+    </lookupFilter>
+    <name>copado__Target_Dev_Hub_Org__c</name>
+    <relationshipLabel><!-- Packages (Target Dev Hub Org) --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Device_Screen_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Display Size for Windows/Mac platforms</description>
+    <inlineHelpText>Display Size for Windows/Mac platforms. E.G. Saucelabs with Windows only supports small size ( &lt; 1280x1024 )</inlineHelpText>
+    <label>Device Screen Size</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Big screen</fullName>
+                <default>false</default>
+                <label>Big screen</label>
+            </value>
+            <value>
+                <fullName>Medium screen</fullName>
+                <default>true</default>
+                <label>Medium screen</label>
+            </value>
+            <value>
+                <fullName>Small screen</fullName>
+                <default>false</default>
+                <label>Small screen</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

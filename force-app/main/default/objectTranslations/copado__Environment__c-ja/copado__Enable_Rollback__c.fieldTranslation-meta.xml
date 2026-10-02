@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この環境を宛先とするデプロイメント/プロモーションに対して、ロールバックを有効にします。ロールバックは、この機能を有効にした後に作成されたデプロイメント/プロモーションで利用できます。</help>
+    <label><!-- Enable Rollback --></label>
+    <name>copado__Enable_Rollback__c</name>
+</CustomFieldTranslation>

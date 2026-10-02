@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>copadoQuality__Category__c</name>
+    <picklistValues>
+        <masterLabel>Best Practices</masterLabel>
+        <translation>ベストプラクティス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Code Style</masterLabel>
+        <translation>コードスタイル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom</masterLabel>
+        <translation>カスタム</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Design</masterLabel>
+        <translation>デザイン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Documentation</masterLabel>
+        <translation>ドキュメンテーション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error Prone</masterLabel>
+        <translation>エラーを起こしやすい</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Multithreading</masterLabel>
+        <translation>マルチスレッド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance</masterLabel>
+        <translation>パフォーマンス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Security</masterLabel>
+        <translation>セキュリティー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

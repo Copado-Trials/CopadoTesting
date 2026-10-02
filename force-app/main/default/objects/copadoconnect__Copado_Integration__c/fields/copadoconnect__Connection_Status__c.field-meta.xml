@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoconnect__Connection_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The status of the named credential connection. Draft = Created and Saved, Connected = You have successfully authorized and connected to a Third Party application, Failed = Failed connection due to configuration or authorization issues.</inlineHelpText>
+    <label>Connection Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Connected</fullName>
+                <default>false</default>
+                <label>Connected</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

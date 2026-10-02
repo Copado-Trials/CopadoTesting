@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>有効にすると、バックプロモーションが完了し、宛先環境（To）でユーザーストーリで選択されたメタデータが含まれている場合、そのユーザーストーリーのメタデータレコードのステータスが「Back Promoted」に更新されます。</help>
+    <label><!-- Index Back Promotion Metadata --></label>
+    <name>copado__Index_Back_Promotion_metadata__c</name>
+</CustomFieldTranslation>

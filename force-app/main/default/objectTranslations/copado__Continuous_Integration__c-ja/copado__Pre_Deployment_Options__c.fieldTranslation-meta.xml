@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Pre Deployment Options --></label>
+    <name>copado__Pre_Deployment_Options__c</name>
+    <picklistValues>
+        <masterLabel>Always run build task deployment</masterLabel>
+        <translation>常にビルドタスクのデプロイメントを実行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run build task deployment only if pre deployment job is successful</masterLabel>
+        <translation>プレデプロイメントジョブが成功した場合にのみビルドタスクのデプロイメントを実行</translation>
+    </picklistValues>
+</CustomFieldTranslation>

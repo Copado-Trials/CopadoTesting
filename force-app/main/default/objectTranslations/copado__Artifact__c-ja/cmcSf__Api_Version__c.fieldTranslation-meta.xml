@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パッケージング CLI コマンドで使用する API バージョン。指定しない場合、デフォルト値（Dev Hub の API バージョン）が使用されます。形式は例のように指定してください。例：54.0
+注：子パッケージのバージョンに API バージョンが指定されている場合、その値が使用されます。</help>
+    <label><!-- Api Version --></label>
+    <name>cmcSf__Api_Version__c</name>
+</CustomFieldTranslation>

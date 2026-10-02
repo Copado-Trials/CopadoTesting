@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>タイプとして &apos;Seleniumテスト&apos; を選択した場合、どの Seleniumテストグループを実行する必要がありますか？</help>
+    <label><!-- Selenium Test Group --></label>
+    <name>copado__Selenium_Test_Group__c</name>
+    <relationshipLabel><!-- Automations --></relationshipLabel>
+</CustomFieldTranslation>

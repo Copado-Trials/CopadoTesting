@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If you&apos;re developing managed packages, this will help you to write only one version of the pre/post Apex Code in Selenium Test Suites. Copado will replace any &quot;{!NS}&quot; text with this value. --></help>
+    <label><!-- Namespace --></label>
+    <name>copado__Namespace__c</name>
+</CustomFieldTranslation>

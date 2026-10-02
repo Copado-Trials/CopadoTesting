@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>タイプとして「URLコールアウト」が選択されている場合、これはコールアウトの詳細を格納しています。</help>
+    <label><!-- DataJSON --></label>
+    <name>copado__DataJSON__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Count_Completed__c</fullName>
+    <deprecated>false</deprecated>
+    <label># Completed</label>
+    <summaryFilterItems>
+        <field>copado__Deployment_Job__c.copado__Status__c</field>
+        <operation>equals</operation>
+        <value>Success, Failed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>copado__Deployment_Job__c.copado__Destination_Org__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

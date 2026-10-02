@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Additional_Information</fullName>
+    <description>These are the necessary extra fields to create a Pipeline record based on your customization. If you want to change this list, edit the &quot;Additional Information&quot; Field Set.</description>
+    <label>Additional Information</label>
+</FieldSet>

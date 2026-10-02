@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Pre_Deployment_Options__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Pre Deployment Options</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Run build task deployment only if pre deployment job is successful</fullName>
+                <default>true</default>
+                <label>Run build task deployment only if pre deployment job is successful</label>
+            </value>
+            <value>
+                <fullName>Always run build task deployment</fullName>
+                <default>false</default>
+                <label>Always run build task deployment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__PreventUpdatingExtensionTool</fullName>
+    <active>true</active>
+    <description>This rule prevents users from modifying the Tool Configuration after the Extension Configuration is activated.</description>
+    <errorConditionFormula>AND( copado__Active__c , ISCHANGED( copado__ExtensionTool__c ) )</errorConditionFormula>
+    <errorMessage>This Extension Tool cannot be modified. Please create a new Extension Configuration record instead.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>接続動作の上書き</label>
+    <name>copado__Connection_Behavior_Override__c</name>
+    <relationshipLabel>パイプライン接続</relationshipLabel>
+</CustomFieldTranslation>

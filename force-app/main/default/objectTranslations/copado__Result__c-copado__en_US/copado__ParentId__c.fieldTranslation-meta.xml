@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- 15-digit Id of the record that triggered the process that generated the result. --></help>
+    <label><!-- Context ID --></label>
+    <name>copado__ParentId__c</name>
+</CustomFieldTranslation>

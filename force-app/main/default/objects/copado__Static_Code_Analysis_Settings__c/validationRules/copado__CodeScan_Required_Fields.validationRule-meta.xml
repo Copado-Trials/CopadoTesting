@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__CodeScan_Required_Fields</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF (ISPICKVAL( copado__CodeScan_Version__c, &apos;Cloud&apos;),
+            ISBLANK( copado__Cloud_Organization__c ), 
+            FALSE )</errorConditionFormula>
+    <errorMessage>Review the following required fields:
+Cloud Organization is required for Cloud Version.
+SonarQube Token and URL are required for On-premise Version.</errorMessage>
+</ValidationRule>

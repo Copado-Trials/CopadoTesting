@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If selected, &quot;Run Specified Tests&quot; will be enforced only when deploying apex classes or triggers if &quot;No Test Run&quot; is selected for the deployment. --></help>
+    <label><!-- Run Specified Tests --></label>
+    <name>copado__Run_specified_tests__c</name>
+</CustomFieldTranslation>

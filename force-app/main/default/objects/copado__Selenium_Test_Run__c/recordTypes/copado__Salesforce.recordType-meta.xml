@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Salesforce</fullName>
+    <active>true</active>
+    <description>Test a Salesforce Org using OAuth Authentication</description>
+    <label>Salesforce</label>
+    <picklistValues>
+        <picklist>copado__Last_Status__c</picklist>
+        <values>
+            <fullName>Completed successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed with errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Provider Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

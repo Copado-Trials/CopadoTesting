@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Function</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Functions</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Api name can only contain alphanumeric characters and must begin with a letter --></errorMessage>
+        <name>copado__Function_Name_must_Be_Alpha_Numeric</name>
+    </validationRules>
+</CustomObjectTranslation>

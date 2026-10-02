@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Execution Context --></label>
+    <name>copado__Execution_Context__c</name>
+    <picklistValues>
+        <masterLabel>Deployment</masterLabel>
+        <translation><!-- Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

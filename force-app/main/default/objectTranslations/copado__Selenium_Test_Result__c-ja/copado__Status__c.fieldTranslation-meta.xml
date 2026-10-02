@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed successfully</masterLabel>
+        <translation>正常に完了しました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed with errors</masterLabel>
+        <translation>エラーありで完了しました。</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation>進行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provider Failure</masterLabel>
+        <translation>プロバイダー失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queued</masterLabel>
+        <translation>キューイング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starting</masterLabel>
+        <translation>開始</translation>
+    </picklistValues>
+</CustomFieldTranslation>

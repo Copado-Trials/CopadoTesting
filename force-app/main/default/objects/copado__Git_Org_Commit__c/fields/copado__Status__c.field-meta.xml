@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status of the commit. This value is updating automatically by Copado.</description>
+    <inlineHelpText>The status of the commit. This value is updating automatically by Copado.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>No changes</fullName>
+                <default>false</default>
+                <label>No changes</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>In progress</fullName>
+                <default>false</default>
+                <label>In progress</label>
+            </value>
+            <value>
+                <fullName>Commit undone</fullName>
+                <default>false</default>
+                <label>Commit undone</label>
+            </value>
+            <value>
+                <fullName>Commit not in branch</fullName>
+                <default>false</default>
+                <label>Commit not in branch</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

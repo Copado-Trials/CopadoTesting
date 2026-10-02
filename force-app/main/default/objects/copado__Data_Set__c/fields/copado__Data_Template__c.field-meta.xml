@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Data_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Related Data Template record that defines related objects and their relationships for the attachments of this Data Set.</description>
+    <inlineHelpText>The selected Data Template will be used as a base for object relationships, related fields and filtering.</inlineHelpText>
+    <label>Data Template</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>copado__Data_Template__c.copado__Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>copado__Data_Template__c</referenceTo>
+    <relationshipLabel>Data Sets</relationshipLabel>
+    <relationshipName>Data_Sets</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

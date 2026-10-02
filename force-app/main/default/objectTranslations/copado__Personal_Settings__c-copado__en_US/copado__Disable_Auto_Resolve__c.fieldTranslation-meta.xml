@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Disables Auto-Resolve from Online Conflict Resolution --></help>
+    <label><!-- Disable Auto-Resolve --></label>
+    <name>copado__Disable_Auto_Resolve__c</name>
+</CustomFieldTranslation>

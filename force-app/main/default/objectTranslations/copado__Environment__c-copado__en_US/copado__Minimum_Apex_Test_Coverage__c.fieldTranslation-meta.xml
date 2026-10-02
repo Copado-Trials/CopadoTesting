@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Set the Minimum Apex Test Coverage here which will be used for Apex Test Results on the Org Credential detail page. --></help>
+    <label><!-- Minimum Apex Test Coverage --></label>
+    <name>copado__Minimum_Apex_Test_Coverage__c</name>
+</CustomFieldTranslation>

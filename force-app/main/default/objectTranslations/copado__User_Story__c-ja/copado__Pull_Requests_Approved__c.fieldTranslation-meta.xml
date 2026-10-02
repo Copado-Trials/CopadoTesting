@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>必要なレビュー担当者が最新のプルリクエストを承認したかどうかを示します。</help>
+    <label><!-- Pull Requests Approved --></label>
+    <name>copado__Pull_Requests_Approved__c</name>
+</CustomFieldTranslation>

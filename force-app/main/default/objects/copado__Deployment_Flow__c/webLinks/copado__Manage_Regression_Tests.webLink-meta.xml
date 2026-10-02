@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Manage_Regression_Tests</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Manage Regression Tests</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}ManageSeleniumTesting?regression=true&amp;flowId={!copado__Deployment_Flow__c.Id}</url>
+</WebLink>

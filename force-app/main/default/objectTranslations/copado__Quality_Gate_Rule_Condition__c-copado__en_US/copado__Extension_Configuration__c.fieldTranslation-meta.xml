@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Extension Configuration --></label>
+    <lookupFilter>
+        <errorMessage><!-- Make sure the selected Extension Configuration is valid and active. --></errorMessage>
+    </lookupFilter>
+    <name>copado__Extension_Configuration__c</name>
+    <relationshipLabel><!-- Quality Gate Rule Conditions --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Release Status --></label>
+    <name>copado__Release_Status__c</name>
+    <picklistValues>
+        <masterLabel>Beta</masterLabel>
+        <translation>ベータ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Definition</masterLabel>
+        <translation>定義</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Development</masterLabel>
+        <translation>開発</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GA</masterLabel>
+        <translation>GA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pilot</masterLabel>
+        <translation>パイロット</translation>
+    </picklistValues>
+</CustomFieldTranslation>

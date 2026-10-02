@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>カラムを取得するためのSOQLクエリ。 IDフィールドと名前フィールドを使用してリストを生成します。</help>
+    <label><!-- Columns from SOQL --></label>
+    <name>copado__Columns_SOQL__c</name>
+</CustomFieldTranslation>

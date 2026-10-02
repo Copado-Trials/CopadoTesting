@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>環境レコードは、組織クレデンシャルが認証されると自動的に作成されます。各環境は、同じ環境の異なるユーザに対応する複数の組織クレデンシャルを持つことができます。</help>
+    <label><!-- Environment --></label>
+    <name>copado__Environment__c</name>
+    <relationshipLabel><!-- Credentials --></relationshipLabel>
+</CustomFieldTranslation>

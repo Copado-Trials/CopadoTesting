@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of conflicted files auto resolved by Copado when merging the destination branch into the source branch. --></help>
+    <label><!-- Pull Auto Resolved Files --></label>
+    <name>copado__Pull_Auto_Resolved_Files__c</name>
+</CustomFieldTranslation>

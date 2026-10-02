@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザーストーリーブランチの元となるGitブランチ。このブランチはユーザーストーリーでコミットする際に更新され、デフォルトでは、デプロイメントフローのメインブランチ、またはユーザーストーリーにリンクされたリリースのベースブランチになります。</help>
+    <label><!-- Base Branch --></label>
+    <name>copado__Base_Branch__c</name>
+</CustomFieldTranslation>

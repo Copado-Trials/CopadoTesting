@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Environment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Environments</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- SFDX Environment Extension Fields --></label>
+        <name>cmcSf__SFDX_Environment_Extension_Fields</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- We do not recommend to set “Run Specified Test” on an environment level, unless you are 100% sure that ALL deployments contain Apex. If this is the case, you can deactivate this Validation Rule. --></errorMessage>
+        <name>cmcSf__Prevent_RunSpecifiedTest_For_Environment</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Find_Replace_Rule_Editor --></label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+</CustomObjectTranslation>

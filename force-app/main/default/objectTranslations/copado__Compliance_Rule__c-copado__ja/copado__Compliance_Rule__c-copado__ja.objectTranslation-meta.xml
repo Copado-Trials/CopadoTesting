@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>コンプライアンス・ルール</value>
+    </caseValues>
+    <fieldSets>
+        <label>基準ページフィールド</label>
+        <name>copado__Criteria_Page_Fields</name>
+    </fieldSets>
+    <nameFieldLabel>コンプライアンス・ルール名</nameFieldLabel>
+    <recordTypes>
+        <description>コパードによって実行されるスキャンルールを定義するには、このレコードタイプを使用して下さい。</description>
+        <label>コパード</label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description>このレコードタイプを使用して、サードパーティシステムのスキャンルールを定義します。</description>
+        <label>その他</label>
+        <name>copado__Other</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>マッチング基準、レコード数、およびレコード数基準は必須のフィールドです。</errorMessage>
+        <name>copado__Required_Criteria_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label>基準を管理</label>
+        <name>copado__Manage_Criteria</name>
+    </webLinks>
+</CustomObjectTranslation>

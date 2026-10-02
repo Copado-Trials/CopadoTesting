@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If &apos;Static Code Analysis&apos; is selected as the type, what static analysis score should be considered passing? --></help>
+    <label><!-- Static Analysis Score Threshold --></label>
+    <name>copado__Score_Threshold__c</name>
+</CustomFieldTranslation>

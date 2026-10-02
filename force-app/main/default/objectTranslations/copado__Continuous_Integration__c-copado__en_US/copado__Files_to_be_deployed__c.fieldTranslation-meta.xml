@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For supported metadata items only. --></help>
+    <label><!-- Files to be deployed --></label>
+    <name>copado__Files_to_be_deployed__c</name>
+    <picklistValues>
+        <masterLabel>Deploy all Files</masterLabel>
+        <translation><!-- Deploy all Files --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deploy only Committed Files</masterLabel>
+        <translation><!-- Deploy only Committed Files --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>マネージドパッケージを開発している場合、SeleniumテストスイートでApexコードの前/後バージョンを1つだけ書くのに役立ちます。コパードは、&quot;{!NS}&quot;テキストをこの値に置き換えます。</help>
+    <label><!-- Namespace --></label>
+    <name>copado__Namespace__c</name>
+</CustomFieldTranslation>

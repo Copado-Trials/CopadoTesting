@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select here the Email Template Name. If your template is not visible here, it must be added by the Administrator by customising this picklist on the Continuous Integration Permission object. --></help>
+    <label><!-- Email Template Name --></label>
+    <name>copado__Email_Template_Name__c</name>
+    <picklistValues>
+        <masterLabel>Build Task Status Notification</masterLabel>
+        <translation><!-- Build Task Status Notification --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

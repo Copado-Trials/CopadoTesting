@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Job_URL_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>if(ISBLANK(copado__Job_URL__c), 
+  &quot;&quot;,
+  HYPERLINK(copado__Job_URL__c, &quot;View in &quot;&amp;TEXT( copado__External_CI_Job__r.copado__External_CI_Setting__r.copado__CI_Tool__c ))
+)</formula>
+    <label>Job URL Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

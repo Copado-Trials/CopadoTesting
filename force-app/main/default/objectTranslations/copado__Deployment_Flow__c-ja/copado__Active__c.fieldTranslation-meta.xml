@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>チェックされている場合は、デプロイメントフローですべてのブランチ管理機能が有効になります。</help>
+    <label><!-- Active --></label>
+    <name>copado__Active__c</name>
+</CustomFieldTranslation>

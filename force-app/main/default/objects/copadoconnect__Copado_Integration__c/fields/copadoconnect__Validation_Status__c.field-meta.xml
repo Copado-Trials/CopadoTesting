@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoconnect__Validation_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is used to show the Validation status of the integration records</description>
+    <label>Validation Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Validated</fullName>
+                <default>true</default>
+                <label>Not Validated</label>
+            </value>
+            <value>
+                <fullName>Success</fullName>
+                <default>false</default>
+                <label>Success</label>
+            </value>
+            <value>
+                <fullName>Failed</fullName>
+                <default>false</default>
+                <label>Failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

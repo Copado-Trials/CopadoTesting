@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enable this checkbox if you want to review Vlocity logs regardless of the status of the deployment. If you include Vlocity logs, these can consume a considerable amount of file storage. --></help>
+    <label><!-- Attach Vlocity(SFI) Build File --></label>
+    <name>cmcSf__Attach_Vlocity_Build_File__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Apex_Test_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Test levels in order from least to most restrictive</description>
+    <label>Apex Test Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>cmcSf__Apex_Test_Level</valueSetName>
+    </valueSet>
+</CustomField>

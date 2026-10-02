@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>新しいパッケージ、バージョン、ビルド、イメージ等が作成される、リポジトリ内のソースコードのデフォルトフォルダーを指定するフィールドです。このパラメータはオプションです。</help>
+    <label><!-- Default Path --></label>
+    <name>copado__DefaultPath__c</name>
+</CustomFieldTranslation>

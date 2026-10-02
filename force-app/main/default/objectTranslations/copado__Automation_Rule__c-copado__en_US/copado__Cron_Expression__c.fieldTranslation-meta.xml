@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide a valid cron expression which establishes a date and time for the automated action to be executed. You can use the ‘Generate Cron Expression’ link to create your own cron expression. --></help>
+    <label><!-- Cron Expression --></label>
+    <name>copado__Cron_Expression__c</name>
+</CustomFieldTranslation>

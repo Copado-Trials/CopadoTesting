@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If a value is entered, only modifications from this user will be included in the Diff. Use the user Full Name --></help>
+    <label><!-- Last Modified By Name --></label>
+    <name>copado__Last_Modified_By_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status of the Job Step.</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(copado__JobTemplate__c)), &apos;NA&apos;, 
+  IF(copado__IsSkipped__c , &apos;Skipped&apos;,
+    IF(ISBLANK(copado__Result__c), &apos;Pending&apos;, TEXT(copado__Result__r.copado__Status__c))))</formula>
+    <inlineHelpText>The status of the Job Step.</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

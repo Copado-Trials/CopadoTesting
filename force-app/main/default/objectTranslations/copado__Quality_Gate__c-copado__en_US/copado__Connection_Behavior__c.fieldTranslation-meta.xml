@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What Connection Behavior is this Quality Gate attached to? --></help>
+    <label><!-- Parent Connection Behavior --></label>
+    <name>copado__Connection_Behavior__c</name>
+    <relationshipLabel><!-- Automations --></relationshipLabel>
+</CustomFieldTranslation>

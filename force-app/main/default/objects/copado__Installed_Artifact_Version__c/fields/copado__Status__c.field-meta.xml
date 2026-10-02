@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Upgraded</fullName>
+                <default>false</default>
+                <label>Upgraded</label>
+            </value>
+            <value>
+                <fullName>Uninstalled</fullName>
+                <default>false</default>
+                <label>Uninstalled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>チェックすると、ユーザーストーリーはプロモーション可能な対象として表示されます。ユーザーストーリーは「Ahead」に表示され、プロモーションとブランチ管理のページで選択できるようになります。</help>
+    <label><!-- Ready to Promote --></label>
+    <name>copado__Promote_Change__c</name>
+</CustomFieldTranslation>

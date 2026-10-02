@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation>承認済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation>下書き</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permissions Assigned</masterLabel>
+        <translation>割り当てられた権限</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Permissions Revoked</masterLabel>
+        <translation>許可が取り消されました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rejected</masterLabel>
+        <translation>却下</translation>
+    </picklistValues>
+</CustomFieldTranslation>

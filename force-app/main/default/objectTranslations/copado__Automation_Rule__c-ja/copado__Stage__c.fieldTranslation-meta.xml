@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ソースアクションが評価されるステージの一覧です。13ステージまで選択可能です。</help>
+    <label><!-- Selected Stages --></label>
+    <name>copado__Stage__c</name>
+</CustomFieldTranslation>

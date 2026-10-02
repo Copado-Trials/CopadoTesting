@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Tool__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Tool used to execute Tests if the related conditions are met. This value will be matched against the Tool of the Test record.</inlineHelpText>
+    <label>Tool</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>copado__Test_Tool</valueSetName>
+    </valueSet>
+</CustomField>

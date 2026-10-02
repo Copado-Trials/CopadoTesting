@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Groups permission sets to see, start and check the outcome of a Functional Review.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Copado Explorer User</label>
+    <permissionSets>CRT_Access</permissionSets>
+    <permissionSets>copadoQuality__Credentials_Create</permissionSets>
+    <permissionSets>copadoQuality__Environments_View_Only</permissionSets>
+    <permissionSets>copadoQuality__Extension_Configuration_View</permissionSets>
+    <permissionSets>copadoQuality__Features_View</permissionSets>
+    <permissionSets>copadoQuality__Functional_Review_Admin</permissionSets>
+    <permissionSets>copadoQuality__Reviewer_User_Story_Create</permissionSets>
+    <permissionSets>copado__Copado_Functions_User</permissionSets>
+    <permissionSets>copado__Copado_Job_Engine</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

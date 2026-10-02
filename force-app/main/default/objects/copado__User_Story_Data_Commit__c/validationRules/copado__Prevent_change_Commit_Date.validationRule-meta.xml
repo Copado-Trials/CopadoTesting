@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Prevent_change_Commit_Date</fullName>
+    <active>true</active>
+    <description>This validation rule prevents the user from changing the Commit Date field once the record has been created.</description>
+    <errorConditionFormula>AND(
+NOT(ISNEW()),
+ISCHANGED(copado__Commit_Date__c)
+)</errorConditionFormula>
+    <errorDisplayField>copado__Commit_Date__c</errorDisplayField>
+    <errorMessage>It is not allowed to change the Commit Date once the User Story Data Commit has been created. Please create a new User Story Data Commit.</errorMessage>
+</ValidationRule>

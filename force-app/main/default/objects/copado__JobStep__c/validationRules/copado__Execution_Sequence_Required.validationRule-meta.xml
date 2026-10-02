@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Execution_Sequence_Required</fullName>
+    <active>true</active>
+    <description>Execution Sequence is required for Deployment steps</description>
+    <errorConditionFormula>AND( copado__UserStory__c &lt;&gt; null, ISPICKVAL(copado__ExecutionSequence__c, &quot;&quot;))</errorConditionFormula>
+    <errorDisplayField>copado__ExecutionSequence__c</errorDisplayField>
+    <errorMessage>Execution Sequence is required for Deployment steps</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このヒントについてユーザーがより理解できるように、ドキュメントページや記事のURLを入力してください。URLは、完全なhttps:// 形式で入力してください。例：https://www.copado.com/</help>
+    <label><!-- Help Text Url --></label>
+    <name>copado__Help_Text_Url__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Extension_Configuration__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Extension Configuration</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Make sure the selected Extension Configuration is valid and active.</errorMessage>
+        <filterItems>
+            <field>copado__ExtensionConfiguration__c.copado__Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>copado__ExtensionConfiguration__c</referenceTo>
+    <relationshipLabel>Quality Gate Rule Conditions</relationshipLabel>
+    <relationshipName>Quality_Gate_Rule_Conditions</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ページ上の要素を識別するSeleniumろけーたー</help>
+    <label><!-- Locator --></label>
+    <name>copado__Locator__c</name>
+</CustomFieldTranslation>

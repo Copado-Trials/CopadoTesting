@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Git プロバイダで設定されている、必要なレビュー担当者の承認数を指定します。プルリクエストが設定された承認の閾値を満たしているかどうかを判断するのに役立ちます。プロバイダによっては、データはウェブフック経由で入手できる場合もあれば、OAuth 認証が必要な場合もあります。</help>
+    <label><!-- Required Reviewer Approvals --></label>
+    <name>copado__Required_Reviewer_Approvals__c</name>
+</CustomFieldTranslation>

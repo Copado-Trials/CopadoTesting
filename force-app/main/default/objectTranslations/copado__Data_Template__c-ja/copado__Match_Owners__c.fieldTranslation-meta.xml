@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>所有者が一致しない場合、ターゲットクレデンシャル内のデプロイ済みレコードの所有者が、デプロイを実行するユーザに自動的に割り当てられます。</help>
+    <label><!-- Match Owners --></label>
+    <name>copado__Match_Owners__c</name>
+</CustomFieldTranslation>

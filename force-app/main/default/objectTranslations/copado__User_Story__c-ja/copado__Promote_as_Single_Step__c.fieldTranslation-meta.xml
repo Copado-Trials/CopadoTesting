@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Promote as Single Step --></label>
+    <name>copado__Promote_as_Single_Step__c</name>
+</CustomFieldTranslation>

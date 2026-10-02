@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この組織IDは、セットアップメニューの「私の組織」の「あなたのプロファイル」の下にあるCodeScan Cloudで取得することができます。</help>
+    <label><!-- Cloud Organization --></label>
+    <name>copado__Cloud_Organization__c</name>
+</CustomFieldTranslation>

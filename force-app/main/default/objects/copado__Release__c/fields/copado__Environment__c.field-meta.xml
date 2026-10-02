@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Environment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The target integration environment where the release branch content is validated or deployed. It serves as the starting point for the Artifact User Story and is automatically assigned to it upon creation.</inlineHelpText>
+    <label>Environment</label>
+    <referenceTo>copado__Environment__c</referenceTo>
+    <relationshipLabel>Releases</relationshipLabel>
+    <relationshipName>Releases</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

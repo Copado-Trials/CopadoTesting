@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>www.cronmaker.com を参照して、より複雑なクロン（Cron）を作成することができます。セールスフォースでサポートしていないCron表記もありますので、ご注意下さい。</help>
+    <label><!-- Cron Expression --></label>
+    <name>copado__Cron_Expression__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>利用可能な場合、レビューが行われる環境を選択します。組織クレデンシャルが有効な場合、コパードはレビュー開始時にユーザーの自動ログインを行います。</help>
+    <label><!-- Review Environment --></label>
+    <name>copadoQuality__Review_Environment__c</name>
+    <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+</CustomFieldTranslation>

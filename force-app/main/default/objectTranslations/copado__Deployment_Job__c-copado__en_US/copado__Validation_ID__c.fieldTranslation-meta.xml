@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- To be used for Quick deployments. Available since metadata api v33 (Spring 15) --></help>
+    <label><!-- Validation ID --></label>
+    <name>copado__Validation_ID__c</name>
+</CustomFieldTranslation>

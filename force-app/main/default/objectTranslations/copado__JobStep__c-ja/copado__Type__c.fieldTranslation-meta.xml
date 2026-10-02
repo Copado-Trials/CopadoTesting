@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ジョブステップのタイプ</help>
+    <label><!-- Behaviour --></label>
+    <name>copado__Type__c</name>
+    <picklistValues>
+        <masterLabel>Flow</masterLabel>
+        <translation>フロー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Function</masterLabel>
+        <translation>関数</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation>マニュアル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation>テスト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

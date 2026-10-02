@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Select this checkbox to automatically add “https://” to the Target Review URL.
+Disable, if you want to use a different protocol -->
+    </help>
+    <label><!-- Add https Prefix --></label>
+    <name>copadoQuality__Add_https_Prefix__c</name>
+</CustomFieldTranslation>

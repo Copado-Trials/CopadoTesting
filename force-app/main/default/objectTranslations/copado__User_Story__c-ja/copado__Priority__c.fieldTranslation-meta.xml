@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>どのユーザーストーリーが緊急性が高く、最初に完成させるべきかを判断するための数値です。</help>
+    <label><!-- Priority --></label>
+    <name>copado__Priority__c</name>
+</CustomFieldTranslation>

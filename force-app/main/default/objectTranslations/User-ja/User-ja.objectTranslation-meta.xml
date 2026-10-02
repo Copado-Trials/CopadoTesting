@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Functional Review Session Assignment Datatable --></label>
+        <name>copadoQuality__Functional_Review_Session_Assignment_Dat</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado License Manager --></label>
+        <name>copado__License_Manager</name>
+    </fieldSets>
+</CustomObjectTranslation>

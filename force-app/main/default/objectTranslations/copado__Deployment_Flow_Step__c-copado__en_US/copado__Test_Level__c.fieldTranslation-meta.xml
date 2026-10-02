@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Recommended Test Level: &quot;Run Local Tests&quot; --></help>
+    <label><!-- Test Level --></label>
+    <name>copado__Test_Level__c</name>
+    <picklistValues>
+        <masterLabel>No Test Run</masterLabel>
+        <translation><!-- No Test Run --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run All Tests In Org</masterLabel>
+        <translation><!-- Run All Tests In Org --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run Local Tests</masterLabel>
+        <translation><!-- Run Local Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run Specified Tests</masterLabel>
+        <translation><!-- Run Specified Tests --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__To_Org__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>To Credential</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>copado__Org__c.CreatedById</field>
+            <operation>equals</operation>
+            <valueField>$User.Id</valueField>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>copado__Org__c</referenceTo>
+    <relationshipLabel>Destination Credentials</relationshipLabel>
+    <relationshipName>Deployments_to</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

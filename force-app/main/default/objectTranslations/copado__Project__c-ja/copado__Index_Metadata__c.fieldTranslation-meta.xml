@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドをチェックすると、コパードはユーザーストーリーに対して選択されたメタデータをユーザーストーリーカスタムオブジェクトにインデックスします。インデックスされたメタデータは、レポートやコンプライアンスに使用することができ、Copadoのサジェスション・気付き機能でも使用されます。</help>
+    <label><!-- Index Metadata --></label>
+    <name>copado__Index_Metadata__c</name>
+</CustomFieldTranslation>

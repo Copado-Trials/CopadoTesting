@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このリリースにリンクされたプロモーションがでデプロイメントフローのメインブランチにマージされると、コパードはメインブランチにこのバージョン番号のタグを付けます。この値は通常、メジャー (v7 など)、マイナー (v7.3) またはパッチ (v7.3.2) リリースに分類されます。</help>
+    <label><!-- Version --></label>
+    <name>copado__Version__c</name>
+</CustomFieldTranslation>

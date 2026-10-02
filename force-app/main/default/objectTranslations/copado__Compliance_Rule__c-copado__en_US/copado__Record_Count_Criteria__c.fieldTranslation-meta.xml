@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Record Count Criteria --></label>
+    <name>copado__Record_Count_Criteria__c</name>
+    <picklistValues>
+        <masterLabel>Number of groups</masterLabel>
+        <translation><!-- Number of groups --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

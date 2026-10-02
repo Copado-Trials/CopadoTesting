@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the automation type that will be executed by the Trigger Action field. Choose the “Custom” type only if you want to execute your own custom automation type. --></help>
+    <label><!-- Automation Type --></label>
+    <name>copado__Automation_Connector__c</name>
+</CustomFieldTranslation>

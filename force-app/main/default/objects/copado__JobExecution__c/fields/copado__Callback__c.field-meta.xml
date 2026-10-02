@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Callback__c</fullName>
+    <deprecated>false</deprecated>
+    <description>In this field, you can define an action to be executed once the function runs. This action must be an Apex class that implements copado.JobExecutionCallback interface.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>In this field, you can define an action to be executed once the function runs. This action must be an Apex class that implements copado.JobExecutionCallback interface.</inlineHelpText>
+    <label>Callback</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

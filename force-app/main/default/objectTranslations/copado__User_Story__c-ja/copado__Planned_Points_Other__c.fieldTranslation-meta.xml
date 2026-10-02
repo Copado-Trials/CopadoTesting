@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、ユーザーストーリーの工数見積もりを異なるスコープで分割するために使用します。例 開発部門とQA部門、フロントエンドとバックエンドなど。スコープに合わせて、このフィールドにラベルを付けることができます。</help>
+    <label><!-- Planned Points Other --></label>
+    <name>copado__Planned_Points_Other__c</name>
+</CustomFieldTranslation>

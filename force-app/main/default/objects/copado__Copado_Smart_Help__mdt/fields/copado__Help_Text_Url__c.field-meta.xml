@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Help_Text_Url__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Enter a URL of a documentation page or article to help your users understand more about this tip. Please, enter the URL with full https:// format. Example https://www.copado.com/</inlineHelpText>
+    <label>Help Text Url</label>
+    <required>false</required>
+    <type>Url</type>
+</CustomField>

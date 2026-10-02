@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ConsistentPlatform</fullName>
+    <active>true</active>
+    <description>Validates the selected platform and the platform of the environment/pipeline matches.</description>
+    <errorConditionFormula>OR(
+  (
+    AND(
+      NOT(ISBLANK(TEXT(copado__Platform__c))), 
+      NOT(ISBLANK(copado__Pipeline__c)), 
+      TEXT(copado__Platform__c) != TEXT(copado__Pipeline__r.copado__Platform__c)
+    )
+  ), 
+  (
+    AND(
+      NOT(ISBLANK(TEXT(copado__Platform__c))), 
+      NOT(ISBLANK(copado__Environment__c)), 
+      TEXT(copado__Platform__c) != TEXT(copado__Environment__r.copado__Platform__c)
+    )
+  ), 
+  (
+    AND(
+      NOT(ISBLANK(copado__Environment__c)), 
+      NOT(ISBLANK(copado__Pipeline__c)), 
+      TEXT(copado__Environment__r.copado__Platform__c) != TEXT(copado__Pipeline__r.copado__Platform__c)
+    )
+  )
+)</errorConditionFormula>
+    <errorMessage>The selected platform does not match the chosen pipeline or environment platform value.</errorMessage>
+</ValidationRule>

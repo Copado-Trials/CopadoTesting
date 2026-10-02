@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- API Name of the Apex class that validates if the Quality Gate Rule configuration is complete. This validation is triggered when a user saves a new Quality Gate Rule. If the validation fails, the Quality Gate Rule cannot be saved until the user completes the missing configuration. The Apex class must implement the interface with name “QualityGateReadinessInterface”. --></help>
+    <label><!-- Quality Gates Readiness Logic --></label>
+    <name>copado__Quality_Gates_Readiness_Logic__c</name>
+</CustomFieldTranslation>

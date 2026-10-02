@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__CheckOnly__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>This only Apply for Metadata Steps. None of the other Steps types are affected by this checkbox. 
+WARNING: Credits consumption will apply as a regular deployment since resource-wise is exactly the same as a real deployment.</inlineHelpText>
+    <label>CheckOnly</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

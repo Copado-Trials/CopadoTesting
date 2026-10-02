@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>デプロイメントが完了すると、デプロイメントの所有者にステータスを通知するEメールが送信されます。このチェックボックスを外すと、通知Eメールは受信されません。</help>
+    <label><!-- Send Deployment Complete email --></label>
+    <name>copado__Send_Deployment_Complete_email__c</name>
+</CustomFieldTranslation>

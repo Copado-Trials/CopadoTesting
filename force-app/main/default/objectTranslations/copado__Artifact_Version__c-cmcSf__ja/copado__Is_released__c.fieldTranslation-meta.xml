@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Package versions are being created as beta and you can promote them to be released. When a version is released this checkbox will be checked. --></help>
+    <label><!-- Is released --></label>
+    <name>copado__Is_released__c</name>
+</CustomFieldTranslation>

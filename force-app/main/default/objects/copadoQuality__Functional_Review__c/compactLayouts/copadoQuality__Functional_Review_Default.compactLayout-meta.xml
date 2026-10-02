@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Functional_Review_Default</fullName>
+    <fields>Name</fields>
+    <fields>copadoQuality__Review_Environment__c</fields>
+    <fields>copadoQuality__Planned_Date__c</fields>
+    <fields>copadoQuality__Epic__c</fields>
+    <fields>copadoQuality__Feature__c</fields>
+    <label>Functional Review Default</label>
+</CompactLayout>

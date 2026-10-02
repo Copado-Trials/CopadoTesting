@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Schedule --></label>
+    <name>copado__Schedule__c</name>
+    <picklistValues>
+        <masterLabel>Deploy later</masterLabel>
+        <translation><!-- Deploy later --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deploy now</masterLabel>
+        <translation><!-- Deploy now --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

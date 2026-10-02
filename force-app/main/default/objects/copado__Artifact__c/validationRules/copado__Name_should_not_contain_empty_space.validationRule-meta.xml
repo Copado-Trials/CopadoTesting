@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Name_should_not_contain_empty_space</fullName>
+    <active>false</active>
+    <errorConditionFormula>CONTAINS(Name,&apos; &apos;) &amp;&amp; RecordType.DeveloperName != &apos;User_Story_Bundle&apos;</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Package name cannot contain white spaces</errorMessage>
+</ValidationRule>

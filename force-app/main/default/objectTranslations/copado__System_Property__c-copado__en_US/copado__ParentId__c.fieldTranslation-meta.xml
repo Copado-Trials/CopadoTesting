@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This value is automatically populated when selecting a Pipeline, Environment or User. If none is selected, the record Id this property is linked to must be entered manually. --></help>
+    <label><!-- Parent Id --></label>
+    <name>copado__ParentId__c</name>
+</CustomFieldTranslation>

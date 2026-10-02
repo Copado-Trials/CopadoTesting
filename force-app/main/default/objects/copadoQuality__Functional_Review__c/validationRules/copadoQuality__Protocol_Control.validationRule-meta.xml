@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Protocol_Control</fullName>
+    <active>false</active>
+    <errorConditionFormula>If( AND(Not(IsBlank(copadoQuality__Review_Target_URL__c)),LOWER(LEFT(copadoQuality__Review_Target_URL__c, 4))!= &apos;http&apos;), true,false )</errorConditionFormula>
+    <errorMessage>Target url has to start with a protocol.(exp: https://)</errorMessage>
+</ValidationRule>

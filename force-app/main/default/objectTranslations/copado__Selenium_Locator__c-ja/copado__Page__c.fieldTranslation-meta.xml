@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ロケーターのコンテキストを与えるために使用されます。任意のテキストを使用することができます。
+　Copadoレコーダーは、録画時にページタイトルを自動的に設定します。</help>
+    <label><!-- Page --></label>
+    <name>copado__Page__c</name>
+</CustomFieldTranslation>

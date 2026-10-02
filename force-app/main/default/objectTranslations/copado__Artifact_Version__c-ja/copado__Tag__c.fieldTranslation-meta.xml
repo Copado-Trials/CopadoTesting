@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パッケージのバージョンのタグです。パッケージバージョンの内容は、指定されたリポジトリのこのタグに格納されます。タグはバージョン番号ごとに作成されます。同じバージョン番号のバージョンは、互いに上書きされる可能性がありますので、バージョン番号は一意に保つようにしてください。</help>
+    <label><!-- Tag --></label>
+    <name>copado__Tag__c</name>
+</CustomFieldTranslation>

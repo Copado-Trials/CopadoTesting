@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Validate_spaces_in_version</fullName>
+    <active>true</active>
+    <description>Make sure no spaces are there in version field</description>
+    <errorConditionFormula>CONTAINS(copado__Version__c,&quot; &quot;)</errorConditionFormula>
+    <errorDisplayField>copado__Version__c</errorDisplayField>
+    <errorMessage>please dont include spaces in version field</errorMessage>
+</ValidationRule>

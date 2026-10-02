@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This status is used to track the current job activity. --></help>
+    <label><!-- Progress Status --></label>
+    <name>copado__Progress_Status__c</name>
+</CustomFieldTranslation>

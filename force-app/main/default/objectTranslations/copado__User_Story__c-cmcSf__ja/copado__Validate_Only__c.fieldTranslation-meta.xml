@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This will create a validation deployment.  When checked, Git metadata and regular metadata will be merged to create 1 validation deployment. --></help>
+    <label><!-- Validate Only --></label>
+    <name>copado__Validate_Only__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Disable_Auto_Resolve__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Disables Auto-Resolve from Online Conflict Resolution</description>
+    <inlineHelpText>Disables Auto-Resolve from Online Conflict Resolution</inlineHelpText>
+    <label>Disable Auto-Resolve</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

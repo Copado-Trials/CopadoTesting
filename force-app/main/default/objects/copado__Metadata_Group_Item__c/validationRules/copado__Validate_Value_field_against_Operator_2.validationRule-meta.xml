@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Validate_Value_field_against_Operator_2</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(!ISPICKVAL(copado__Operator__c, &apos;All&apos;), ISBLANK(copado__Value__c))</errorConditionFormula>
+    <errorMessage>When the Operator is not &quot;All&quot;, a Value is required.</errorMessage>
+</ValidationRule>

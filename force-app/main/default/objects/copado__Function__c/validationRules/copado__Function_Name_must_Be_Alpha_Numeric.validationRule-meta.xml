@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Function_Name_must_Be_Alpha_Numeric</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(REGEX( copado__API_Name__c ,&apos;[a-zA-Z_][a-zA-Z0-9_]*&apos;))</errorConditionFormula>
+    <errorDisplayField>copado__API_Name__c</errorDisplayField>
+    <errorMessage>Api name can only contain alphanumeric characters and must begin with a letter</errorMessage>
+</ValidationRule>

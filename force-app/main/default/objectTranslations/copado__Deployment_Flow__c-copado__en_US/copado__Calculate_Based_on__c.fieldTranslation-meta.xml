@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If Branch is selected, Branch Management page will work as before, if User Story selected, calculation and result will be based on User Stories. --></help>
+    <label><!-- Calculate Based on --></label>
+    <name>copado__Calculate_Based_on__c</name>
+    <picklistValues>
+        <masterLabel>Branch</masterLabel>
+        <translation><!-- Branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Story</masterLabel>
+        <translation><!-- User Story --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

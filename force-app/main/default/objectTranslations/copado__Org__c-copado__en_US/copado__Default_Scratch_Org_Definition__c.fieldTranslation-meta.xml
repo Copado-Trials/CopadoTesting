@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Will be used for Review app creation out of promotions. Otherwise every scratch org may be created by their own scratch org definition either with a template or without. --></help>
+    <label><!-- Default Scratch Org Definition --></label>
+    <name>copado__Default_Scratch_Org_Definition__c</name>
+    <relationshipLabel><!-- Credentials --></relationshipLabel>
+</CustomFieldTranslation>

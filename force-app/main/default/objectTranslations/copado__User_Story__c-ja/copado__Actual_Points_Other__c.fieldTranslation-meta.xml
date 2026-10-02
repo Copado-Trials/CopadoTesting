@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、ユーザーストーリーの実装、レビュー、テスト、文書化に関する実際の労力を、異なるスコープに分割するために使用します。例 開発部門とQA部門、フロントエンドとバックエンド。スコープに合わせて、このフィールドにラベルを付けることができます。</help>
+    <label><!-- Actual Points Other --></label>
+    <name>copado__Actual_Points_Other__c</name>
+</CustomFieldTranslation>

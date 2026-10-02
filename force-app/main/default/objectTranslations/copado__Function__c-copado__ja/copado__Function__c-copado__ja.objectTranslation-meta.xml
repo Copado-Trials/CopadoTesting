@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>関数</value>
+    </caseValues>
+    <nameFieldLabel>関数名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>API名は英数字のみ使用可能で、文字から始める必要があります。</errorMessage>
+        <name>copado__Function_Name_must_Be_Alpha_Numeric</name>
+    </validationRules>
+</CustomObjectTranslation>

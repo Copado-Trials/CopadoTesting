@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Requires_Manual_Interaction__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates whether this testing tool requires manual intervention. When checked, the system determines this step to be completed by human interaction only</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Check this box if this test tool cannot be completed automatically and a human interaction is necessary.</inlineHelpText>
+    <label>Requires Manual Interaction</label>
+    <type>Checkbox</type>
+</CustomField>

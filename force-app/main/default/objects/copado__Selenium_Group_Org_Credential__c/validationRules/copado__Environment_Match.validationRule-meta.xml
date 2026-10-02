@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Environment_Match</fullName>
+    <active>true</active>
+    <description>If the Selenium Test Group has an Environment, the Environment of the Credential must match the Group&apos;s Environment.</description>
+    <errorConditionFormula>IF ( AND( NOT( ISBLANK(  copado__Selenium_Test_Group__r.copado__Environment__c ) ) , copado__Selenium_Test_Group__r.copado__Environment__c !=  copado__Org_Credential__r.copado__Environment__c), true, false  )</errorConditionFormula>
+    <errorMessage>The Selenium Test Group Environment must equal the Credential Environment.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドでは、新しいジョブの実行ごとに使用されるボリュームの設定をJSONオプションのリストで紹介することができます。</help>
+    <label><!-- VolumeOptions --></label>
+    <name>copado__VolumeOptions__c</name>
+</CustomFieldTranslation>

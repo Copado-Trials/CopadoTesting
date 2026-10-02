@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Link to the User Story feature branch in Git. The link is generated based on the Base Branch URL of the Git Repository record. --></help>
+    <label><!-- View in Git --></label>
+    <name>copado__View_in_Git__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__UID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Read-only field used internally for system property replacement.</description>
+    <externalId>false</externalId>
+    <formula>IF( copado__Is_Global__c, copado__API_Name__c, copado__ParentId__c + &quot;-&quot; +  copado__API_Name__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Read-only field used internally for system property replacement.</inlineHelpText>
+    <label>UID</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Test Run</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Test Runs</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- InputFields --></label>
+        <name>copado__InputFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- OutputFields --></label>
+        <name>copado__OutputFields</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Copado_DX --></label>
+        <name>copado__Copado_DX</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Test_Scratch_Org --></label>
+        <name>copado__Create_Test_Scratch_Org</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Execute_Test_Run --></label>
+        <name>copado__Execute_Test_Run</name>
+    </webLinks>
+</CustomObjectTranslation>

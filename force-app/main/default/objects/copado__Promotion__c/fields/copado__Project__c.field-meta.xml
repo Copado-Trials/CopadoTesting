@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Project__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select a project linked to an active pipeline.</inlineHelpText>
+    <label>Project</label>
+    <referenceTo>copado__Project__c</referenceTo>
+    <relationshipLabel>Promotions</relationshipLabel>
+    <relationshipName>Promotions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

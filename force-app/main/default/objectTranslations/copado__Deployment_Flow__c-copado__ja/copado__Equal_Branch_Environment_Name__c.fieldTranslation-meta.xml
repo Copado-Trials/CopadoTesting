@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Environment names must equal their corresponding Branches in the Deployment Flow Steps. --></help>
+    <label>ブランチ/ 環境の命名規則を強制</label>
+    <name>copado__Equal_Branch_Environment_Name__c</name>
+</CustomFieldTranslation>

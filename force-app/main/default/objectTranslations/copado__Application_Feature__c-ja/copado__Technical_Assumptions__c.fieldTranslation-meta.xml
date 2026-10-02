@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>機能に関する技術的な仮定または設計上の考慮事項</help>
+    <label><!-- Technical Assumptions --></label>
+    <name>copado__Technical_Assumptions__c</name>
+</CustomFieldTranslation>

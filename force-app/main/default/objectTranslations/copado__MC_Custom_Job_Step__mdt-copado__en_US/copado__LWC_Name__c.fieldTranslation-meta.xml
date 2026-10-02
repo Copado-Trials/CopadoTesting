@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of LWC/Aura component to render while configuring the Custom Job step --></help>
+    <label><!-- LWC Name --></label>
+    <name>copado__LWC_Name__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオートメーションが実行されるパイプライン。ステージまたは環境が定義されていない場合、このオートメーションはパイプライン全体に適用され、デフォルトルールと見なされます。</help>
+    <label><!-- Pipeline --></label>
+    <name>copado__Pipeline__c</name>
+    <relationshipLabel><!-- Automation Rules --></relationshipLabel>
+</CustomFieldTranslation>

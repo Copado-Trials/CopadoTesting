@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Sum of Planned Points and Planned Points Other. Use this field along with Planned Points Other if you need to split your User Story effort estimation among different scopes. --></help>
+    <label><!-- Total Planned Points --></label>
+    <name>copado__Total_Story_Points__c</name>
+</CustomFieldTranslation>

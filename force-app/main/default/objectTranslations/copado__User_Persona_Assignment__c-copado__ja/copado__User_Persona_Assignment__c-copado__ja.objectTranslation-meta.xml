@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザー・ペルソナの割り当て</value>
+    </caseValues>
+    <nameFieldLabel>ユーザー・ペルソナの割り当て参照</nameFieldLabel>
+    <validationRules>
+        <errorMessage>永続権限の終了と開始時間を指定できません。</errorMessage>
+        <name>copado__Permanent_no_Dates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>開始時刻は終了時刻の後にできません。</errorMessage>
+        <name>copado__Start_End_date_illogicalness</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>過去の開始時刻または終了時間を設定することはできません。</errorMessage>
+        <name>copado__Start_date_issue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>一時的な権限の終了と開始時間を指定</errorMessage>
+        <name>copado__Temporary_with_Dates</name>
+    </validationRules>
+</CustomObjectTranslation>

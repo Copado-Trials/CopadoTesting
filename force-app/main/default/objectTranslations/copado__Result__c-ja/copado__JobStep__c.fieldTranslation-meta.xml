@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この結果がジョブテンプレートの一部として実行されるジョブステップの結果である場合、このフィールドはジョブステップを指します。(ジョブステップと関数は同時に入力することができます。）</help>
+    <label><!-- Job Step --></label>
+    <name>copado__JobStep__c</name>
+    <relationshipLabel><!-- Results --></relationshipLabel>
+</CustomFieldTranslation>

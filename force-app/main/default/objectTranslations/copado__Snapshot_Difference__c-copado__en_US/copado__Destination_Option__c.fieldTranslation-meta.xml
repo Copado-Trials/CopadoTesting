@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Destination Option --></label>
+    <name>copado__Destination_Option__c</name>
+    <picklistValues>
+        <masterLabel>Git Commit</masterLabel>
+        <translation><!-- Git Commit --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce Org</masterLabel>
+        <translation><!-- Salesforce Org --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

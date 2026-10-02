@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>プルリクエストの現在の承認ステータスを示します。この情報は、接続された Git プロバイダから直接取得され、必要なレビュー担当者がプルリクエストを承認したかどうかを反映します。プロバイダによっては、データがウェブフック経由で入手できる場合もあれば、OAuth 認証が必要な場合もあります。</help>
+    <label><!-- Approval Status --></label>
+    <name>copado__Approval_Status__c</name>
+    <picklistValues>
+        <masterLabel>Approved</masterLabel>
+        <translation>承認済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>保留</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Request Changes</masterLabel>
+        <translation>変更のリクエスト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

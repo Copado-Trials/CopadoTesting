@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Passed</fullName>
+        <default>false</default>
+        <label>Passed</label>
+    </customValue>
+    <customValue>
+        <fullName>Passed with Findings</fullName>
+        <default>false</default>
+        <label>Passed with Findings</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed</fullName>
+        <default>false</default>
+        <label>Failed</label>
+    </customValue>
+    <description>Used for FRS-FR objects</description>
+    <masterLabel>Session Outcome</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

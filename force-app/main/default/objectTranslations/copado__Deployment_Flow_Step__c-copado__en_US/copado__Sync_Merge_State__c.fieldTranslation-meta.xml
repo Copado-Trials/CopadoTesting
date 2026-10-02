@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sync Merge State --></label>
+    <name>copado__Sync_Merge_State__c</name>
+    <picklistValues>
+        <masterLabel>In sync</masterLabel>
+        <translation><!-- In sync --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needs recalculating</masterLabel>
+        <translation><!-- Needs recalculating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recalculating</masterLabel>
+        <translation><!-- Recalculating --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syncing</masterLabel>
+        <translation><!-- Syncing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validated</masterLabel>
+        <translation><!-- Validated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation errors</masterLabel>
+        <translation><!-- Validation errors --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

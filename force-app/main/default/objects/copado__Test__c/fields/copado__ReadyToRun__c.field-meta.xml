@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ReadyToRun__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>By checking this field, you are indicating that the test is ready to be executed and the &apos;Run&apos; button will display.</inlineHelpText>
+    <label>Ready to Run</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

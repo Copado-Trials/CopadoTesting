@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>失敗したデプロイメント後のジョブ</label>
+    <name>copado__Post_Failed_Deployment_Jobs__c</name>
+    <relationshipLabel>継続的インテグレーション（デプロイメント失敗後のジョブ）</relationshipLabel>
+</CustomFieldTranslation>

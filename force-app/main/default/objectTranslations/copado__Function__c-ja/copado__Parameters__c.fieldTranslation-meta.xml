@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これは、実行を呼び出す前に必要なすべてのパラメータが設定されているかどうかを検証するために使用されます。</help>
+    <label><!-- Parameters --></label>
+    <name>copado__Parameters__c</name>
+</CustomFieldTranslation>

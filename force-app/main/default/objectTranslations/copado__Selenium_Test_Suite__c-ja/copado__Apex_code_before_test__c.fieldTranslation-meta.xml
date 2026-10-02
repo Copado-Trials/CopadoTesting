@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このテストスイートを実行する前に実行するオプションのApexコードです。 これは、データのクリーンアップや作成に使用することができます。変数 {!NS} を使って、実行環境の名前空間に置き換えることができます。</help>
+    <label><!-- Apex code before test --></label>
+    <name>copado__Apex_code_before_test__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Metadata_Group__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>What metadata will trigger this Quality Gate to run? Quality Gates will only run on deployments where the metadata matches that the metadata in this group</description>
+    <inlineHelpText>Automations and Quality Gates will be executed when the metadata deployed or committed matches the one specified here.</inlineHelpText>
+    <label>Metadata Group</label>
+    <referenceTo>copado__Metadata_Group__c</referenceTo>
+    <relationshipLabel>Automations</relationshipLabel>
+    <relationshipName>Quality_Gates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

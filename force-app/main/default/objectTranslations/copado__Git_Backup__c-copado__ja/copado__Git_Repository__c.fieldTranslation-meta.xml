@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Git repository linked to the Git snapshot. Please make sure that the specified branch exists in the repository. It is not recommended to take snapshots with a Git repository which is already used for an active pipeline, as it may affect your overall DevOps performance. --></help>
+    <label>Gitリポジトリ</label>
+    <name>copado__Git_Repository__c</name>
+    <relationshipLabel>Gitスナップショット</relationshipLabel>
+</CustomFieldTranslation>

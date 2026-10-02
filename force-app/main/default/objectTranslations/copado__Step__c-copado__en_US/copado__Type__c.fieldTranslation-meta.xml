@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>copado__Type__c</name>
+    <picklistValues>
+        <masterLabel>Apex</masterLabel>
+        <translation><!-- Apex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Automation</masterLabel>
+        <translation><!-- Automation --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Data</masterLabel>
+        <translation><!-- Bulk Data --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Settings</masterLabel>
+        <translation><!-- Custom Settings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data</masterLabel>
+        <translation><!-- Data --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Template</masterLabel>
+        <translation><!-- Data Template --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete MetaData</masterLabel>
+        <translation><!-- Delete MetaData --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Permission Sets</masterLabel>
+        <translation><!-- Full Permission Sets --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Profiles</masterLabel>
+        <translation><!-- Full Profiles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Function</masterLabel>
+        <translation><!-- Function --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Git MetaData</masterLabel>
+        <translation><!-- Git MetaData --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MetaData</masterLabel>
+        <translation><!-- MetaData --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation><!-- Test --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Translations</masterLabel>
+        <translation><!-- Translations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>URL Callout</masterLabel>
+        <translation><!-- URL Callout --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Users</masterLabel>
+        <translation><!-- Users --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

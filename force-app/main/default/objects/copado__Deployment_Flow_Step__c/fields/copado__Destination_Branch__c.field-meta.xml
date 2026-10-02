@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Destination_Branch__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Value updated automatically by Copado. This is defined in the Deployment Flow Step of the Destination Environment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Value updated automatically by Copado. This is defined in the Deployment Flow Step of the Destination Environment.</inlineHelpText>
+    <label>Destination Branch</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

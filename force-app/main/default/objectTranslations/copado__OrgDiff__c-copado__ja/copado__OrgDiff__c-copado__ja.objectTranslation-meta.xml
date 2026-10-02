@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>組織差分</value>
+    </caseValues>
+    <fieldSets>
+        <label>コパードヘッダーフィールド</label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <nameFieldLabel>組織差分名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>比較される組織は異なっている必要があります。</errorMessage>
+        <name>copado__Should_be_differents</name>
+    </validationRules>
+</CustomObjectTranslation>

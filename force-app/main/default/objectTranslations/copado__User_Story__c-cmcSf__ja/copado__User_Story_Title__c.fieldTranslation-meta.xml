@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Short description of the User Story or requirement. Technical and non-technical team members should be able to understand the description. --></help>
+    <label><!-- User Story Title --></label>
+    <name>copado__User_Story_Title__c</name>
+</CustomFieldTranslation>

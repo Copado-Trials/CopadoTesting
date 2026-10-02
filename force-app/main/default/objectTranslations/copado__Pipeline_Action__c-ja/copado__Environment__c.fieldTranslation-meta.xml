@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パイプラインで定義されたデフォルトのジョブテンプレートを上書きする環境を選択します。</help>
+    <label><!-- Environment --></label>
+    <name>copado__Environment__c</name>
+    <relationshipLabel><!-- Pipeline Actions --></relationshipLabel>
+</CustomFieldTranslation>

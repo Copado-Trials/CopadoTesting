@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The status of the commit. This value is updating automatically by Copado. --></help>
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Commit not in branch</masterLabel>
+        <translation><!-- Commit not in branch --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commit undone</masterLabel>
+        <translation><!-- Commit undone --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complete</masterLabel>
+        <translation><!-- Complete --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation><!-- Failed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In progress</masterLabel>
+        <translation><!-- In progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No changes</masterLabel>
+        <translation><!-- No changes --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation><!-- Pending --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

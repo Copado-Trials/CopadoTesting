@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Start_End_date_illogicalness</fullName>
+    <active>true</active>
+    <description>If current user sets start date less than the end date, then the rule&apos;s error message will appear on the top of the page.</description>
+    <errorConditionFormula>IF( copado__Start_Time__c &gt;  copado__End_Time__c ,true, false)</errorConditionFormula>
+    <errorMessage>Start Time cannot be after the End Time.</errorMessage>
+</ValidationRule>

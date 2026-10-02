@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Config Json はジョブステップに関連する設定情報を保存します。例えばマニュアルステップの場合、マニュアルタスクの割り当て者と指示を含みます。</help>
+    <label><!-- ConfigJson --></label>
+    <name>copado__ConfigJson__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、設定されるアクションに対応するジョブテンプレートを定義します。特定の環境でこのアクションに別のジョブテンプレートを選択したい場合、パイプラインで設定されたテンプレートを上書きすることになります。</help>
+    <label><!-- Job Template --></label>
+    <name>copado__Job_Template__c</name>
+    <relationshipLabel><!-- Pipeline Actions --></relationshipLabel>
+</CustomFieldTranslation>

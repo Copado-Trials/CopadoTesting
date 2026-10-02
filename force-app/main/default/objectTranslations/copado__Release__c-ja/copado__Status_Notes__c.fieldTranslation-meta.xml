@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>リリースの結果を説明してください。リリースされた場合、その結果や中止された場合はその理由を記載ください</help>
+    <label><!-- Status Notes --></label>
+    <name>copado__Status_Notes__c</name>
+</CustomFieldTranslation>

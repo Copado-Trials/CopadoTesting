@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>自動解決の際に、セマンティックエラーによりコンフリクトしたファイルをマージできない場合、デフォルトでファイル全体が上書きされます。コンフリクトしている行だけを上書きし、マージ可能な行をマージすることもできます。Copado では &quot;Theirs&quot; という Gitマージ方法を採用しています。</help>
+    <label><!-- Auto Resolve Conflict Strategy --></label>
+    <name>copado__Merge_Strategy__c</name>
+    <picklistValues>
+        <masterLabel>Overwrite conflicting lines only</masterLabel>
+        <translation>コンフリクトラインのみを上書き</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overwrite file</masterLabel>
+        <translation>ファイルを上書き</translation>
+    </picklistValues>
+</CustomFieldTranslation>

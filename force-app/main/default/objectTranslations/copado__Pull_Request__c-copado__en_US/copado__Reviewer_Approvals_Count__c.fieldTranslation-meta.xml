@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Shows the number of reviewers who have approved the pull request. Updates automatically as reviewers approve the pull request in your Git provider. Depending on the provider, data may be available via webhook or may require OAuth authorization --></help>
+    <label><!-- Reviewer Approvals Count --></label>
+    <name>copado__Reviewer_Approvals_Count__c</name>
+</CustomFieldTranslation>

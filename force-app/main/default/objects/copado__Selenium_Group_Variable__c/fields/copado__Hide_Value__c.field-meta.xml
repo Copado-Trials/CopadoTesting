@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Hide_Value__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select this Checkbox to hide the value in the Test Group related list.</inlineHelpText>
+    <label>Hide Value</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

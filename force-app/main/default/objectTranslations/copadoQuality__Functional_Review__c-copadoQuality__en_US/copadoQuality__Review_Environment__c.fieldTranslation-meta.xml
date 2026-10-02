@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If available, select the Environment where the review should take place. If provided and if there&apos;s an active org credential, Copado will aim to auto-log in users when starting a review. --></help>
+    <label><!-- Review Environment --></label>
+    <name>copadoQuality__Review_Environment__c</name>
+    <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+</CustomFieldTranslation>

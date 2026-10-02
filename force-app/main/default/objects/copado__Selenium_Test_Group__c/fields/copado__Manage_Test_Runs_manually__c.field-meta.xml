@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Manage_Test_Runs_manually__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>When this option is unchecked, Copado will automatically create/update/remove Test Runs for each Suite/ Credential.
+
+Check it to manage the Test Runs in this group manually, then go to a Test Run list view, and use the &quot;Add to Test Group&quot; option.</inlineHelpText>
+    <label>Manage Test Runs manually</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

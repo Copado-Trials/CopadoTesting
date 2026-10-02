@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__View_in_Git__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Link to the User Story feature branch in Git. The link is generated based on the Base Branch URL of the Git Repository record.</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+	IF(
+		AND(
+			NOT(ISNULL(copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c )), copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c != &apos;&apos;
+		),
+		IF(
+			AND(NOT(ISPICKVAL(copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c,&apos;&apos;)),NOT(ISPICKVAL(copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c, &apos;Others&apos;))),
+			copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c + &apos;feature/&apos; + Name ,
+			IF(
+				CONTAINS(copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c,&apos;[BRANCH_NAME]&apos;),
+				SUBSTITUTE(copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c,&apos;[BRANCH_NAME]&apos;,&apos;feature/&apos; + Name),
+				copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c + &apos;feature/&apos; + Name
+			)
+		),
+		IF(
+		AND(
+			NOT(ISNULL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c )), copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c != &apos;&apos;
+		),
+		IF(
+			AND(NOT(ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c,&apos;&apos;)),NOT(ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c, &apos;Others&apos;))),
+			copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c + &apos;feature/&apos; + Name ,
+			IF(
+				CONTAINS(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c,&apos;[BRANCH_NAME]&apos;),
+				SUBSTITUTE(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c,&apos;[BRANCH_NAME]&apos;,&apos;feature/&apos; + Name),
+				copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Branch_Base_URL__c + &apos;feature/&apos; + Name
+			)
+		),
+		&apos;&apos;
+	)
+	),
+	&apos;feature/&apos; + Name
+)</formula>
+    <inlineHelpText>Link to the User Story feature branch in Git. The link is generated based on the Base Branch URL of the Git Repository record.</inlineHelpText>
+    <label>View in Git</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

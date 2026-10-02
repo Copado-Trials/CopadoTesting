@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>copado__Type__c</name>
+    <picklistValues>
+        <masterLabel>Peer-Review</masterLabel>
+        <translation>ピアレビュー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Performance</masterLabel>
+        <translation>パフォーマンス</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regression</masterLabel>
+        <translation>リグレッション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Usability</masterLabel>
+        <translation>使いやすさ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Acceptance Testing</masterLabel>
+        <translation>ユーザー受け入れテスト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Interface</masterLabel>
+        <translation>ユーザーインターフェース</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Max_Scheduled_Back_Promotion_Batch_Size__c</fullName>
+    <defaultValue>10</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The maximum number of user stories that will be deployed together when a deployment is scheduled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field refers to the number of promotions that will be grouped to back-promote the user stories inside them. Lowering this number will increase the number of back promotions created. Selecting a higher number will reduce the number of back promotions created.</inlineHelpText>
+    <label>Back-Promotion Batch Size</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Initialize_Salesforce_Project</fullName>
+    <availability>online</availability>
+    <description>Action used from Git Repository list view to initialise a repository with a SFDX Project</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Initialize Salesforce Project</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>/flow/cmcSf/Initialize_Git_For_Salesforce_Project</url>
+</WebLink>

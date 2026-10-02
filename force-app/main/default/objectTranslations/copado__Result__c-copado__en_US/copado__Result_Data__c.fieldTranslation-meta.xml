@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Includes all the returned data by the process. This can be used by other processes. --></help>
+    <label><!-- Result Data --></label>
+    <name>copado__Result_Data__c</name>
+</CustomFieldTranslation>

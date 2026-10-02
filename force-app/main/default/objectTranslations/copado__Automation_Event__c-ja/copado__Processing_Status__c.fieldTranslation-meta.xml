@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Processing Status --></label>
+    <name>copado__Processing_Status__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>失敗しました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>保留</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processed</masterLabel>
+        <translation>処理済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Retry</masterLabel>
+        <translation>再試行</translation>
+    </picklistValues>
+</CustomFieldTranslation>

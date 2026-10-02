@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>External CI Job</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>External CI Jobs</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Related List Fields --></label>
+        <name>copado__relatedListFields</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

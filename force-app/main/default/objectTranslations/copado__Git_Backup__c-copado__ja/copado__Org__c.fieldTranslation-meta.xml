@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A validated Org Credential used to retrieve the metadata that will be committed to the branch specified in the Git Snapshot. --></help>
+    <label>クレデンシャル</label>
+    <name>copado__Org__c</name>
+    <relationshipLabel>Gitスナップショット</relationshipLabel>
+</CustomFieldTranslation>

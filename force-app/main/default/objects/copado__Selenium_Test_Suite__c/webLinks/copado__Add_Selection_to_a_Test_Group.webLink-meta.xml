@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Add_Selection_to_a_Test_Group</fullName>
+    <availability>online</availability>
+    <description>Selected suites will be added a Selenium Test Group</description>
+    <displayType>massActionButton</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Add Selection to a Test Group</masterLabel>
+    <openType>replace</openType>
+    <page>copado__MassAddSuitesToGroup</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

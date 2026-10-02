@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- For devs to map this process with any other process that happens outside Copado. --></help>
+    <label><!-- External Job ID --></label>
+    <name>copado__Job_Id__c</name>
+</CustomFieldTranslation>

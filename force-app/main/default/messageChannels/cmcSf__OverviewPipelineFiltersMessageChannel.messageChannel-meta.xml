@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Channel to communicate pipeline filter changes on Copado Overview App</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Overview Pipeline Filters Message Channel</masterLabel>
+</LightningMessageChannel>

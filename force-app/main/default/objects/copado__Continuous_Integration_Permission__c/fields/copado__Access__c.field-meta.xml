@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Access__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Access</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Read Only</fullName>
+                <default>true</default>
+                <label>Read Only</label>
+            </value>
+            <value>
+                <fullName>Run Continuous Integration</fullName>
+                <default>false</default>
+                <label>Run Continuous Integration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

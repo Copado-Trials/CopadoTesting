@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Eg for Browserstack:
+http://USER:TOKEN@hub.browserstack.com:80/wd/hub
+
+Eg for Saucelabs:
+http://USER:TOKEN@ondemand.saucelabs.com:80/wd/hub/ -->
+    </help>
+    <label><!-- Webdriver URL --></label>
+    <name>copado__Webdriver_URL__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>データセット</value>
+    </caseValues>
+    <nameFieldLabel>データセット名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>データセットが作成されたら、データテンプレートを変更することはできません。新しいデータセットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Data_Template</name>
+    </validationRules>
+</CustomObjectTranslation>

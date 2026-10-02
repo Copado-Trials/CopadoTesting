@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Validation Status --></label>
+    <name>copadoconnect__Validation_Status__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation><!-- Failed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Validated</masterLabel>
+        <translation><!-- Not Validated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Success</masterLabel>
+        <translation><!-- Success --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

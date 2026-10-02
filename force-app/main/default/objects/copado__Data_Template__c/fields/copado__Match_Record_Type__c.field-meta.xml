@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Match_Record_Type__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>When matching record types, the records in the target Credential are assigned to the same record type as in the source Credential, if found. Otherwise they are assigned to the default record type in the deploying user&apos;s profile.</inlineHelpText>
+    <label>Match Record Type</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

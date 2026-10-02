@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed - Findings detected</masterLabel>
+        <translation><!-- Completed - Findings detected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed - No Findings</masterLabel>
+        <translation><!-- Completed - No Findings --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed - Resolved</masterLabel>
+        <translation><!-- Completed - Resolved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Error</masterLabel>
+        <translation><!-- Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Under Investigation</masterLabel>
+        <translation><!-- Under Investigation --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

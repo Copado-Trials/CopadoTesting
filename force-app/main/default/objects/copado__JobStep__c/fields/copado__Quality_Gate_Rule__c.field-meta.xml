@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Quality_Gate_Rule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The quality check performed by the job step.</description>
+    <inlineHelpText>The quality check performed by the job step.</inlineHelpText>
+    <label>Quality Gate Rule</label>
+    <referenceTo>copado__Quality_Gate_Rule__c</referenceTo>
+    <relationshipLabel>Job Steps</relationshipLabel>
+    <relationshipName>Job_Steps</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

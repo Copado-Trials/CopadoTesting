@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この値は、パイプライン、環境、ユーザーを選択すると、自動的に入力されます。何も選択されていない場合、このプロパティにリンクされているレコード ID を手動で入力する必要があります。</help>
+    <label><!-- Parent Id --></label>
+    <name>copado__ParentId__c</name>
+</CustomFieldTranslation>

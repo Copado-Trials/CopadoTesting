@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__CI_Tool__c</fullName>
+    <deprecated>false</deprecated>
+    <label>CI Tool</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jenkins</fullName>
+                <default>false</default>
+                <label>Jenkins</label>
+            </value>
+            <value>
+                <fullName>Bamboo</fullName>
+                <default>false</default>
+                <label>Bamboo</label>
+            </value>
+            <value>
+                <fullName>Team City</fullName>
+                <default>false</default>
+                <label>Team City</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

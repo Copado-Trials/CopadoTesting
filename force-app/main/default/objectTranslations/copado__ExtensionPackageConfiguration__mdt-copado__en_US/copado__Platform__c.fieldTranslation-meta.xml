@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Multi cloud platform type. Ex: Salesforce, Heroku, SAP --></help>
+    <label><!-- Platform --></label>
+    <name>copado__Platform__c</name>
+</CustomFieldTranslation>

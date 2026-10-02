@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Icon Name is a SLDS Utility Icon used to represent persona. Please enter SLDS Utility Icon Name for e.g. utility:user. Read more about icons on Salesforce Lightning Design System documentation. --></help>
+    <label><!-- Icon Name --></label>
+    <name>copado__Icon_Name__c</name>
+</CustomFieldTranslation>

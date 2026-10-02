@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What type of verification will be performed for this quality gate</description>
+    <inlineHelpText>What type of verification will be performed for this quality gate</inlineHelpText>
+    <label>Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>copado__Quality_Gate_Types</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type_Icon__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( 
+OR(ISPICKVAL(copado__Org_Type__c, &apos;Scratch Org&apos;),ISPICKVAL(copado__Org_Type__c, &apos;Scratch Org - Test Only&apos;)), 
+IMAGE(&apos;/resource/1516617624000/&apos;+IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)+&apos;DXType?isdtp=p1&apos;, &apos;Salesforce DX Scratch Org&apos;, 40, 40),
+IF( 
+AND(ISPICKVAL(copado__Org_Type__c, &apos;Production/Developer&apos;), copado__is_Developer_Hub_Org__c == FALSE), 
+IMAGE(&apos;/resource/1516617528000/&apos;+IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)+&apos;sforce?isdtp=p1&apos;, &apos;Production/Developer&apos;, 40, 50),
+IF( 
+ISPICKVAL(copado__Org_Type__c, &apos;Sandbox&apos;), 
+IMAGE(&apos;/resource/1516617549000/&apos;+IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)+&apos;sandbox?isdtp=p1&apos;, &apos;Sandbox&apos;, 40, 40),
+IF( 
+AND(ISPICKVAL(copado__Org_Type__c, &apos;Production/Developer&apos;), copado__is_Developer_Hub_Org__c == TRUE), 
+IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)+&apos;Hub?isdtp=p1&apos;, &apos;DX Developer Hub&apos;, 40, 40),
+&apos;Unknown Org Type&apos; 
+) 
+
+) 
+) 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Type Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

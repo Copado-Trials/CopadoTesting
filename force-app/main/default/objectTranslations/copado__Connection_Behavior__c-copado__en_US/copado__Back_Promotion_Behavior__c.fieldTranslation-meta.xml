@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- How should user stories be moved back from higher environments (prod/test) to lower environments (test/dev) --></help>
+    <label><!-- Back-Promotion Execution --></label>
+    <name>copado__Back_Promotion_Behavior__c</name>
+    <picklistValues>
+        <masterLabel>Automated</masterLabel>
+        <translation><!-- Automated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disabled</masterLabel>
+        <translation><!-- Disabled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual</masterLabel>
+        <translation><!-- Manual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled</masterLabel>
+        <translation><!-- Scheduled --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

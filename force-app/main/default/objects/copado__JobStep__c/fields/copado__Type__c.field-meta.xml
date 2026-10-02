@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of the Job Step.</description>
+    <inlineHelpText>Type of the Job Step.</inlineHelpText>
+    <label>Behaviour</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Function</fullName>
+                <default>false</default>
+                <label>Function</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Manual</fullName>
+                <default>false</default>
+                <label>Manual</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

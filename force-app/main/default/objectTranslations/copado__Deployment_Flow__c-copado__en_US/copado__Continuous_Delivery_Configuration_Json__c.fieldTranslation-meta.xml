@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Continuous Delivery Configuration Json --></label>
+    <name>copado__Continuous_Delivery_Configuration_Json__c</name>
+</CustomFieldTranslation>

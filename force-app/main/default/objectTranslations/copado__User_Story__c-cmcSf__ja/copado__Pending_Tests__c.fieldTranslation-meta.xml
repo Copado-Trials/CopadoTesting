@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field displays the total number of tests associated with this user story that are currently in progress or have failed. These tests might require further attention or resolution before you can promote this user story. --></help>
+    <label><!-- Pending Tests --></label>
+    <name>copado__Pending_Tests__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Extension Tool --></label>
+    <name>copado__ExtensionTool__c</name>
+    <picklistValues>
+        <masterLabel>Apex Tests</masterLabel>
+        <translation><!-- Apex Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flow Tests</masterLabel>
+        <translation><!-- Flow Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual Tests</masterLabel>
+        <translation><!-- Manual Tests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PMD</masterLabel>
+        <translation><!-- PMD --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

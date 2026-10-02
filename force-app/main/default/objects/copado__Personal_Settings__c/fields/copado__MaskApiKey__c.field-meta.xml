@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__MaskApiKey__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Default is false to maintain compatibility. Only if the user changes it to true the API Key will be masked or replaced by a placeholder.</description>
+    <label>Mask API Key</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

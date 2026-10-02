@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Prevent_change_Data_Template</fullName>
+    <active>true</active>
+    <description>This validation rule prevents the user from changing the Data Template field once the record has been created.</description>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    ISCHANGED(copado__Data_Template__c)
+)</errorConditionFormula>
+    <errorDisplayField>copado__Data_Template__c</errorDisplayField>
+    <errorMessage>It is not allowed to change the Data Template once the Data Set has been created. Please create a new Data Set.</errorMessage>
+</ValidationRule>

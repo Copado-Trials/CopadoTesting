@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目は、ユーザーストーリーをバックプロモートするためにグループ化されるプロモーションの数を指します。この数値を小さくすると、作成されるバックプロモーションの数が増加します。数値を大きくすると、作成されるバックプロモーションの数が減少します。</help>
+    <label><!-- Back-Promotion Batch Size --></label>
+    <name>copado__Max_Scheduled_Back_Promotion_Batch_Size__c</name>
+</CustomFieldTranslation>

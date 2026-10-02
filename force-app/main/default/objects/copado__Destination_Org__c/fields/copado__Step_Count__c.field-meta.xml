@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Step_Count__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Step Count</label>
+    <summaryForeignKey>copado__Deployment_Job__c.copado__Destination_Org__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

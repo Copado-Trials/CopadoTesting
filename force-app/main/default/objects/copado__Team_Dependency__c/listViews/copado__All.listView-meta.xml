@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__All</fullName>
+    <columns>NAME</columns>
+    <columns>copado__Provider_User_Story__c</columns>
+    <columns>copado__Parent_User_Story_Status__c</columns>
+    <columns>copado__Dependent_User_Story__c</columns>
+    <columns>copado__Child_User_Story_Status__c</columns>
+    <columns>copado__Dependency_Status__c</columns>
+    <columns>copado__Dependent_Team__c</columns>
+    <columns>copado__Provider_Team__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

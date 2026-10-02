@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one. --></help>
+    <label><!-- Git Merge Status --></label>
+    <name>copado__Git_Merge_Status__c</name>
+    <picklistValues>
+        <masterLabel>Conflicts Detected</masterLabel>
+        <translation><!-- Conflicts Detected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mergeable</masterLabel>
+        <translation><!-- Mergeable --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

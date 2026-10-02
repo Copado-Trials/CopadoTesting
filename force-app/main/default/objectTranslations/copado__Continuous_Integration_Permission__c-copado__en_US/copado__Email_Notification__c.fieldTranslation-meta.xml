@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Email Notification --></label>
+    <name>copado__Email_Notification__c</name>
+    <picklistValues>
+        <masterLabel>On Build Failure</masterLabel>
+        <translation><!-- On Build Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Build Success</masterLabel>
+        <translation><!-- On Build Success --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Deploy Failure</masterLabel>
+        <translation><!-- On Deploy Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Deploy Success</masterLabel>
+        <translation><!-- On Deploy Success --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

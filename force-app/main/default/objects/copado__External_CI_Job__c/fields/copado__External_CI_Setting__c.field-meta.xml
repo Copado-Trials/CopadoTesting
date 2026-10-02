@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__External_CI_Setting__c</fullName>
+    <deprecated>false</deprecated>
+    <label>External CI Setting</label>
+    <referenceTo>copado__External_CI_Setting__c</referenceTo>
+    <relationshipLabel>External CI Jobs</relationshipLabel>
+    <relationshipName>External_CI_Jobs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

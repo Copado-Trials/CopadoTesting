@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Value_cannot_be_empty</fullName>
+    <active>true</active>
+    <description>System property record must have a value</description>
+    <errorConditionFormula>ISBLANK(copado__Value__c)</errorConditionFormula>
+    <errorMessage>You must provide a value for this system property.</errorMessage>
+</ValidationRule>

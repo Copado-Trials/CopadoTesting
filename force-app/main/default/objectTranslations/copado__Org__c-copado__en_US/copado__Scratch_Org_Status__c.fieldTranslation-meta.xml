@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Scratch Org Status --></label>
+    <name>copado__Scratch_Org_Status__c</name>
+    <picklistValues>
+        <masterLabel>Active</masterLabel>
+        <translation><!-- Active --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deleted</masterLabel>
+        <translation><!-- Deleted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Expired</masterLabel>
+        <translation><!-- Expired --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing</masterLabel>
+        <translation><!-- Missing --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

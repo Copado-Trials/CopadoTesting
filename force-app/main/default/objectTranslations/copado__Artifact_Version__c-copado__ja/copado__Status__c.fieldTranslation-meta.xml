@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- Draft indicates that a placeholder record has been created.
+
+Pre-Release indicates a package version that has been generated but not yet promoted or is not ready for release. 
+
+A package version with Published status, indicates it can be released or deployed to production. 
+
+Deprecated highlights a package version that has been deleted and is no longer available for use.
+
+Open, Locked and Cancelled are used for packages related to User Story bundles. -->
+    </help>
+    <label>ステータス</label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation><!-- Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deprecated</masterLabel>
+        <translation><!-- Deprecated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Locked</masterLabel>
+        <translation><!-- Locked --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open</masterLabel>
+        <translation><!-- Open --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-Release</masterLabel>
+        <translation><!-- Pre-Release --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Published</masterLabel>
+        <translation><!-- Published --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

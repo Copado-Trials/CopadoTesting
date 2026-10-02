@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Next_Stage_Connection__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Leave this field empty if this is the last stage of your pipeline. Otherwise, select the next higher stage. You can only select stage connections that belong to this pipeline.</inlineHelpText>
+    <label>Next Stage Connection</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>You can only select Stage Connections that belong to the same Pipeline.</errorMessage>
+        <filterItems>
+            <field>copado__Stage_Connection__c.copado__Pipeline__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.copado__Pipeline__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>copado__Stage_Connection__c</referenceTo>
+    <relationshipLabel>Previous Stage Connections</relationshipLabel>
+    <relationshipName>Next_Stage_Connections</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

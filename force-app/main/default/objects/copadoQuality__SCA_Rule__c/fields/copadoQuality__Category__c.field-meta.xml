@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Category__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Category</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>bestpractices</fullName>
+                <default>false</default>
+                <label>Best Practices</label>
+            </value>
+            <value>
+                <fullName>codestyle</fullName>
+                <default>false</default>
+                <label>Code Style</label>
+            </value>
+            <value>
+                <fullName>design</fullName>
+                <default>false</default>
+                <label>Design</label>
+            </value>
+            <value>
+                <fullName>documentation</fullName>
+                <default>false</default>
+                <label>Documentation</label>
+            </value>
+            <value>
+                <fullName>errorprone</fullName>
+                <default>false</default>
+                <label>Error Prone</label>
+            </value>
+            <value>
+                <fullName>multithreading</fullName>
+                <default>false</default>
+                <label>Multithreading</label>
+            </value>
+            <value>
+                <fullName>performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Custom</fullName>
+                <default>false</default>
+                <label>Custom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__EnvironmentAndPipelinePlatformMustBeSame</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR( 
+    BLANKVALUE(TEXT(copado__Destination_Environment__r.copado__Platform__c), &apos;Salesforce&apos;) &lt;&gt; BLANKVALUE(TEXT(copado__Deployment_Flow__r.copado__Platform__c), &apos;Salesforce&apos;), 
+    BLANKVALUE(TEXT(copado__Source_Environment__r.copado__Platform__c), &apos;Salesforce&apos;) &lt;&gt; BLANKVALUE(TEXT(copado__Deployment_Flow__r.copado__Platform__c), &apos;Salesforce&apos;)
+)</errorConditionFormula>
+    <errorMessage>Platform for pipeline and Environment must match</errorMessage>
+</ValidationRule>

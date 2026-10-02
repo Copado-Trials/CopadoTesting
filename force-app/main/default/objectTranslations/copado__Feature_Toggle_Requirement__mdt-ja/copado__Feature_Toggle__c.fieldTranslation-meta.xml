@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Feature Toggle --></label>
+    <name>copado__Feature_Toggle__c</name>
+    <relationshipLabel><!-- Feature Toggle Requirements --></relationshipLabel>
+</CustomFieldTranslation>

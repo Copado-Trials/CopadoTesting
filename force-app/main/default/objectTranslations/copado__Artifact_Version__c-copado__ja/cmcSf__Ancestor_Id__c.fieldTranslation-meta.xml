@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Ancestor Id is used to specify an existing promoted (published) package version. It is specified as a package version id (04t) or as a package version alias. In Copado, this field reflects the value in your project configuration (sfdx-project.json) and cannot be edited from the UI. Be mindful of what version is used as ancestor as package ancestry impacts which package version upgrades are allowed. --></help>
+    <label><!-- Ancestor Id --></label>
+    <name>cmcSf__Ancestor_Id__c</name>
+</CustomFieldTranslation>

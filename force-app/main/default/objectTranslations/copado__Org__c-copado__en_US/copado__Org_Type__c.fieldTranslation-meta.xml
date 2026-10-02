@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Org Type --></label>
+    <name>copado__Org_Type__c</name>
+    <picklistValues>
+        <masterLabel>Production/Developer</masterLabel>
+        <translation><!-- Production/Developer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sandbox</masterLabel>
+        <translation><!-- Sandbox --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scratch Org</masterLabel>
+        <translation><!-- Scratch Org --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scratch Org - Test only</masterLabel>
+        <translation><!-- Scratch Org - Test only --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

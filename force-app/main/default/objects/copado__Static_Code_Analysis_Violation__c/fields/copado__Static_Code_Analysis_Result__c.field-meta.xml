@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Static_Code_Analysis_Result__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Static Code Analysis Result</label>
+    <referenceTo>copado__Static_Code_Analysis_Result__c</referenceTo>
+    <relationshipLabel>Static Code Analysis Violations</relationshipLabel>
+    <relationshipName>Static_Code_Analysis_Violations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Testing_Completed__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Update this date when all the Testing activities are completed.</inlineHelpText>
+    <label>Testing Completed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

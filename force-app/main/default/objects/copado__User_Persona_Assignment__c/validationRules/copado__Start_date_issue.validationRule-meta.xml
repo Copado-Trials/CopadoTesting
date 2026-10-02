@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Start_date_issue</fullName>
+    <active>true</active>
+    <description>If either start date or end date is set less than current datetime, the rule&apos;s error message will appear on the top of the page.</description>
+    <errorConditionFormula>If( OR(copado__Start_Time__c &lt;  NOW() , copado__End_Time__c &lt; NOW()),true,false )</errorConditionFormula>
+    <errorMessage>Start Time or End Time cannot be in the past. Please add a couple of minutes to related field.</errorMessage>
+</ValidationRule>

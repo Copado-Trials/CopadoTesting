@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Platform__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Multi cloud platform type. Ex: Salesforce, Heroku, SAP</inlineHelpText>
+    <label>Platform</label>
+    <length>80</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

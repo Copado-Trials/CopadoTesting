@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>使用する拡張ツールに基づいて、コパードフェーズを選択します。たとえば、テストを選択すると、拡張ツールのピックリストに、その特定のフェーズで使用可能なツールがリストアップされます (例: Copado Robotic Test、Apex tests、または PMD や CodescanなどのSCA ツール)。</help>
+    <label><!-- Copado Phase --></label>
+    <name>copado__ExtensionApplication__c</name>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation>テスト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

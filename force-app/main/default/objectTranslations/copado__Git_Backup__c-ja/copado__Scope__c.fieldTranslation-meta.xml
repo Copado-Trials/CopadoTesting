@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドを使用して、スナップショットを取得するファイルを指定します。フォーマットは使用している拡張子によって異なる場合があります。拡張機能のドキュメントを参照してください。</help>
+    <label><!-- Scope --></label>
+    <name>copado__Scope__c</name>
+</CustomFieldTranslation>

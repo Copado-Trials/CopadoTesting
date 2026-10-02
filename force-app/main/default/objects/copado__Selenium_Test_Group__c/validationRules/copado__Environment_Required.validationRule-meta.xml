@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Environment_Required</fullName>
+    <active>true</active>
+    <description>If the Type value is equal to &quot;Regression Test&quot; or &quot;User Story Test&quot;, the Environment field must have a value.</description>
+    <errorConditionFormula>AND( ISBLANK( copado__Environment__c ), OR(ISPICKVAL( copado__Type__c , &quot;Regression Test&quot;), ISPICKVAL( copado__Type__c , &quot;User Story Test&quot;)))</errorConditionFormula>
+    <errorDisplayField>copado__Environment__c</errorDisplayField>
+    <errorMessage>The Environment field is required if the Type is &quot;User Story Test&quot; or &quot;Regression Test&quot;.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Severity --></label>
+    <name>copado__Severity__c</name>
+    <picklistValues>
+        <masterLabel>Blocker</masterLabel>
+        <translation>ブロッカー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Critical</masterLabel>
+        <translation>危機的</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Info</masterLabel>
+        <translation>情報</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Major</masterLabel>
+        <translation>メジャー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minor</masterLabel>
+        <translation>マイナー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

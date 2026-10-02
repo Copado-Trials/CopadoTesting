@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Triggering_Metadata_Items__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>This is a non-mandatory field. You can use it to complement the Triggering Metadata Type in case you want specific Metadata items to trigger the tips. The Metadata items can be separated by &quot;;&quot;. Example standard-Account;standard-AppLauncher.</inlineHelpText>
+    <label>Triggering Metadata Items</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

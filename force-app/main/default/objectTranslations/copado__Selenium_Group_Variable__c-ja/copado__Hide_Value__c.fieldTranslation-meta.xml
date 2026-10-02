@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>テストグループ関連リストで値を非表示にするには、このチェックボックスをオンにします。</help>
+    <label><!-- Hide Value --></label>
+    <name>copado__Hide_Value__c</name>
+</CustomFieldTranslation>

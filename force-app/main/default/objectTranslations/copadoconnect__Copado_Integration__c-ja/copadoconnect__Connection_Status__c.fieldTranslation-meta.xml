@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>指定クレデンシャル接続のステータス。Draft = 作成および保存済み、Connected = サードパーティアプリケーションへの認証および接続に成功、Failed = 構成または認証の問題により接続に失敗。</help>
+    <label><!-- Connection Status --></label>
+    <name>copadoconnect__Connection_Status__c</name>
+    <picklistValues>
+        <masterLabel>Connected</masterLabel>
+        <translation><!-- Connected --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation><!-- Failed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

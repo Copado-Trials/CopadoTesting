@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>copado__Type__c</name>
+    <picklistValues>
+        <masterLabel>Apex</masterLabel>
+        <translation><!-- Apex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Automation</masterLabel>
+        <translation>自動化</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Data</masterLabel>
+        <translation>バルクデータ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Settings</masterLabel>
+        <translation>カスタム設定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data</masterLabel>
+        <translation>データ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Template</masterLabel>
+        <translation>データテンプレート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete MetaData</masterLabel>
+        <translation>メタデータを削除</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Permission Sets</masterLabel>
+        <translation>完全な権限セット</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Full Profiles</masterLabel>
+        <translation>フルプロファイル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Function</masterLabel>
+        <translation>関数</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Git MetaData</masterLabel>
+        <translation>Gitメタデータ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MetaData</masterLabel>
+        <translation>メタデータ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Test</masterLabel>
+        <translation>テスト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Translations</masterLabel>
+        <translation>翻訳</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>URL Callout</masterLabel>
+        <translation>URLコールアウト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Users</masterLabel>
+        <translation>ユーザー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

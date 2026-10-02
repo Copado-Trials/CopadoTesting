@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Snapshot__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>It is a full backup of the selected metadata types into a repository/branch.</description>
+    <inlineHelpText>It is a full backup of the selected metadata types into a repository/branch.</inlineHelpText>
+    <label>Snapshot</label>
+    <referenceTo>copado__Git_Backup__c</referenceTo>
+    <relationshipLabel>Job Executions</relationshipLabel>
+    <relationshipName>Job_Executions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

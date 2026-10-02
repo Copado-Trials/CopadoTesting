@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ユーザーストーリーデータコミット</value>
+    </caseValues>
+    <nameFieldLabel>ユーザーストーリーデータコミット名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>一度作成したユーザーストーリーのデータコミットのコミット日を変更することはできません。新たにコミットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Commit_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>ユーザーストーリーの変更がコミットされた後にコミットメッセージを変更することはできません。新たにコミットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Commit_Message</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>一度作成したユーザーストーリのデータセットのコミットを変更することはできません。新たにユーザーストーリーデータのコミットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Data_Set</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>一度作成したユーザーストーリーのデータコミットの実行ジョブは変更することができません。新たにユーザーストーリーのデータコミットを作成してください。</errorMessage>
+        <name>copado__Prevent_change_Execution_Job</name>
+    </validationRules>
+</CustomObjectTranslation>

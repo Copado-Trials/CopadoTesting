@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これはメタデータステップにのみ適用されます。他のステップの種類はこのチェックボックスの影響を受けません。
+ 警告: リソースは実際のデプロイメントと全く同じであるため、クレジットの消費は通常のデプロイメントと同じように適用されます。</help>
+    <label><!-- CheckOnly --></label>
+    <name>copado__CheckOnly__c</name>
+</CustomFieldTranslation>

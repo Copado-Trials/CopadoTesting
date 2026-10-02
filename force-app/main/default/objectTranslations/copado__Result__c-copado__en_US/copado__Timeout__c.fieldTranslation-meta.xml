@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If you want Copado to update the status to Failed if there is no response from the function’s job after a certain period of time (e.g., 60 minutes), you can define it here. --></help>
+    <label><!-- Timeout (minutes) --></label>
+    <name>copado__Timeout__c</name>
+</CustomFieldTranslation>

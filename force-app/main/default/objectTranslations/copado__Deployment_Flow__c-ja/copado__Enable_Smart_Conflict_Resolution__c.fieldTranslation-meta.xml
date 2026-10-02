@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>チェックを外すと、コパードはプロモーション実行中に、自動でのコンフリクト解決を適用しなくなります。ユーザーはプロモーション毎に、コンフリクトが発生した場合にはマニュアルで解決する必要があります</help>
+    <label><!-- Enable Smart Conflict Resolution --></label>
+    <name>copado__Enable_Smart_Conflict_Resolution__c</name>
+</CustomFieldTranslation>

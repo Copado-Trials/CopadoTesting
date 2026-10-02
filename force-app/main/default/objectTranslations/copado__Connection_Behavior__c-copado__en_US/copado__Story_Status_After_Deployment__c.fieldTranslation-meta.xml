@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- What status should user stories be set to after they are successfully deployed? --></help>
+    <label><!-- User Story Status After Promotion --></label>
+    <name>copado__Story_Status_After_Deployment__c</name>
+</CustomFieldTranslation>

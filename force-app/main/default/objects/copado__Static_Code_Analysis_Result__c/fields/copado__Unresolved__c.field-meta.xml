@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Unresolved__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Unresolved</label>
+    <summaryFilterItems>
+        <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
+        <operation>notEqual</operation>
+        <value>Fixed</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
+        <operation>notEqual</operation>
+        <value>False Positive</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
+        <operation>notEqual</operation>
+        <value>Won&apos;t fix</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
+        <operation>notEqual</operation>
+        <value>Removed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>copado__Static_Code_Analysis_Violation__c.copado__Static_Code_Analysis_Result__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

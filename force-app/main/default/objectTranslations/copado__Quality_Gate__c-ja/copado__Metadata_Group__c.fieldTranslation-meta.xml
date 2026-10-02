@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>自動処理と品質ゲートは、デプロイまたはコミットされたメタデータが、指定された値と一致するときに実行されます。</help>
+    <label><!-- Metadata Group --></label>
+    <name>copado__Metadata_Group__c</name>
+    <relationshipLabel><!-- Automations --></relationshipLabel>
+</CustomFieldTranslation>

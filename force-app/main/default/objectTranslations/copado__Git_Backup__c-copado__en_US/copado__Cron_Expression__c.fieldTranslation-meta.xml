@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter a cron expression to schedule the frequency of this job. Please keep in mind that certain cron expressions might not be supported by Salesforce. --></help>
+    <label><!-- Cron Expression --></label>
+    <name>copado__Cron_Expression__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Continue on Error --></label>
+    <name>copado__Continue_on_Error__c</name>
+    <picklistValues>
+        <masterLabel>Continue deployment until blocker issue</masterLabel>
+        <translation>ブロッカー問題が発生するまでデプロイを続ける</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stop deployment on first issue</masterLabel>
+        <translation>初回発行時に配備を停止</translation>
+    </picklistValues>
+</CustomFieldTranslation>

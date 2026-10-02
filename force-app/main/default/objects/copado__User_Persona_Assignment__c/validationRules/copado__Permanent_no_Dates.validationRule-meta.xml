@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Permanent_no_Dates</fullName>
+    <active>true</active>
+    <errorConditionFormula>and (
+ ISPICKVAL( copado__Type__c ,&quot;Permanent&quot;),
+  or (
+    not( ISNULL( copado__End_Time__c ) ),
+    not( ISNULL( copado__Start_Time__c  ) )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>copado__Type__c</errorDisplayField>
+    <errorMessage>Cannot  specify End and Start time for Permanent permissions.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>メタデータを比較し、メタデータを移行する宛先クレデンシャル（To）を選択します。結果のグリッドには、このクレデンシャルに適用される「作成」、「更新」、「削除」による差分のリストが表示されます。</help>
+    <label><!-- Destination Credential --></label>
+    <name>copado__To_Org__c</name>
+    <relationshipLabel><!-- Org Differences (Destination Credential) --></relationshipLabel>
+</CustomFieldTranslation>

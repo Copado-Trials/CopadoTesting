@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Provider_Team__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The team that will provide the deliverable to fulfill this dependency.</description>
+    <inlineHelpText>The team that will provide the deliverable to fulfill this dependency.</inlineHelpText>
+    <label>Parent User Story Team</label>
+    <referenceTo>copado__Team__c</referenceTo>
+    <relationshipLabel>User Story Dependencies (Provider Team)</relationshipLabel>
+    <relationshipName>Team_Dependencies_On_Team</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

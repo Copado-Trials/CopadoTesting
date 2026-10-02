@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CustomPermission</fullName>
+                <default>true</default>
+                <label>Custom Permission</label>
+            </value>
+            <value>
+                <fullName>CopadoLicense</fullName>
+                <default>false</default>
+                <label>Copado License</label>
+            </value>
+            <value>
+                <fullName>PermissionSet</fullName>
+                <default>false</default>
+                <label>Permission Set</label>
+            </value>
+            <value>
+                <fullName>PermissionSetGroup</fullName>
+                <default>false</default>
+                <label>Permission Set Group</label>
+            </value>
+            <value>
+                <fullName>CredentialAccessLevel</fullName>
+                <default>false</default>
+                <label>Credential Access Level</label>
+            </value>
+            <value>
+                <fullName>PackageLicense</fullName>
+                <default>false</default>
+                <label>Package License</label>
+            </value>
+            <value>
+                <fullName>AppPermission</fullName>
+                <default>false</default>
+                <label>App Permission</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

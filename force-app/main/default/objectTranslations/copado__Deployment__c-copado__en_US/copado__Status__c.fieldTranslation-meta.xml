@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation><!-- Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed Successfully</masterLabel>
+        <translation><!-- Completed Successfully --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed with Errors</masterLabel>
+        <translation><!-- Completed with Errors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In progress</masterLabel>
+        <translation><!-- In progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merge Conflict</masterLabel>
+        <translation><!-- Merge Conflict --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled</masterLabel>
+        <translation><!-- Scheduled --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>デプロイのステータスに関係なく Vlocity ログを確認する場合は、このチェックボックスを有効にします。Vlocityログを含めると、かなりのファイルストレージを消費する可能性があります。</help>
+    <label><!-- Attach Vlocity(SFI) Build File --></label>
+    <name>cmcSf__Attach_Vlocity_Build_File__c</name>
+</CustomFieldTranslation>

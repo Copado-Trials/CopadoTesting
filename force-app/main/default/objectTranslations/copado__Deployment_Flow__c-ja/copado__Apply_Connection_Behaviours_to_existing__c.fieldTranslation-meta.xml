@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションは、コパードパイプラインですでにプロモーションを行ったユーザーストーリーを、コパード継続的デリバリーで作成するバックプロモーションの接続動作に適用させたい場合に使用します。</help>
+    <label><!-- Apply Connection Behaviors to All --></label>
+    <name>copado__Apply_Connection_Behaviours_to_existing__c</name>
+</CustomFieldTranslation>

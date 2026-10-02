@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関連パッケージの識別子になります。パッケージのバージョン作成時にパッケージIDとして使用され、パッケージのエイリアスとしてsfdx-project.jsonファイルにも使用されます。</help>
+    <label><!-- Package Id --></label>
+    <name>copado__Package_Id__c</name>
+</CustomFieldTranslation>

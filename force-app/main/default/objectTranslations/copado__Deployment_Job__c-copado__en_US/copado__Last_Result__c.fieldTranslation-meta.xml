@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Latest result with more details of the job execution. --></help>
+    <label><!-- Last Result --></label>
+    <name>copado__Last_Result__c</name>
+    <relationshipLabel><!-- Deployment Jobs --></relationshipLabel>
+</CustomFieldTranslation>

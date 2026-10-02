@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Perform in Destination Credential(s) --></label>
+    <name>copado__Perform_in_Destination_Orgs__c</name>
+</CustomFieldTranslation>

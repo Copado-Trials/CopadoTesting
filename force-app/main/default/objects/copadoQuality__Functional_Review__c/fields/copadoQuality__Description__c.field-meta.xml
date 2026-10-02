@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Provide an outline about e.g. which parts of your application it should focus on, or where to find further information. Include links to documentation and videos to enable your reviewers.</inlineHelpText>
+    <label>Description</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

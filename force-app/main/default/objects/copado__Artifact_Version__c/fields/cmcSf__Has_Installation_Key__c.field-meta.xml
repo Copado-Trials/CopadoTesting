@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Has_Installation_Key__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Indicates if this is a password protected package version</inlineHelpText>
+    <label>Has Installation Key</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

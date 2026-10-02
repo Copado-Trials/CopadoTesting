@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Data Template  Message channel is a generic for data temple creation</description>
+    <isExposed>false</isExposed>
+    <lightningMessageFields>
+        <description>A string representing information message</description>
+        <fieldName>message</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>A string representing reason of the message</description>
+        <fieldName>reason</fieldName>
+    </lightningMessageFields>
+    <masterLabel>DataTemplate</masterLabel>
+</LightningMessageChannel>

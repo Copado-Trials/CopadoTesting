@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The extension configuration where you are creating the rule. Retain the default value. --></help>
+    <label><!-- Extension Configuration --></label>
+    <name>copadoQuality__Extension_Configuration__c</name>
+    <relationshipLabel><!-- Compliance Rules --></relationshipLabel>
+</CustomFieldTranslation>

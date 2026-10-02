@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Git スナップショットにリンクされている Git リポジトリ。指定したブランチがリポジトリに存在することを確認してください。既にアクティブなパイプラインに使われている Git リポジトリでスナップショットを取ることは、DevOps 全体のパフォーマンスに影響する可能性があるため、お勧めしません。</help>
+    <label><!-- Git Repository --></label>
+    <name>copado__Git_Repository__c</name>
+    <relationshipLabel><!-- Git Snapshots --></relationshipLabel>
+</CustomFieldTranslation>

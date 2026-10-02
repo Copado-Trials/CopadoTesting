@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Message channel for Automation Rule.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Record Id</description>
+        <fieldName>RecordId</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Name</description>
+        <fieldName>Name</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>The component and action to interact from</description>
+        <fieldName>Component</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Flag to open o close a modal</description>
+        <fieldName>isModalOpen</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Flag to set the header status badge.</description>
+        <fieldName>isActiveAR</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Flag to refresh the View container.</description>
+        <fieldName>isRefresh</fieldName>
+    </lightningMessageFields>
+    <masterLabel>Automation Rule MessageChannel</masterLabel>
+</LightningMessageChannel>

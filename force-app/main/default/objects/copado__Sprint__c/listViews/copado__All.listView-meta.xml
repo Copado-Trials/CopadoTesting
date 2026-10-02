@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__All</fullName>
+    <columns>NAME</columns>
+    <columns>copado__Start_Date__c</columns>
+    <columns>copado__End_Date__c</columns>
+    <columns>copado__Status__c</columns>
+    <columns>copado__Working_Days_Left__c</columns>
+    <columns>copado__Release__c</columns>
+    <columns>copado__Team__c</columns>
+    <columns>copado__Project__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>copado__Objective__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

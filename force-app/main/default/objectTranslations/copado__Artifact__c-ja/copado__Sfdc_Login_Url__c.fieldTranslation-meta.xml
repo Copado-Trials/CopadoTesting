@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>force:authコマンドが使用するログインURLを指定します。 指定しない場合、デフォルトは login.salesforce.com です。特定のセールスフォースインスタンスに対してユーザ認証を行う場合は、デフォルト値を上書きします。</help>
+    <label><!-- Sfdc Login Url --></label>
+    <name>copado__Sfdc_Login_Url__c</name>
+</CustomFieldTranslation>

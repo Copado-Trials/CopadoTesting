@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Type --></label>
+    <name>copado__Type__c</name>
+    <picklistValues>
+        <masterLabel>Apex</masterLabel>
+        <translation><!-- Apex --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bulk Data</masterLabel>
+        <translation>バルクデータ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CRT Automation</masterLabel>
+        <translation>CRTオートメーション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Custom Settings</masterLabel>
+        <translation>カスタム設定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data</masterLabel>
+        <translation>データ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Template</masterLabel>
+        <translation>データテンプレート</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delete MetaData</masterLabel>
+        <translation>メタデータを削除</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Function</masterLabel>
+        <translation>関数</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Manual Task</masterLabel>
+        <translation>マニュアルタスク</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce Flow</masterLabel>
+        <translation>セールスフォースフロー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>URL Callout</masterLabel>
+        <translation>URLコールアウト</translation>
+    </picklistValues>
+</CustomFieldTranslation>

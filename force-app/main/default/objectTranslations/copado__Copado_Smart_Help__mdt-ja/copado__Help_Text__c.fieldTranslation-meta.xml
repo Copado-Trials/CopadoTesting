@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>これはヒントを表示するポップアップのテキストです。分かりやすく明快な文章を記載して下さい</help>
+    <label><!-- Help Text --></label>
+    <name>copado__Help_Text__c</name>
+</CustomFieldTranslation>

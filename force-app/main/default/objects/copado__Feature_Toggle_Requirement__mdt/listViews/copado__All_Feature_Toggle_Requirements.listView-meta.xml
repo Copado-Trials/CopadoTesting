@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__All_Feature_Toggle_Requirements</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>copado__Feature_Toggle__c</columns>
+    <columns>copado__Type__c</columns>
+    <columns>copado__Value__c</columns>
+    <columns>NamespacePrefix</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Feature Toggle Requirements</label>
+    <language>en_US</language>
+</ListView>

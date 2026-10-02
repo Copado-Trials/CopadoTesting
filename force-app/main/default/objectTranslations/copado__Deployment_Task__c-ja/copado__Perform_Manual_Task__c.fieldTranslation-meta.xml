@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Perform Deployment Task --></label>
+    <name>copado__Perform_Manual_Task__c</name>
+    <picklistValues>
+        <masterLabel>After Deployment</masterLabel>
+        <translation>デプロイメント後</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before Deployment</masterLabel>
+        <translation>デプロイメント前</translation>
+    </picklistValues>
+</CustomFieldTranslation>

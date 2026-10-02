@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この「品質ゲート条件」が評価されるステージ。パイプラインが定義されていない場合は、このステージが接続されている全てのパイプラインに適用されます。</help>
+    <label><!-- Stage --></label>
+    <name>copado__Stage__c</name>
+    <relationshipLabel><!-- Quality Gate Rule Conditions --></relationshipLabel>
+</CustomFieldTranslation>

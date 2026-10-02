@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Dependent_Artifact__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The artifact record which cannot be installed or managed without the depending artifact</inlineHelpText>
+    <label>Dependent Package</label>
+    <referenceTo>copado__Artifact__c</referenceTo>
+    <relationshipLabel>Package Dependencies (Dependent Artifact)</relationshipLabel>
+    <relationshipName>Artifact_Dependencies</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

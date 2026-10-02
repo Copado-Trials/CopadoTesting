@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Build Task Duration --></label>
+    <name>copado__Last_Build_Task_Duration__c</name>
+</CustomFieldTranslation>

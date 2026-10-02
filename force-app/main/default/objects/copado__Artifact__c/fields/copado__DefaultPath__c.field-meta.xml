@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__DefaultPath__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field to specify the default folder of your source code in the repository from where new packages, versions, builds, images... are created. This parameter is optional.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field to specify the default folder of your source code in the repository from where new packages, versions, builds, images... are created. This parameter is optional.</inlineHelpText>
+    <label>Default Path</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

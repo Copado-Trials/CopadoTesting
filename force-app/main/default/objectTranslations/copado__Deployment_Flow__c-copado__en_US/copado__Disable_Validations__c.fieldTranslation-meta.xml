@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, Deployment Flow Steps best practices validations will be disabled. --></help>
+    <label><!-- Disable Validations --></label>
+    <name>copado__Disable_Validations__c</name>
+</CustomFieldTranslation>

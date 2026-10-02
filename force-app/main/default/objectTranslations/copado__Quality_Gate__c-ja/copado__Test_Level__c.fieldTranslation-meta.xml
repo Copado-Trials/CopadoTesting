@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>タイプとして”検証付きApexテスト”を選択した場合、テストレベルを選択する必要があります。”特定のテストの実行”では、デプロイされるユーザーストーリーに含まれているテストを実行します。</help>
+    <label><!-- Apex Test Level --></label>
+    <name>copado__Test_Level__c</name>
+</CustomFieldTranslation>

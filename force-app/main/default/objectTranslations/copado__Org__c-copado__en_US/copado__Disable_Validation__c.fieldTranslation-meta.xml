@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Checking this checkbox will not validate the credentials when the record is saved or viewed. --></help>
+    <label><!-- Disable Validation --></label>
+    <name>copado__Disable_Validation__c</name>
+</CustomFieldTranslation>

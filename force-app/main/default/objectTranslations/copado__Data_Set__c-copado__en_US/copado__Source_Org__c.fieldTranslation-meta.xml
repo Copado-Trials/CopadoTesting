@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Environment where the data was extracted from in the last generation of Data Sets. --></help>
+    <label><!-- Data Source Environment --></label>
+    <name>copado__Source_Org__c</name>
+    <relationshipLabel><!-- Data Sets --></relationshipLabel>
+</CustomFieldTranslation>

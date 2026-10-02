@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パッケージ</value>
+    </caseValues>
+    <fieldSets>
+        <label>SFDXパッケージライトニングページ</label>
+        <name>cmcSf__SFDX_Package_CustomFields</name>
+    </fieldSets>
+    <nameFieldLabel>パッケージ名</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Version Control System centric package --></description>
+        <label><!-- Git Package --></label>
+        <name>copado__Git_Artifact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Salesforce Unlocked and Second-Generation Managed Package --></description>
+        <label><!-- Salesforce Package --></label>
+        <name>copado__Package_Artifact</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- User Story Bundle --></description>
+        <label><!-- User Story Bundle --></label>
+        <name>copado__User_Story_Bundle</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>指定されたAPIバージョンは無効です。Number.0 の形式でなければなりません。</errorMessage>
+        <name>cmcSf__Api_Version_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>マネージドパッケージで &quot;No Namespace &quot;をtrueに設定することはできません。</errorMessage>
+        <name>cmcSf__No_Namespace_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Package names are in use for DX folder structure, therefore, package names are not editable. --></errorMessage>
+        <name>copado__ArtifactNameCannotChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repository relation for packages is required for Unlocked and Second Generation Packages and should be empty for First Second Generation Packages --></errorMessage>
+        <name>copado__Artifact_Repo_Control_For_Package_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Package name cannot contain white spaces --></errorMessage>
+        <name>copado__Name_should_not_contain_empty_space</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Generate_New_Version --></label>
+        <name>copado__Generate_New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Project_Definition_File --></label>
+        <name>copado__Generate_Project_Definition_File</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Metadata --></label>
+        <name>copado__Manage_Metadata</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Org_Definition_Dependencies --></label>
+        <name>copado__Manage_Org_Definition_Dependencies</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Package_Selection --></label>
+        <name>copado__Manage_Package_Selection</name>
+    </webLinks>
+</CustomObjectTranslation>

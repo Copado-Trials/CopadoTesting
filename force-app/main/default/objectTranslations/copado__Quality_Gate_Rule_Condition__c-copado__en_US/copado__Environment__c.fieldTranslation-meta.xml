@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Environment where this Quality Gate Condition will be evaluated. If no Pipeline is defined, this Condition will apply to all Pipelines where this Environment is connected to. --></help>
+    <label><!-- Environment --></label>
+    <name>copado__Environment__c</name>
+    <relationshipLabel><!-- Quality Gate Rule Conditions --></relationshipLabel>
+</CustomFieldTranslation>

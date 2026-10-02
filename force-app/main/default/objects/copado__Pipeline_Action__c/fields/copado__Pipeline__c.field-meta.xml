@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Pipeline__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select the pipeline where this action will be applied.</inlineHelpText>
+    <label>Pipeline</label>
+    <referenceTo>copado__Deployment_Flow__c</referenceTo>
+    <relationshipLabel>Pipeline Actions</relationshipLabel>
+    <relationshipName>Pipeline_Actions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

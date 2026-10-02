@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use this field to split your User Story effort estimation among different scopes. Example: Dev and QA, Frontend and Backend. You can label this field to match your scope. --></help>
+    <label><!-- Planned Points Other --></label>
+    <name>copado__Planned_Points_Other__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Pipeline__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup field to the pipeline where this job execution applies.</description>
+    <inlineHelpText>Lookup field to the pipeline where this job execution applies.</inlineHelpText>
+    <label>Pipeline</label>
+    <referenceTo>copado__Deployment_Flow__c</referenceTo>
+    <relationshipLabel>Job Executions</relationshipLabel>
+    <relationshipName>JobExecutions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is the text that will appear in the Tip pop-up message. Try to be assertive and clear with your tip. --></help>
+    <label><!-- Help Text --></label>
+    <name>copado__Help_Text__c</name>
+</CustomFieldTranslation>

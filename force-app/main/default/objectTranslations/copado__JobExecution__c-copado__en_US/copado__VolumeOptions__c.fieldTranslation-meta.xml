@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- In this field, you can introduce a list of JSON options with the configuration for the volumes used in every new job execution. --></help>
+    <label><!-- VolumeOptions --></label>
+    <name>copado__VolumeOptions__c</name>
+</CustomFieldTranslation>

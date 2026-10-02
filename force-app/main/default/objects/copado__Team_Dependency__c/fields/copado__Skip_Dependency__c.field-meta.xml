@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Skip_Dependency__c</fullName>
+    <deprecated>false</deprecated>
+    <formula>OR( ISPICKVAL( copado__Dependency_Status__c ,&apos;Completed&apos;), ISPICKVAL( copado__Dependency_Status__c ,&apos;Deferred&apos;), ISPICKVAL( copado__Dependency_Status__c ,&apos;Never&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The value is set to True whenever a Dependency Status is set to Completed, Deferred, or Never.</inlineHelpText>
+    <label>Skip Dependency</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

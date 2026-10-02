@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Organization Id for the Environment. --></help>
+    <label><!-- SFDC Org ID --></label>
+    <name>copado__SFDC_Org_ID__c</name>
+</CustomFieldTranslation>

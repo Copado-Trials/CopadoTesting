@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>メタデータの自動バックアップを設定するには、このフィールドを使用します。コパードは、定義された頻度とcron式に従って、組織のメタデータコンポーネントを自動的にコミットします。</help>
+    <label><!-- Frequency --></label>
+    <name>copado__Snapshot_Frequency__c</name>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule</masterLabel>
+        <translation>スケジュール</translation>
+    </picklistValues>
+</CustomFieldTranslation>

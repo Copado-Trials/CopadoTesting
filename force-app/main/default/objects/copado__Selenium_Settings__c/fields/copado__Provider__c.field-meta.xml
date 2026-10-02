@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Provider__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Provider</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sauce Labs</fullName>
+                <default>false</default>
+                <label>Sauce Labs</label>
+            </value>
+            <value>
+                <fullName>Browser Stack</fullName>
+                <default>false</default>
+                <label>Browser Stack</label>
+            </value>
+            <value>
+                <fullName>Custom/Other</fullName>
+                <default>false</default>
+                <label>Custom/Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

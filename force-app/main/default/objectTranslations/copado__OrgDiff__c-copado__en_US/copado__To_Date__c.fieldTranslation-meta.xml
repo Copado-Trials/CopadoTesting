@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If a value is entered only modification before this date (inclusive) will be added in the Diff --></help>
+    <label><!-- To Date --></label>
+    <name>copado__To_Date__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If enabled, when a Back Promotion is completed and contains Metadata found in User Stories in the destination Environment, the status of the User Story Metadata records of these User Stories will be updated to &quot;Back Promoted&quot;. --></help>
+    <label><!-- Index Back Promotion Metadata --></label>
+    <name>copado__Index_Back_Promotion_metadata__c</name>
+</CustomFieldTranslation>

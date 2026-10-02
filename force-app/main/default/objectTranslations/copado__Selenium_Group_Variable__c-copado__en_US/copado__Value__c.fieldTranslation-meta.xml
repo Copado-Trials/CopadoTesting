@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Selenium Group Variable is valid only within this Selenium Group.  On Test Cases, a variable can be referred to as {!Group.VARIABLE_NAME}. --></help>
+    <label><!-- Value --></label>
+    <name>copado__Value__c</name>
+</CustomFieldTranslation>

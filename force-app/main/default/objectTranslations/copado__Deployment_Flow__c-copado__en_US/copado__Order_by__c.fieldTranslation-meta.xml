@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Populate this field to set an ascending or descending merge order for user stories during forward promotions (e.g., copado__Priority__c asc). For back promotions, this field is ignored as user stories will automatically be merged in the same order they were merged during their original forward promotion. When set at the pipeline level, all promotions created for this pipeline will inherit this value automatically. --></help>
+    <label><!-- Order User Stories by --></label>
+    <name>copado__Order_by__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>プロモーションされたユーザーストーリー</value>
+    </caseValues>
+    <fieldSets>
+        <label>プロモートされたユーザーストーリーデータテーブル</label>
+        <name>copado__Promoted_User_Story_Datatable</name>
+    </fieldSets>
+    <nameFieldLabel>プロモートされたユーザーストーリー名</nameFieldLabel>
+</CustomObjectTranslation>

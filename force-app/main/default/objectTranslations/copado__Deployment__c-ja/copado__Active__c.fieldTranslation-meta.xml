@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>デプロイメント手順などでテンプレートを検索する場合、アクティブなテンプレートのみが検索対象となります。</help>
+    <label><!-- Active --></label>
+    <name>copado__Active__c</name>
+</CustomFieldTranslation>

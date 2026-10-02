@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Selected DX mode will determine scratch metadata sources. --></help>
+    <label><!-- Copado DX Mode --></label>
+    <name>copado__Copado_DX_Mode__c</name>
+    <picklistValues>
+        <masterLabel>Branches</masterLabel>
+        <translation><!-- Branches --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Git Package</masterLabel>
+        <translation><!-- Git Package --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Org Metadata</masterLabel>
+        <translation><!-- Org Metadata --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce Package</masterLabel>
+        <translation><!-- Salesforce Package --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

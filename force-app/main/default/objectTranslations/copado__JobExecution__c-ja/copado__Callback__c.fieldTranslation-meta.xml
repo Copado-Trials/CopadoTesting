@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドでは、関数が開始されると実行されるアクションを定義できます。このアクションは、copado.JobExecutionCallback インターフェースを実装する Apex クラスである必要があります。</help>
+    <label><!-- Callback --></label>
+    <name>copado__Callback__c</name>
+</CustomFieldTranslation>

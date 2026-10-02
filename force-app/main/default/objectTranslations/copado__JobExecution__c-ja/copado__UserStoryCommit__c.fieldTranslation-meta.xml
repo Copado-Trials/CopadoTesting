@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、ジョブ実行の親ユーザーストーリー・コミット・レコードを参照します。</help>
+    <label><!-- User Story Commit --></label>
+    <name>copado__UserStoryCommit__c</name>
+    <relationshipLabel><!-- Job Executions --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If this checkbox is checked, all apex tests will be run as part of the build. --></help>
+    <label><!-- Run All Tests --></label>
+    <name>copado__Run_All_Tests__c</name>
+</CustomFieldTranslation>

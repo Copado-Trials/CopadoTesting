@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>計画ポイント と計画ポイントその他の合計。ユーザーストーリーの工数見積もりを異なるスコープ間で分割する必要がある場合、このフィールドを計画ポイントその他とともに使用します。</help>
+    <label><!-- Total Planned Points --></label>
+    <name>copado__Total_Story_Points__c</name>
+</CustomFieldTranslation>

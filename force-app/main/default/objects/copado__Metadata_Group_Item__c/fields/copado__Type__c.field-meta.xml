@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of metadata</description>
+    <inlineHelpText>The type of metadata</inlineHelpText>
+    <label>Metadata Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>copado__Metadata_Types</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Requirements and thresholds that must be met to pass this quality gate successfully --></help>
+    <label><!-- Acceptance Criteria --></label>
+    <name>copado__AcceptanceCriteria__c</name>
+</CustomFieldTranslation>

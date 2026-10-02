@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Define the maxVolume and volumeTTL to be used to run a standalone function with these configurations. --></help>
+    <label><!-- Options --></label>
+    <name>copado__Options__c</name>
+</CustomFieldTranslation>

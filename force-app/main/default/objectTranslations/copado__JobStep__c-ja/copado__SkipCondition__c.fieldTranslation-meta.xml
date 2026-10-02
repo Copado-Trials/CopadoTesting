@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>trueと評価された場合、ステップの実行はスキップされ、コパードは次のステップに進むか、ジョブの実行を完了します。空のままか、式がfalseと評価された場合、ジョブステップは通常どおり実行されます。</help>
+    <label><!-- Skip Step Condition --></label>
+    <name>copado__SkipCondition__c</name>
+</CustomFieldTranslation>

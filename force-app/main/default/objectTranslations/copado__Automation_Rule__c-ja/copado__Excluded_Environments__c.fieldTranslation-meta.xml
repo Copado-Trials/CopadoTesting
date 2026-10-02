@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ステージ選択時に除外する環境の一覧です。最大13環境まで選択可能です。</help>
+    <label><!-- Excluded Environments --></label>
+    <name>copado__Excluded_Environments__c</name>
+</CustomFieldTranslation>

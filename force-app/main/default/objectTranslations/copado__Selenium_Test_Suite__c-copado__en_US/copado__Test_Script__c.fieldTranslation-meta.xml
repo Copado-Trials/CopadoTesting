@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This lookup relates to the Copado Change Management test scripts that are related to User Stories. --></help>
+    <label><!-- Test Script --></label>
+    <name>copado__Test_Script__c</name>
+    <relationshipLabel><!-- Selenium Test Suites --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>関数に実行させたいコマンドをスクリプトに記述します。</help>
+    <label><!-- Script --></label>
+    <name>copado__Script__c</name>
+</CustomFieldTranslation>

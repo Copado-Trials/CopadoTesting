@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>クラウド版にはCodeScan Cloudライセンスが必要です。
+オンプレミスのSonarQubeには、インターネット経由でアクセスできるSonarQubeインスタンスが必要です。</help>
+    <label><!-- CodeScan Version --></label>
+    <name>copado__CodeScan_Version__c</name>
+    <picklistValues>
+        <masterLabel>Cloud</masterLabel>
+        <translation>クラウド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On-premise SonarQube</masterLabel>
+        <translation>オンプレミス版SonarQube</translation>
+    </picklistValues>
+</CustomFieldTranslation>

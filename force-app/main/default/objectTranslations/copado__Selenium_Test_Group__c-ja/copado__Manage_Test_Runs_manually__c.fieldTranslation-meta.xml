@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このオプションをオフにすると、コパードはスイート/クレデンシャルごとにテストランを自動的に作成/更新/削除します。このグループ内のテストランを手動で管理する場合は、チェックしてからテストランリストビューに移動し、&quot;テストグループを追加&quot; オプションを使用します。</help>
+    <label><!-- Manage Test Runs manually --></label>
+    <name>copado__Manage_Test_Runs_manually__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この日付は、ソース環境からデータセットのCSVファイルを生成する際に、コパードによって自動的に更新されます。外部データベースまたはプロセスから CSV ファイルを生成する場合には、この値を更新してください。</help>
+    <label><!-- Last Generated Date --></label>
+    <name>copado__Last_Generated_Date__c</name>
+</CustomFieldTranslation>

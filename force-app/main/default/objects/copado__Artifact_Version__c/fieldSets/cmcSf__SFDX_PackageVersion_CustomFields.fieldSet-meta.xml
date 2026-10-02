@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__SFDX_PackageVersion_CustomFields</fullName>
+    <description>Display Custom Fields in Package Version Lightning Page in SFDX</description>
+    <label>SFDX Package Version Lightning Page</label>
+</FieldSet>

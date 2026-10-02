@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ソースアクションとその結果に基づいて実行されるアクション</help>
+    <label><!-- Automated Action --></label>
+    <name>copado__Automated_Action__c</name>
+</CustomFieldTranslation>

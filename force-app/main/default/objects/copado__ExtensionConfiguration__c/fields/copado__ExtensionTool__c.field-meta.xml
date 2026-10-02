@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ExtensionTool__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Extension Tool</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Manual Tests</fullName>
+                <default>false</default>
+                <label>Manual Tests</label>
+            </value>
+            <value>
+                <fullName>Apex Tests</fullName>
+                <default>false</default>
+                <label>Apex Tests</label>
+            </value>
+            <value>
+                <fullName>PMD</fullName>
+                <default>false</default>
+                <label>PMD</label>
+            </value>
+            <value>
+                <fullName>Flow Tests</fullName>
+                <default>false</default>
+                <label>Flow Tests</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

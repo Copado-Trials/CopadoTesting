@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Extension_Configuration_Panel</fullName>
+    <fields>Name</fields>
+    <fields>copado__ExtensionTool__c</fields>
+    <fields>copado__ExtensionApplication__c</fields>
+    <fields>copado__TestType__c</fields>
+    <fields>copado__Active__c</fields>
+    <fields>LastModifiedById</fields>
+    <label>Extension Configuration Panel</label>
+</CompactLayout>

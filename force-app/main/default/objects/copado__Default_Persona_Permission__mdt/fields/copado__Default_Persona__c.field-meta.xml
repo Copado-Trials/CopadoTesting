@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Default_Persona__c</fullName>
+    <deprecated>false</deprecated>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Default Persona</label>
+    <referenceTo>copado__Default_Persona__mdt</referenceTo>
+    <relationshipLabel>Default Persona Permissions</relationshipLabel>
+    <relationshipName>Default_Persona_Permissions</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

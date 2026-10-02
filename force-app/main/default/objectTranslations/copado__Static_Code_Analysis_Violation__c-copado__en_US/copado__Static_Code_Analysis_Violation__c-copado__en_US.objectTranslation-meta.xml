@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Static Code Analysis Violation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Static Code Analysis Violations</value>
+    </caseValues>
+    <recordTypes>
+        <description><!-- Record Type for CodeScan integration. Requires CodeScan licensing. --></description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record Type for free of charge PMD integration --></description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

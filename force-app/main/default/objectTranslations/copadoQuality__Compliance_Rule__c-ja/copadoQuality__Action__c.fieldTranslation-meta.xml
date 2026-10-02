@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ルール違反が発生した場合にコパードが実行するアクション。「プロセス中止」では、コパードのアクションが停止し、結果に違反が記録されますが、電子メール通知は送信されません。「アラート付きで継続」では、電子メール通知が送信され、違反が結果に記録されますが、アクションは停止されません。「ドキュメントのみ」 は電子メール通知を送信せず、アクションを停止しませんが、結果に違反を記録します。</help>
+    <label><!-- Action --></label>
+    <name>copadoQuality__Action__c</name>
+    <picklistValues>
+        <masterLabel>Abort Process</masterLabel>
+        <translation>プロセスの中止</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Continue with alert</masterLabel>
+        <translation>アラート付きで継続</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Document Only</masterLabel>
+        <translation>ドキュメントのみ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

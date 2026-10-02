@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Ancestor Version は、既存のプロモート (公開) パッケージバージョンを指定するために使用します。通常、4.6.0 などの形式、または HIGHEST などのキーワードを使用して指定します。コパードでは、このフィールドはプロジェクト構成 (sfdx-project.json) の値を反映しており、UI から編集することはできません。パッケージの祖先は、パッケージのバージョンアップグレードの許可に影響するため、祖先として使用するバージョンに注意してください。</help>
+    <label><!-- Ancestor Version --></label>
+    <name>cmcSf__Ancestor_Version__c</name>
+</CustomFieldTranslation>

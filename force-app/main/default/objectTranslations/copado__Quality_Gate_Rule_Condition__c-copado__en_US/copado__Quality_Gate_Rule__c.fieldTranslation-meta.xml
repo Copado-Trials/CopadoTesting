@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Quality Gate Rule --></label>
+    <name>copado__Quality_Gate_Rule__c</name>
+    <relationshipLabel><!-- Quality Gate Rule Conditions --></relationshipLabel>
+</CustomFieldTranslation>

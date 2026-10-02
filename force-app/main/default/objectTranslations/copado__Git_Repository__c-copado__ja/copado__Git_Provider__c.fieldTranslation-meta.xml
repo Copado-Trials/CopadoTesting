@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Copado generates specific links to the Git Repository, its branches and commits based on the selected Git Provider. --></help>
+    <label>Gitプロバイダー</label>
+    <name>copado__Git_Provider__c</name>
+    <picklistValues>
+        <masterLabel>Azure</masterLabel>
+        <translation><!-- Azure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bitbucket</masterLabel>
+        <translation><!-- Bitbucket --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Copado Version Control</masterLabel>
+        <translation><!-- Copado Version Control --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GitLab</masterLabel>
+        <translation><!-- GitLab --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Github</masterLabel>
+        <translation><!-- Github --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Microsoft Team Service</masterLabel>
+        <translation><!-- Microsoft Team Service --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

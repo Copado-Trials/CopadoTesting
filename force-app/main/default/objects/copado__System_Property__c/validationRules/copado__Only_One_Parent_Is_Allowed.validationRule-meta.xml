@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Only_One_Parent_Is_Allowed</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+AND(
+NOT(ISBLANK(copado__Environment__c)),
+NOT(ISBLANK(copado__Pipeline__c))
+),
+AND(
+NOT(ISBLANK(copado__Environment__c)),
+NOT(ISBLANK(copado__User__c))
+),
+AND(
+NOT(ISBLANK(copado__User__c)),
+NOT(ISBLANK(copado__Pipeline__c))
+)
+)</errorConditionFormula>
+    <errorMessage>A non-global property can only be related to one parent: Environment, Pipeline, or User.</errorMessage>
+</ValidationRule>

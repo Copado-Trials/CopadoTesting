@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Data_Set__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Data Set</label>
+    <referenceTo>copado__Data_Set__c</referenceTo>
+    <relationshipLabel>User Story Data Commits</relationshipLabel>
+    <relationshipName>User_Story_Data_Commits</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

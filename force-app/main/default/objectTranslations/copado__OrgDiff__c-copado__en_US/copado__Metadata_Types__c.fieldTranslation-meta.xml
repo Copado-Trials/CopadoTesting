@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Empty means all types. Select one or more types to limit the Org Difference only to selected items. --></help>
+    <label><!-- Metadata Types --></label>
+    <name>copado__Metadata_Types__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Use this field to configure automatic metadata backups. Copado will automatically commit the metadata components of the Org as per the frequency and cron expression defined. --></help>
+    <label><!-- Frequency --></label>
+    <name>copado__Snapshot_Frequency__c</name>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation><!-- None --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Schedule</masterLabel>
+        <translation><!-- Schedule --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

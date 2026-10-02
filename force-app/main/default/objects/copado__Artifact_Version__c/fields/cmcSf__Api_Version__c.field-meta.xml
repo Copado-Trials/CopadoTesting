@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Api_Version__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The api version to be used for the packaging CLI commands. If this is not specified, the Api Version value from the parent Package will be used. If neither has been specified, the default value, i.e. the api version of the Dev Hub, will be used. Specify in the format, e.g. 54.0.</inlineHelpText>
+    <label>Api Version</label>
+    <length>5</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

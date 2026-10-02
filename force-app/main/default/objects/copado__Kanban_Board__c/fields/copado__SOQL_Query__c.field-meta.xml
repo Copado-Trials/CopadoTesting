@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__SOQL_Query__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>SOQL Query to retrieve each Id, Title (second field in the query), and the &quot;Status&quot; field, as defined in Field to read/update. Every other field will be shown as the text content of the item.</inlineHelpText>
+    <label>SOQL Query</label>
+    <length>20480</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

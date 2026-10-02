@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Field automatically updated by Copado that is used to link some processes together. --></help>
+    <label><!-- Apex Callback --></label>
+    <name>copado__ApexCallback__c</name>
+</CustomFieldTranslation>

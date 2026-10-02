@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Operator between Record Count Criteria and Record Count --></help>
+    <label><!-- Matching Criteria --></label>
+    <name>copado__Matching_Criteria__c</name>
+    <picklistValues>
+        <masterLabel>Equals</masterLabel>
+        <translation><!-- Equals --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greater Than</masterLabel>
+        <translation><!-- Greater Than --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Greater or Equal</masterLabel>
+        <translation><!-- Greater or Equal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less Than</masterLabel>
+        <translation><!-- Less Than --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less or Equal</masterLabel>
+        <translation><!-- Less or Equal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Equals</masterLabel>
+        <translation><!-- Not Equals --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

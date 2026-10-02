@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ExtensionApplication__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Select the Copado Phase based on the Extension Tool you want to use. For example, if you select Test, the Extension Tool picklist will list the available Tools for that specific phase, e.g. Copado Robotic Test, Apex tests, or SCA tools such as PMD or Codescan.</inlineHelpText>
+    <label>Copado Phase</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

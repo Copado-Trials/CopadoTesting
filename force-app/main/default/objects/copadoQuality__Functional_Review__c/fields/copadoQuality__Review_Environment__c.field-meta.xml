@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Review_Environment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If available, select the Environment where the review should take place. If provided and if there&apos;s an active org credential, Copado will aim to auto-log in users when starting a review.</inlineHelpText>
+    <label>Review Environment</label>
+    <referenceTo>copado__Environment__c</referenceTo>
+    <relationshipLabel>Functional Reviews</relationshipLabel>
+    <relationshipName>Functional_Reviews</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

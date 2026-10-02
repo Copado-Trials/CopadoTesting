@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>各項目の読み取り/更新のフィールド。　 &quot;object.field&quot;の形式</help>
+    <label><!-- Field to read/update --></label>
+    <name>copado__Field_to_read_update__c</name>
+</CustomFieldTranslation>

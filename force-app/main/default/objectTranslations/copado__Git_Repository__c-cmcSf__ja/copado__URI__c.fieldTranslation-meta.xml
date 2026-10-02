@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- HTTPS or SSH URL to connect to the Git Repository. --></help>
+    <label><!-- URI --></label>
+    <name>copado__URI__c</name>
+</CustomFieldTranslation>

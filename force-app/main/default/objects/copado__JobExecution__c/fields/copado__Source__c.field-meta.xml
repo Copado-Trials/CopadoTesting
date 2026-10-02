@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Source__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Name of the source environment.</description>
+    <inlineHelpText>Name of the source environment.</inlineHelpText>
+    <label>Source</label>
+    <referenceTo>copado__Environment__c</referenceTo>
+    <relationshipLabel>Job Executions</relationshipLabel>
+    <relationshipName>Job_Executions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Git_Snapshot__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <label>Git Snapshot</label>
+    <referenceTo>copado__Git_Backup__c</referenceTo>
+    <relationshipLabel>Compliance Scan Results</relationshipLabel>
+    <relationshipName>Compliance_Scan_Results</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

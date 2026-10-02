@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Tag_Restriction</fullName>
+    <active>true</active>
+    <description>Tag should be in valid format as per Git documentation</description>
+    <errorConditionFormula>AND( copado__Artifact__r.RecordType.DeveloperName = &apos;Package_Artifact&apos;,
+ISPICKVAL(copado__Artifact__r.copado__Pipeline__r.copado__Platform__c, &apos;SFDX&apos;) , OR(REGEX( copado__Tag__c ,&quot;(.*[\\?\\*\\~\\^\\:\\[\\s\\\\].*)&quot;), 
+REGEX(copado__Tag__c, &quot;^(/).*&quot;),
+REGEX(copado__Tag__c, &quot;.*[/.]$&quot;), 
+REGEX(copado__Tag__c, &quot;.*(.lock)$&quot;), 
+REGEX(copado__Tag__c, &quot;.*(\\@\\{).*&quot;),
+REGEX(copado__Tag__c, &quot;.*(\\/\\/).*&quot;),
+REGEX(copado__Tag__c, &quot;.*(\\/\\.).*&quot;),
+REGEX(copado__Tag__c, &quot;.*(\\.\\.).*&quot;)
+))</errorConditionFormula>
+    <errorDisplayField>copado__Tag__c</errorDisplayField>
+    <errorMessage>The Tag field is used to create a Git tag during package version creation. Ensure there are no spaces or character sequences that are not allowed for the Git tag. For more details, review the Git documentation https://git-scm.com/docs/git-check-ref-format</errorMessage>
+</ValidationRule>

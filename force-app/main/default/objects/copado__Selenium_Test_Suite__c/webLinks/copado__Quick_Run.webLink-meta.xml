@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Quick_Run</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Quick Run</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}SeleniumTestQuickRun?suiteId={!copado__Selenium_Test_Suite__c.Id}</url>
+</WebLink>

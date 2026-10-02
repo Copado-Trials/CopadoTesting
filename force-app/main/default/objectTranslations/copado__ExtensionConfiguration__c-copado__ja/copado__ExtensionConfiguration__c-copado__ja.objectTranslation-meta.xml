@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>エクステンション構成</value>
+    </caseValues>
+    <nameFieldLabel>名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>このエクステンションツールは編集できません。新しいエクステンション設定レコードを作成してください。</errorMessage>
+        <name>copado__PreventUpdatingExtensionTool</name>
+    </validationRules>
+</CustomObjectTranslation>

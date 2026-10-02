@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Most recent validation Deployment for the User Story. --></help>
+    <label><!-- Last Validation Deployment --></label>
+    <name>copado__Last_Validation_Deployment__c</name>
+    <relationshipLabel><!-- User Stories --></relationshipLabel>
+</CustomFieldTranslation>

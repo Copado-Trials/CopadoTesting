@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Enable as Scratch Org Target --></label>
+    <name>copado__Enable_as_Scratch_Org_Destination__c</name>
+    <picklistValues>
+        <masterLabel>DX Patch Target</masterLabel>
+        <translation><!-- DX Patch Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DX Target</masterLabel>
+        <translation><!-- DX Target --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Default DX Target</masterLabel>
+        <translation><!-- Default DX Target --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Back Promoted</masterLabel>
+        <translation><!-- Back Promoted --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conflict Resolved</masterLabel>
+        <translation><!-- Conflict Resolved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>On Hold</masterLabel>
+        <translation><!-- On Hold --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Potential Conflict</masterLabel>
+        <translation><!-- Potential Conflict --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Under Review</masterLabel>
+        <translation><!-- Under Review --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

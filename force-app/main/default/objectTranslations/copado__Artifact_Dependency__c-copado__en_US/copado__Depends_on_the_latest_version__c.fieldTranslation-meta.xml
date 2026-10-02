@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If checked, the latest version of the depending artifact will be used for version creation and installation operations --></help>
+    <label><!-- Depends on the latest version --></label>
+    <name>copado__Depends_on_the_latest_version__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__TestRunExecutionFieldSet</fullName>
+    <description>In use on ExecuteTestRun.page for client org&apos;s custom fields and Actual Result field on Test Run Step object.</description>
+    <displayedFields>
+        <field>copado__Actual_Result__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>TestRunExecutionFieldSet</label>
+</FieldSet>

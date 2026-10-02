@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パイプライン</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Additional Information --></label>
+        <name>copado__Additional_Information</name>
+    </fieldSets>
+    <nameFieldLabel>パイプライン名</nameFieldLabel>
+    <webLinks>
+        <label><!-- Find_Replace_Rule_Editor --></label>
+        <name>copado__Find_Replace_Rule_Editor</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Branches --></label>
+        <name>copado__Manage_Branches</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Environment_Variables --></label>
+        <name>copado__Manage_Environment_Variables</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Regression_Tests --></label>
+        <name>copado__Manage_Regression_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pipeline_Wizard --></label>
+        <name>copado__Pipeline_Wizard</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Main_Branch --></label>
+        <name>copado__Select_Main_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

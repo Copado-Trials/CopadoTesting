@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>継続的インテグレーション機能。すべてのApexテストメソッドを実行し、その結果をApexテスト結果オブジェクトに保存して、メールアラートやレポートを作成することができます。この機能はGitバックアップと合わせて非常に強力で、最近失敗した変更を自動的に検出します。</help>
+    <label><!-- Test Frequency --></label>
+    <name>copado__Test_Frequency__c</name>
+    <picklistValues>
+        <masterLabel>Daily</masterLabel>
+        <translation>毎日</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Monthly</masterLabel>
+        <translation>毎月</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>None</masterLabel>
+        <translation>なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Weekly</masterLabel>
+        <translation>週</translation>
+    </picklistValues>
+</CustomFieldTranslation>

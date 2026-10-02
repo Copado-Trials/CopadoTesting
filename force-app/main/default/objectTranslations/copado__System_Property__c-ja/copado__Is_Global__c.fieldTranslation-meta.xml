@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>複数のパイプラインや環境間でシステムプロパティを共有したい場合は、このチェックボックスを選択します。</help>
+    <label><!-- Is Global? --></label>
+    <name>copado__Is_Global__c</name>
+</CustomFieldTranslation>

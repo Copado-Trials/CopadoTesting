@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、デプロイメント時にマニュアルタスクが保留中の場合に自動的に入力されます。</help>
+    <label><!-- Paused --></label>
+    <name>copado__Paused__c</name>
+</CustomFieldTranslation>

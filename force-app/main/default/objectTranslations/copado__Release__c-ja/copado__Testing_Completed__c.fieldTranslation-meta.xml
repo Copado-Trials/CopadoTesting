@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>すべてのテストが完了したら、この日付を更新します。</help>
+    <label><!-- Testing Completed --></label>
+    <name>copado__Testing_Completed__c</name>
+</CustomFieldTranslation>

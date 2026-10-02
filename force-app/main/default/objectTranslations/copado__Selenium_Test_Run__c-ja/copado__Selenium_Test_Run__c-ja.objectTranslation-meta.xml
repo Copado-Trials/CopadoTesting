@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテスト実行</value>
+    </caseValues>
+    <nameFieldLabel>Seleniumテスト実行名</nameFieldLabel>
+    <recordTypes>
+        <description><!-- Test a generic web application --></description>
+        <label><!-- Generic Web Application --></label>
+        <name>copado__Generic_Web_Application</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Test a Salesforce Org using OAuth Authentication --></description>
+        <label><!-- Salesforce --></label>
+        <name>copado__Salesforce</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Base URL cannot be populated if Credentials were selected. --></errorMessage>
+        <name>copado__Credentials_or_BaseURL</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Selection_to_a_Test_Group --></label>
+        <name>copado__Add_Selection_to_a_Test_Group</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Run --></label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+</CustomObjectTranslation>

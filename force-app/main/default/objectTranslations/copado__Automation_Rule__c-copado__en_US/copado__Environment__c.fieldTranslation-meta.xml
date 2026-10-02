@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of environments where the source action will be evaluated. You can select up to 13 environments. --></help>
+    <label><!-- Selected Environments --></label>
+    <name>copado__Environment__c</name>
+</CustomFieldTranslation>

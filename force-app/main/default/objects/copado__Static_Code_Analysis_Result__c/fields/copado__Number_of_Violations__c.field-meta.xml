@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Number_of_Violations__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Overall number of rule violations.</description>
+    <label>Number of Violations</label>
+    <summaryForeignKey>copado__Static_Code_Analysis_Violation__c.copado__Static_Code_Analysis_Result__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

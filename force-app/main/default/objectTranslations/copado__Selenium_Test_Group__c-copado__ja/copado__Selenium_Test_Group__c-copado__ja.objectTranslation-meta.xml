@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストグループ</value>
+    </caseValues>
+    <fieldSets>
+        <label>Selenium結果タブ</label>
+        <name>copado__Selenium_Results_Tab</name>
+    </fieldSets>
+    <nameFieldLabel>Seleniumテストグループ名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>タイプが「ユーザーストーリーテスト」または「回帰テスト」の場合は、環境フィールドが必要です。</errorMessage>
+        <name>copado__Environment_Required</name>
+    </validationRules>
+    <webLinks>
+        <label>グループで実行</label>
+        <name>copado__Run_Group</name>
+    </webLinks>
+</CustomObjectTranslation>

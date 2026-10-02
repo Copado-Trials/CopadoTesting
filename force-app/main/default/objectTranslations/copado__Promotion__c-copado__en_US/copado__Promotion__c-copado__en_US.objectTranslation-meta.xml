@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Promotion</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Promotions</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Rollback Page --></label>
+        <name>cmcSf__Rollback_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SFDX Extension Fields --></label>
+        <name>cmcSf__SFDX_Extension_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Custom Fields --></label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ManageBranchesDialog --></label>
+        <name>copado__ManageBranchesDialog</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Manager Promotion Fields --></label>
+        <name>copado__Pipeline_Manager</name>
+    </fieldSets>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Back Promotions to Scratch Orgs are not allowed --></errorMessage>
+        <name>copado__Scratch_Orgs_Disabled_for_Back_Promoting</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Rollback --></label>
+        <name>copado__Rollback</name>
+    </webLinks>
+</CustomObjectTranslation>

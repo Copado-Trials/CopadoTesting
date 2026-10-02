@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ForecastingTypeSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <forecastingSourceDefinition>FSD_Opportunity673967289854097</forecastingSourceDefinition>
+    <forecastingType>Opportunity_Amount</forecastingType>
+    <isProtected>false</isProtected>
+    <masterLabel>FTS_Opportunity_Amount7sy5e0000004CdfAAE946363564445777</masterLabel>
+    <sourceGroup>1</sourceGroup>
+</ForecastingTypeSource>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ドロップダウンからオブジェクトを選択し、数式を設定します。数式で利用可能なフィールドは、選択されたオブジェクトとソース組織に基づいています。</help>
+    <label><!-- Object (Obsolete) --></label>
+    <name>copado__Object__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Windows / Macプラットフォーム用の表示サイズ。例えば。 Windowsを使用したSauceLabsは小さいサイズだけをサポートします（&lt;1280x1024）</help>
+    <label><!-- Device Screen Size --></label>
+    <name>copado__Device_Screen_Size__c</name>
+    <picklistValues>
+        <masterLabel>Big screen</masterLabel>
+        <translation>大画面</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medium screen</masterLabel>
+        <translation>普通のスクリーン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small screen</masterLabel>
+        <translation>小画面</translation>
+    </picklistValues>
+</CustomFieldTranslation>

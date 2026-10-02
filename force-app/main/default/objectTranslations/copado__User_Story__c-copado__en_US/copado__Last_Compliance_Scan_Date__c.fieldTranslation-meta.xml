@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Latest Compliance Scan execution date. --></help>
+    <label><!-- Last Compliance Scan Date --></label>
+    <name>copado__Last_Compliance_Scan_Date__c</name>
+</CustomFieldTranslation>

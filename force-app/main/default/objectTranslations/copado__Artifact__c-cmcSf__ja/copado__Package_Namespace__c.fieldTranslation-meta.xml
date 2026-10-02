@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- In a packaging context, a namespace prefix is a one to 15-character alphanumeric identifier that distinguishes your package from packages of other developers on AppExchange. Not required for unlocked packages. --></help>
+    <label><!-- Package Namespace --></label>
+    <name>copado__Package_Namespace__c</name>
+</CustomFieldTranslation>

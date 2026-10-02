@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Hash_Formula__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Hashing the Formula will replace the original value with a unique, fixed-size set of random characters. It will ensure the value will not exceed the External Id field character limit but it will not be readable.</inlineHelpText>
+    <label>Hash External Id Value</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

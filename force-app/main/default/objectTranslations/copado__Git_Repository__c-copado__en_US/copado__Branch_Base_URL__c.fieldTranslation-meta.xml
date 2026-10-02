@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Base URL of your Repository branches, e.g.: https://github.com/[COMPANY]/[REPOSITORY]/tree/ --></help>
+    <label><!-- Branch Base URL --></label>
+    <name>copado__Branch_Base_URL__c</name>
+</CustomFieldTranslation>

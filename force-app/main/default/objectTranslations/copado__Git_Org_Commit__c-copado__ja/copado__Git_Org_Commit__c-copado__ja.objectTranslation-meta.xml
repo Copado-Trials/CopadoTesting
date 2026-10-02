@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>スナップショットコミット</value>
+    </caseValues>
+    <fieldSets>
+        <label>CBMフィールド</label>
+        <name>copado__CBM_Fields</name>
+    </fieldSets>
+    <nameFieldLabel>コミット名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>コミットIDがあるときは、コミットステータスを「保留」または「変更なし」にすることはできません。</errorMessage>
+        <name>copado__Commit_Id_Status_Complete</name>
+    </validationRules>
+</CustomObjectTranslation>

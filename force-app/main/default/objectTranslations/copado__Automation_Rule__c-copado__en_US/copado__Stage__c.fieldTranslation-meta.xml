@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of stages where the source action will be evaluated. You can select up 13 stages. --></help>
+    <label><!-- Selected Stages --></label>
+    <name>copado__Stage__c</name>
+</CustomFieldTranslation>

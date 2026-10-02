@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of the Apex Class. The class must implement the MCCallBack interface. --></help>
+    <label><!-- ApexClass --></label>
+    <name>copado__ApexClass__c</name>
+</CustomFieldTranslation>

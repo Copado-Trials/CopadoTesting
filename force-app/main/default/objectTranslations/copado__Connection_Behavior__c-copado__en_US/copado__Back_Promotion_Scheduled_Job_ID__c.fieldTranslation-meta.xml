@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Salesforce Scheduled Job ID associated with scheduled back-promotion jobs --></help>
+    <label><!-- Back-Promotion Scheduled Job ID --></label>
+    <name>copado__Back_Promotion_Scheduled_Job_ID__c</name>
+</CustomFieldTranslation>

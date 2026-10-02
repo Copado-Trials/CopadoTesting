@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Source Environment --></label>
+    <name>copado__Source_Environment__c</name>
+    <relationshipLabel><!-- Pipeline Connections (Source Environment) --></relationshipLabel>
+</CustomFieldTranslation>

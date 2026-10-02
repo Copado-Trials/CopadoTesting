@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Main branch of the selected Git Repository (e.g. master). --></help>
+    <label><!-- Main Branch --></label>
+    <name>copado__Main_Branch__c</name>
+</CustomFieldTranslation>

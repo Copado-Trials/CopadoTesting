@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Run_all_tests__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>If selected, &quot;Run all local tests&quot; will be enforced when deploying to this environment.</inlineHelpText>
+    <label>Run all local tests</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

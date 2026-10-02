@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is checked by Copado once the promotion is merged and deployed successfully for multi-cloud platform. --></help>
+    <label><!-- Completed --></label>
+    <name>copado__Completed__c</name>
+</CustomFieldTranslation>

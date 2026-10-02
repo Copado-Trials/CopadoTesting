@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sync Pull State --></label>
+    <name>copado__Sync_Pull_State__c</name>
+    <picklistValues>
+        <masterLabel>In sync</masterLabel>
+        <translation>同期中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Needs recalculating</masterLabel>
+        <translation>再計算が必要です</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Recalculating</masterLabel>
+        <translation>再計算中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Syncing</masterLabel>
+        <translation>同期中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validated</masterLabel>
+        <translation>検証されました。</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation errors</masterLabel>
+        <translation>検証エラー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

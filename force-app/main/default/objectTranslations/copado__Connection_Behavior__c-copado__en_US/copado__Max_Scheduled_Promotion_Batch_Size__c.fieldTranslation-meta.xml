@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Set to 1 to deploy each story individually. Batching deployments speeds up the process but causes all stories in a batch to succeed or fail together. This can delay the deployment of some stories and make it harder to identify the cause of errors. --></help>
+    <label><!-- Scheduled Promotion US Group Size --></label>
+    <name>copado__Max_Scheduled_Promotion_Batch_Size__c</name>
+</CustomFieldTranslation>

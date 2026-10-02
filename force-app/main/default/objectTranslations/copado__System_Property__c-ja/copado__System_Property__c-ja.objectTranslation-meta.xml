@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>システムプロパティ</value>
+    </caseValues>
+    <nameFieldLabel>プロパティ名</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Is Public --></label>
+        <name>copado__isPublic</name>
+    </sharingReasons>
+    <validationRules>
+        <errorMessage><!-- The API Name cannot contain blank spaces. --></errorMessage>
+        <name>copado__API_Name_Cannot_Contain_Spaces</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The environment, pipeline, and user lookups must be empty if the &apos;Is Global&apos; checkbox is selected. --></errorMessage>
+        <name>copado__Lookups_empty_for_Global_Property</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A non-global property can only be related to one parent: Environment, Pipeline, or User. --></errorMessage>
+        <name>copado__Only_One_Parent_Is_Allowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must provide a value for this system property. --></errorMessage>
+        <name>copado__Value_cannot_be_empty</name>
+    </validationRules>
+</CustomObjectTranslation>

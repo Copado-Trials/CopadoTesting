@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ジョブが実行されると、この日数より古いすべての実行を確認し、履歴レコードを削除します。</help>
+    <label><!-- Delete Runs after (days) --></label>
+    <name>copado__Delete_Runs_after_days__c</name>
+</CustomFieldTranslation>

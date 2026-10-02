@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>バックログ内でのユーザーストーリーの位置付け。通常は、バックログの上部にあるユーザーストーリーは、下部にあるユーザーストーリーよりも関連性が高くなっています。</help>
+    <label><!-- Backlog Rank --></label>
+    <name>copado__Backlog_Rank__c</name>
+</CustomFieldTranslation>

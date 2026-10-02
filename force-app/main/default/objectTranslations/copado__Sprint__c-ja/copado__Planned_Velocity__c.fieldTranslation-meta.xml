@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この値は、スプリント内のすべてのユーザーストーリーに割り当てられた計画ポイントまたはその他の計画ポイントに変更が加えられるたびに、または新しいユーザーストーリーが追加されるたびに再計算されます。</help>
+    <label><!-- Planned Velocity --></label>
+    <name>copado__Planned_Velocity__c</name>
+</CustomFieldTranslation>

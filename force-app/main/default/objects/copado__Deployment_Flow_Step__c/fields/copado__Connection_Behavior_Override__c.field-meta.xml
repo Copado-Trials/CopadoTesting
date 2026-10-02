@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Connection_Behavior_Override__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This field manages override of Connection Behavior on Pipeline Connection basis</description>
+    <label>Connection Behavior Override</label>
+    <referenceTo>copado__Connection_Behavior__c</referenceTo>
+    <relationshipLabel>Pipeline Connections</relationshipLabel>
+    <relationshipName>Pipeline_Connections</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

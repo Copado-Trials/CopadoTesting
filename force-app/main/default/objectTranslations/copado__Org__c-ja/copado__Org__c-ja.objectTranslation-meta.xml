@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>クレデンシャル</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <nameFieldLabel>クレデンシャル名</nameFieldLabel>
+    <sharingReasons>
+        <label><!-- Copado Persona --></label>
+        <name>copado__Copado_Persona</name>
+    </sharingReasons>
+    <webLinks>
+        <label><!-- Add_to_Deployment --></label>
+        <name>copado__Add_to_Deployment</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Validate_Org --></label>
+        <name>copado__Validate_Org</name>
+    </webLinks>
+</CustomObjectTranslation>

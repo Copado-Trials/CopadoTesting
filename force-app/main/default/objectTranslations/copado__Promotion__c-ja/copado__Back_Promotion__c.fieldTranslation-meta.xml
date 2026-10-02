@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パイプラインで上位の環境から下位の環境にプロモートする場合は、このチェックボックスを選択します。</help>
+    <label><!-- Is Back-Promotion --></label>
+    <name>copado__Back_Promotion__c</name>
+</CustomFieldTranslation>

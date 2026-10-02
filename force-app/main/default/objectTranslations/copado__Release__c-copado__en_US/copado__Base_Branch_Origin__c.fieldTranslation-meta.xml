@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Specify the parent branch from which this release branch was created. Copado uses this to calculate diffs, identifying exactly which components were modified so that validations, deployments, and artifact user stories are created accurately. --></help>
+    <label><!-- Base Branch Origin --></label>
+    <name>copado__Base_Branch_Origin__c</name>
+</CustomFieldTranslation>

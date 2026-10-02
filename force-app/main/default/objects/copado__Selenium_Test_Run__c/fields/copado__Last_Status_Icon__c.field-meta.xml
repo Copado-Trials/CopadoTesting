@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Last_Status_Icon__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IMAGE( 
+CASE(TEXT(copado__Last_Status__c), 
+
+&apos;Completed with errors&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;) &amp; &apos;Statics/img/icons/warning16.png&apos;,
+
+&apos;Completed successfully&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;) &amp; &apos;Statics/img/icons/confirm16.png&apos;,
+
+&apos;Completed with warnings&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;) &amp; &apos;Statics/img/icons/confirm16.png&apos;,
+
+
+&apos;In Progress&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;) &amp; &apos;Statics/img/icons/loading.gif&apos;,
+
+&apos;Queued&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;) &amp; &apos;Statics/img/icons/loading.gif&apos;,
+
+&apos;/s.gif&apos;),
+
+TEXT(copado__Last_Status__c) 
+)</formula>
+    <label>Last Status Icon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

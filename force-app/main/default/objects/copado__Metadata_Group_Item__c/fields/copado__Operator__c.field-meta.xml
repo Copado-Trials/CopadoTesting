@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Operator__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Match &apos;All&apos; metadata of this type, or only metadata whose name matches a pattern?</description>
+    <inlineHelpText>Match &apos;All&apos; metadata of this type, or only metadata whose name matches a pattern?</inlineHelpText>
+    <label>Metadata Name</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>copado__Operator</valueSetName>
+    </valueSet>
+</CustomField>

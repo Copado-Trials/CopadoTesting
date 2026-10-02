@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>テーマとは、共通の目標に貢献するユーザーストーリーのグループです。ユーザーストーリー階層の最上位に位置します。一方、エピック（epic）は、大きなユーザーストーリーのことであり、１つのユーザーストーリーでは機能が大きすぎるため、分割して複数のユーザーストーリーとします。</help>
+    <label><!-- Theme --></label>
+    <name>copado__Theme__c</name>
+    <relationshipLabel><!-- User Stories --></relationshipLabel>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>チームがユーザーストーリーの実装、レビュー、テスト、文書化に費やした実際の工数</help>
+    <label><!-- Actual Points --></label>
+    <name>copado__Story_Points_SFDC__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__dataJSON__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Standard views (New, Edit, View, Clone) for Deployment Task object are overwritten. This field is being used by to controller extension class of the page that overwrites the standards.</description>
+    <label>dataJSON</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

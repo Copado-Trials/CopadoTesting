@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>推奨テストレベル：「ローカルテストを実行」</help>
+    <label><!-- Test Level --></label>
+    <name>copado__Test_Level__c</name>
+    <picklistValues>
+        <masterLabel>No Test Run</masterLabel>
+        <translation>テストランなし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run All Tests In Org</masterLabel>
+        <translation>組織内のすべてのテストを実行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run Local Tests</masterLabel>
+        <translation>ローカルテストを実行</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Run Specified Tests</masterLabel>
+        <translation>指定されたテストを実行</translation>
+    </picklistValues>
+</CustomFieldTranslation>

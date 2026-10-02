@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- API Name of the apex class that unifies all the tests record related to user stories that are bundled. The apex class must extend the class with name “UserStoryBundleTestsUnifier”. --></help>
+    <label><!-- User Story Bundle Tests Unifier Logic --></label>
+    <name>copado__UserStoryBundleTestsUnifierLogic__c</name>
+</CustomFieldTranslation>

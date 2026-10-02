@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Priority --></label>
+    <name>copadoQuality__Priority__c</name>
+    <picklistValues>
+        <masterLabel>1 - High</masterLabel>
+        <translation>1 - 高</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2 - Medium High</masterLabel>
+        <translation>2 - やや高い</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>3 - Medium</masterLabel>
+        <translation>3 - 中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4 - Medium Low</masterLabel>
+        <translation>4 - 中低</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5 - Low</masterLabel>
+        <translation>5 - 低</translation>
+    </picklistValues>
+</CustomFieldTranslation>

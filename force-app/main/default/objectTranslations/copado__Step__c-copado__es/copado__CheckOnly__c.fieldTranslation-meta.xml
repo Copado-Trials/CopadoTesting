@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- This only Apply for Metadata Steps. None of the other Steps types are affected by this checkbox. 
+WARNING: Credits consumption will apply as a regular deployment since resource-wise is exactly the same as a real deployment. -->
+    </help>
+    <label><!-- CheckOnly --></label>
+    <name>copado__CheckOnly__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Automated_Action_Callback__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>If you want to perform more specific operations, such as updating record statuses or creating new records, after the completion of the automated action, provide a flow or class API name. The class must implement the ‘JobExecutionCallback’ interface.</inlineHelpText>
+    <label>Flow or Class API Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

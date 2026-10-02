@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>静的コード分析設定</value>
+    </caseValues>
+    <nameFieldLabel>静的コード分析設定名</nameFieldLabel>
+    <recordTypes>
+        <description>Codescan統合のためのレコードタイプです。 Codescanのライセンスが必要です。</description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>無料のPMD統合のためのレコードタイプ</description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>次の必須フィールドを確認してください。
+　クラウド版ではクラウド組織が必要となります。 
+　オンプレミス版ではSonarQubeのトークンとURLが必要となります。</errorMessage>
+        <name>copado__CodeScan_Required_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label>デフォルトのルールセットを生成</label>
+        <name>copado__Generate_Default_RuleSet</name>
+    </webLinks>
+</CustomObjectTranslation>

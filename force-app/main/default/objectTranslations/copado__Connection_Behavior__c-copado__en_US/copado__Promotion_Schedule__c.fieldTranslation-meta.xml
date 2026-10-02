@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The schedule for deployments (if they are scheduled) --></help>
+    <label><!-- Promotion Schedule --></label>
+    <name>copado__Promotion_Schedule__c</name>
+</CustomFieldTranslation>

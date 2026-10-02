@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>環境との変更の同期方法を選択します。環境同期は、ソース環境のブランチからファイルを直接コピーするため、コンフリクトの解決のオーバーヘッドが軽減されます。クラシックプロモーションは、個々の機能ブランチを使用して変更をプロモートするため、各ブランチの順次マージとコンフリクトの解決が必要になります。</help>
+    <label><!-- Promotion Method --></label>
+    <name>copado__Promotion_Method__c</name>
+    <picklistValues>
+        <masterLabel>Classic Promotion</masterLabel>
+        <translation>クラシックプロモーション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Environment Sync</masterLabel>
+        <translation>環境同期</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Attachment_Options__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Insert, update or remove attachments of the records that will get deployed.</inlineHelpText>
+    <label>Attachment Actions</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No Attachments</fullName>
+                <default>true</default>
+                <label>No Actions</label>
+            </value>
+            <value>
+                <fullName>Insert Attachments</fullName>
+                <default>false</default>
+                <label>Insert Attachments</label>
+            </value>
+            <value>
+                <fullName>Replace Attachments</fullName>
+                <default>false</default>
+                <label>Replace Attachments</label>
+            </value>
+            <value>
+                <fullName>Remove Attachments</fullName>
+                <default>false</default>
+                <label>Remove Attachments</label>
+            </value>
+            <value>
+                <fullName>Upsert Attachments</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Upsert Attachments</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

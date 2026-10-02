@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If &apos;Apex Test with Validation&apos; is selected as the type, what test level should be performed. &apos;Run Specified Tests&apos; will run whatever tests are included on the user stories being deployed --></help>
+    <label><!-- Apex Test Level --></label>
+    <name>copado__Test_Level__c</name>
+</CustomFieldTranslation>

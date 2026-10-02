@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field is auto populated when a manual task is pending on deployment. --></help>
+    <label><!-- Paused --></label>
+    <name>copado__Paused__c</name>
+</CustomFieldTranslation>

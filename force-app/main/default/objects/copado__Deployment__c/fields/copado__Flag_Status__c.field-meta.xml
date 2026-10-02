@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Flag_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE( copado__Status__c, &quot;Completed Successfully&quot;, &quot;/resource/&quot; + IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)
++ &quot;SetupDashboardIcons/PipelineSvgIcons/pipeline-check.png&quot;,
+&quot;In progress&quot;, &quot;/img/loading.gif&quot;,
+&quot;Completed with Errors&quot;, &quot;/resource/&quot; + IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)
++ &quot;SetupDashboardIcons/PipelineSvgIcons/pipeline-cross.png&quot;,
+&quot;/resource/&quot; + IF($Setup.copado__Settings__c.copado__Namespace__c!=&apos;none&apos;,&apos;copado__&apos;, &apos;&apos;)
++ &quot;SetupDashboardIcons/PipelineSvgIcons/pipeline-paused.png&quot;)</formula>
+    <label>Flag Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>独自のコネクテッドアプリを作成し、カスタムコネクテッドアプリとコパードコネクテッドアプリで認証される各組織ククレデンシャルについて、そのコネクテッドアプリを参照するためのメカニズムになります。選択しない場合は、従来の動作となります。</help>
+    <label><!-- Custom Connected App Info --></label>
+    <name>copado__Custom_Connected_App_Info__c</name>
+    <relationshipLabel><!-- Credentials --></relationshipLabel>
+</CustomFieldTranslation>

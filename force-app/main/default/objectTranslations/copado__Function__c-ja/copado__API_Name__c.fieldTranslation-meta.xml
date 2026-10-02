@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この機能を識別するための一意な名前になります。関数の結果レコードには、レポートやダッシュボードでこれらの結果をフィルタリングするためのジョブタイプフィールドがあり、このAPI名も含まれています。</help>
+    <label><!-- API Name --></label>
+    <name>copado__API_Name__c</name>
+</CustomFieldTranslation>

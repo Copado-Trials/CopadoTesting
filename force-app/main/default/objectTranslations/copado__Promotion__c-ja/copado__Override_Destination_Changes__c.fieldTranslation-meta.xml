@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>有効にすると、ソース環境からのファイルが直接デプロイメントされ、宛先環境で進行中の作業はすべて上書きされます。無効にすると、Copado は進行中の作業を確認し、変更が検出された場合、コンフリクトの解決をプロンプトします。</help>
+    <label><!-- Override Destination Changes --></label>
+    <name>copado__Override_Destination_Changes__c</name>
+</CustomFieldTranslation>

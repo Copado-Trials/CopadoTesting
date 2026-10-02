@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Script__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Provide the script with the commands you would like the function to execute.</description>
+    <inlineHelpText>Provide the script with the commands you would like the function to execute.</inlineHelpText>
+    <label>Script</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Time taken in minutes to execute the function. --></help>
+    <label>カスタム機能使用時間</label>
+    <name>copado__Custom_Function_Used_Minutes__c</name>
+</CustomFieldTranslation>

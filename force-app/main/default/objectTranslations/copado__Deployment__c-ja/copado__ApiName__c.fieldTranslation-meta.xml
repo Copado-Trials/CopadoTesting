@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは、自動化テンプレートをコパード拡張機能パッケージとして公開する場合に必須となります。</help>
+    <label><!-- Api Name --></label>
+    <name>copado__ApiName__c</name>
+</CustomFieldTranslation>

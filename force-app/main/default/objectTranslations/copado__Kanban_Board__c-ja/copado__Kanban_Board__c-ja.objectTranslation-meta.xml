@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>カンバンボード</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Edit --></label>
+        <name>copado__Edit</name>
+    </fieldSets>
+    <nameFieldLabel>カンバンボード名</nameFieldLabel>
+</CustomObjectTranslation>

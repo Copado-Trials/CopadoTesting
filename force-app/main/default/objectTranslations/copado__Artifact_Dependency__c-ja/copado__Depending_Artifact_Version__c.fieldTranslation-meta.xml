@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>アーティファクトに依存する下位または同一のバージョン。この特定のバージョンは、バージョンの作成とインストール操作の間に使用されます。</help>
+    <label><!-- Depending Package Version --></label>
+    <lookupFilter>
+        <errorMessage><!-- Value does not exist or does not match filter criteria. Depending version should be selected among the depending artifact&apos;s versions. --></errorMessage>
+    </lookupFilter>
+    <name>copado__Depending_Artifact_Version__c</name>
+    <relationshipLabel><!-- Package Dependencies --></relationshipLabel>
+</CustomFieldTranslation>

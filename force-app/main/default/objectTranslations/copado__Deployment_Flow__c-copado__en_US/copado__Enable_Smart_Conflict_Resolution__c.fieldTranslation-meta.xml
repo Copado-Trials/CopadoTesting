@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If unchecked, Copado will stop applying Smart Conflict resolution during the promotion process and users will have to manually resolve conflicts again in every subsequent promotion. --></help>
+    <label><!-- Enable Smart Conflict Resolution --></label>
+    <name>copado__Enable_Smart_Conflict_Resolution__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザーストーリーブランチとターゲットブランチの間の最新のプルリクエストのステータスになります。この値は、Gitリポジトリが提供するものです。値がない場合は、Gitリポジトリから提供されていないことを表します。</help>
+    <label><!-- Git Merge Status --></label>
+    <name>copado__Git_Merge_Status__c</name>
+    <picklistValues>
+        <masterLabel>Conflicts Detected</masterLabel>
+        <translation>コンフリクトが検出されました</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mergeable</masterLabel>
+        <translation>マージ可能</translation>
+    </picklistValues>
+</CustomFieldTranslation>

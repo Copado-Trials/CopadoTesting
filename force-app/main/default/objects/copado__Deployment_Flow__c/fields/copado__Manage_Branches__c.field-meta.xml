@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Manage_Branches__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Link to open the Pipeline Manager to promote and back promote User Stories.</description>
+    <externalId>false</externalId>
+    <formula>IF( 
+    AND(
+        NOT(ISPICKVAL(copado__Platform__c, &apos;Salesforce&apos;)), 
+        NOT(ISPICKVAL(copado__Platform__c, &apos;&apos;))
+    ),
+    $Label.copado__PM_Use_Pipeline_Manager_Button,
+    HYPERLINK(&apos;/apex/&apos; 
+        &amp; IF($Setup.copado__Settings__c.copado__Namespace__c != &apos;none&apos;, &apos;copado__&apos;, &apos;&apos;) 
+        &amp; IF( 
+            ISPICKVAL(copado__Calculate_Based_on__c, &apos;User Story&apos;), 
+            IF(copado__Active__c, &apos;PipelineManager?mode=manager&amp;id=&apos; &amp; Id, &apos;PipelineManager?mode=diagram&amp;id=&apos; &amp; Id), 
+            &apos;BranchManagement?id=&apos; &amp; Id
+        ), 
+        $Label.copado__PipelineManager, 
+        IF($User.UIThemeDisplayed != &quot;Theme4d&quot;, &apos;_blank&apos;, &apos;_self&apos;)
+    )
+)</formula>
+    <inlineHelpText>Link to open the Pipeline Manager to promote and back promote User Stories.</inlineHelpText>
+    <label>Pipeline Manager</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Max_Scheduled_Promotion_Batch_Size__c</fullName>
+    <defaultValue>1</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The maximum number of user stories that will be deployed together when a deployment is scheduled</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set to 1 to deploy each story individually. Batching deployments speeds up the process but causes all stories in a batch to succeed or fail together. This can delay the deployment of some stories and make it harder to identify the cause of errors.</inlineHelpText>
+    <label>Scheduled Promotion US Group Size</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

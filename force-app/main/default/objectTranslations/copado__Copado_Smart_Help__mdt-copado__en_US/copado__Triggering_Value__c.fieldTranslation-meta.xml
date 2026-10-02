@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Specify the Metadata Type that will trigger the tip to be displayed --></help>
+    <label><!-- Triggering Metadata Type --></label>
+    <name>copado__Triggering_Value__c</name>
+</CustomFieldTranslation>

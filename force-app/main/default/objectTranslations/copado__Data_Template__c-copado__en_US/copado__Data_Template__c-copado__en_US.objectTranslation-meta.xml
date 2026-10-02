@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Data Template</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Data Templates</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Import_Templates --></label>
+        <name>copado__Import_Templates</name>
+    </webLinks>
+</CustomObjectTranslation>

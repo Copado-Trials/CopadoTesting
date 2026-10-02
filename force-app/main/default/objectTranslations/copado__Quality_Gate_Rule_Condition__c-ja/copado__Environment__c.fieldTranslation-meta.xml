@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この品質ゲート条件が評価される環境。パイプラインが定義されていない場合、この条件は、この環境が接続されているすべてのパイプラインに適用されます。</help>
+    <label><!-- Environment --></label>
+    <name>copado__Environment__c</name>
+    <relationshipLabel><!-- Quality Gate Rule Conditions --></relationshipLabel>
+</CustomFieldTranslation>

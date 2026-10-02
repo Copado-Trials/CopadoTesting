@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コミットの状況。この値はCopadoによって自動的に更新されています。</help>
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Commit not in branch</masterLabel>
+        <translation>ブランチにないコミット</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commit undone</masterLabel>
+        <translation>コミットを元に戻す</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Complete</masterLabel>
+        <translation>完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In progress</masterLabel>
+        <translation>進行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No changes</masterLabel>
+        <translation>変更なし</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation>保留中</translation>
+    </picklistValues>
+</CustomFieldTranslation>

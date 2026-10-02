@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Production/Developer</fullName>
+                <default>false</default>
+                <label>Production/Developer</label>
+            </value>
+            <value>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+                <label>Sandbox</label>
+            </value>
+            <value>
+                <fullName>Scratch Org</fullName>
+                <default>false</default>
+                <label>Scratch Org</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>デベロッパーHub組織</label>
+    <lookupFilter>
+        <errorMessage>値が存在しないか、フィルター基準と一致しません。</errorMessage>
+        <informationalMessage>デベロッパーHub組織クレデンシャルのみを選択できます。</informationalMessage>
+    </lookupFilter>
+    <name>copado__Developer_Hub_Org__c</name>
+    <relationshipLabel>スクラッチ組織定義</relationshipLabel>
+</CustomFieldTranslation>

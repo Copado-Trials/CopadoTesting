@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Invoke on --></label>
+    <name>copado__Invoke_on__c</name>
+    <picklistValues>
+        <masterLabel>After deployment</masterLabel>
+        <translation><!-- After deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before deployment</masterLabel>
+        <translation><!-- Before deployment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

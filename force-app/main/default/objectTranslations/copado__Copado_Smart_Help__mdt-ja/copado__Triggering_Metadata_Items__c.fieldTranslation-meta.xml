@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このフィールドは必須ではありません。特定のメタデータ項目をトリガーにしたい場合、トリガーメタデータタイプを補完するために使用することができます。メタデータ項目は&quot;; &quot;で区切ることができます。例：アカウント；App launcher；その他。</help>
+    <label><!-- Triggering Metadata Items --></label>
+    <name>copado__Triggering_Metadata_Items__c</name>
+</CustomFieldTranslation>

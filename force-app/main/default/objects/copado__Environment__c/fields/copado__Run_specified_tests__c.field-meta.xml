@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Run_specified_tests__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field will ensure a minimum of &quot;Run Specified Tests&quot; level when deploying if the deployment contains apex classes or triggers.</description>
+    <inlineHelpText>If selected, &quot;Run Specified Tests&quot; will be enforced only when deploying apex classes or triggers if &quot;No Test Run&quot; is selected for the deployment.</inlineHelpText>
+    <label>Run Specified Tests</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

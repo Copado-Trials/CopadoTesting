@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Open_Org</fullName>
+    <availability>online</availability>
+    <description>Open the org speficied in the org credential for the US</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Open Org</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/{!IF(CONTAINS($Action.copado__User_Story__c.New, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}ScratchOrgOpen?id={! copado__User_Story__c.copado__Org_CredentialId__c }</url>
+</WebLink>

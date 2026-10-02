@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Story</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Stories</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Add Test Classes --></label>
+        <name>cmcSf__Add_Test_Classes</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Based Package Distribution --></label>
+        <name>cmcSf__PipelineBasedPackageDistribution</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bundle --></label>
+        <name>copado__Bundle</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bundle Sync Fields --></label>
+        <name>copado__Bundle_Sync_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Bundled Stories --></label>
+        <name>copado__Bundled_Stories</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Manager User Story Fields --></label>
+        <name>copado__CBM_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Commit Files Information --></label>
+        <name>copado__Commit_Files_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Commit Page --></label>
+        <name>copado__Commit_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Copado Header Fields --></label>
+        <name>copado__Copado_Header_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Git Commit Header --></label>
+        <name>copado__Git_Commit_Header</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Mass Back Promote --></label>
+        <name>copado__Mass_Back_Promote</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Pipeline Manager Pending Approvals --></label>
+        <name>copado__Pipeline_Manager_Pending_Approvals</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Promotion Related List --></label>
+        <name>copado__PromotionRelatedList</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Promotion Related List Datatable --></label>
+        <name>copado__Promotion_Related_List_Datatable</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- SprintWall_MassUpdate --></label>
+        <name>copado__SprintWall_MassUpdate</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Sprint Wall Columns --></label>
+        <name>copado__Sprint_Wall_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- User Story Waiting Page --></label>
+        <name>copado__User_Story_Waiting_Page</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Manager Columns --></label>
+        <name>copado__Work_Manager_Columns</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Manager Relations --></label>
+        <name>copado__Work_Manager_Relations</name>
+    </fieldSets>
+    <recordTypes>
+        <label><!-- Bug --></label>
+        <name>copado__Bug</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Investigation --></label>
+        <name>copado__Investigation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- User Story --></label>
+        <name>copado__User_Story</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Utility --></label>
+        <name>copado__Utility</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- A cancellation reason must be given. --></errorMessage>
+        <name>copado__Cancellation_reason_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The credential must belong to the environment. --></errorMessage>
+        <name>copado__CredentialsMustBelongToTheEnvironment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot enable the &quot;Ready to Promote&quot; or the &quot;Promote &amp; Deploy&quot; options because the &quot;Exclude from Pipeline&quot; option is enabled. Please disable this option first and try again. --></errorMessage>
+        <name>copado__Excluded_User_Stories_Not_Promotable</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This User Story does not meet the required Apex coverage threshold to be promoted. --></errorMessage>
+        <name>copado__Promote_User_Story_Apex_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- “Run Relevant Tests” is not supported for Metadata Format Pipelines. Please select a different test level. --></errorMessage>
+        <name>copado__Test_Level_Validation_for_MFP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Test scratch orgs cannot be used for developments --></errorMessage>
+        <name>copado__Test_scratch_orgs_cannot_be_used_for_dev</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Enter a value between 0 to 100 to specify the Progress in percentage. --></errorMessage>
+        <name>copado__User_Story_Progress_Range_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Add_Apex_Tests --></label>
+        <name>copado__Add_Apex_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Commits --></label>
+        <name>copado__Add_Commits</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Add_Metadata --></label>
+        <name>copado__Add_Metadata</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Apex_Test --></label>
+        <name>copado__Apex_Test</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Assign_to_Release --></label>
+        <name>copado__Assign_to_Release</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Commit_Data --></label>
+        <name>copado__Commit_Data</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Commit_Files --></label>
+        <name>copado__Commit_Files</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Copado_DX --></label>
+        <name>copado__Copado_DX</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Bundle --></label>
+        <name>copado__Create_Bundle</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Scratch_Org --></label>
+        <name>copado__Create_Scratch_Org</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_to_User_Story --></label>
+        <name>copado__Import_to_User_Story</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MC_Commit_Changes --></label>
+        <name>copado__MC_Commit_Changes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Manage_Selenium_Tests --></label>
+        <name>copado__Manage_Selenium_Tests</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Add_User_Stories --></label>
+        <name>copado__Mass_Add_User_Stories</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Mass_Add_User_Stories_Sprint --></label>
+        <name>copado__Mass_Add_User_Stories_Sprint</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Org --></label>
+        <name>copado__Open_Org</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Perform_Validation --></label>
+        <name>copado__Perform_Validation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Pull_Request --></label>
+        <name>copado__Pull_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Ready_for_Promotion --></label>
+        <name>copado__Ready_for_Promotion</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_Compliance_Scan --></label>
+        <name>copado__Run_Compliance_Scan</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Run_Static_Code_Analysis --></label>
+        <name>copado__Run_Static_Code_Analysis</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Select_Base_Branch --></label>
+        <name>copado__Select_Base_Branch</name>
+    </webLinks>
+</CustomObjectTranslation>

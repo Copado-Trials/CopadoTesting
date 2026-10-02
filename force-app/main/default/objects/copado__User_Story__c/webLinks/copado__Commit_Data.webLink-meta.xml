@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Commit_Data</fullName>
+    <availability>online</availability>
+    <description>Go to Commit Data page.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Commit Data</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/lightning/n/{!IF(CONTAINS($Action.copado__User_Story_Data_Commit__c.View, &apos;copado__&apos;), &apos;copado__&apos;, &apos;&apos;)}Commit_Data?{!IF(CONTAINS($Action.copado__User_Story_Data_Commit__c.View, &apos;copado__&apos;), &apos;copado__&apos;, &apos;c__&apos;)}User_Story={!copado__User_Story__c.Id}</url>
+</WebLink>

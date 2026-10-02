@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Package_Version_Number_Format</fullName>
+    <active>true</active>
+    <description>Version Number should be in the format Major. Minor. Patch. Build.</description>
+    <errorConditionFormula>copado__Artifact__r.RecordType.DeveloperName = &apos;Package_Artifact&apos;  &amp;&amp;  ISPICKVAL( copado__Artifact__r.copado__Pipeline__r.copado__Platform__c , &quot;SFDX&quot;)  &amp;&amp; NOT(ISBLANK(copado__Version_number__c)) &amp;&amp; NOT(REGEX(copado__Version_number__c, &quot;^\\d+\\.\\d+\\.\\d+\\.(\\d+|NEXT)$&quot;))</errorConditionFormula>
+    <errorDisplayField>copado__Version_number__c</errorDisplayField>
+    <errorMessage>The Package version number specified is not valid. It must be in the format,  {whole number}.{whole number}.{whole number}.{whole number} or {whole number}.{whole number}.{whole number}.NEXT</errorMessage>
+</ValidationRule>

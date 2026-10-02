@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オブジェクトマッピング</value>
+    </caseValues>
+    <fieldSets>
+        <label>オブジェクトのマッピング</label>
+        <name>copadoconnect__Objects_Mappings</name>
+    </fieldSets>
+    <nameFieldLabel>オブジェクトマッピング名</nameFieldLabel>
+</CustomObjectTranslation>

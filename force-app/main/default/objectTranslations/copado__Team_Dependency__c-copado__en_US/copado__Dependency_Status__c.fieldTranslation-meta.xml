@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Status of the dependency between two User Stories. Example: Prioritized, Committed, or Completed. You can manually edit this field. However, it will be automatically marked as Completed when you mark the Parent User Story to Completed. --></help>
+    <label><!-- Dependency Status --></label>
+    <name>copado__Dependency_Status__c</name>
+    <picklistValues>
+        <masterLabel>Committed</masterLabel>
+        <translation><!-- Committed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deferred</masterLabel>
+        <translation><!-- Deferred --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>More Info Needed</masterLabel>
+        <translation><!-- More Info Needed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Never</masterLabel>
+        <translation><!-- Never --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New</masterLabel>
+        <translation><!-- New --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prioritized</masterLabel>
+        <translation><!-- Prioritized --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

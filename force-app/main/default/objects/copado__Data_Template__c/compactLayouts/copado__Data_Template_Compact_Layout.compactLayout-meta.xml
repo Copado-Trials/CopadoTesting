@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Data_Template_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>copado__Template_Source_Org__c</fields>
+    <fields>copado__Main_Object__c</fields>
+    <fields>copado__Active__c</fields>
+    <label>Data Template Compact Layout</label>
+</CompactLayout>

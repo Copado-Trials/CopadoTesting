@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ユーザーストーリーの親子関係タイプの値を入力します。デフォルトでは、このフィールドの値は &quot;Relates-to&quot; に設定されています。これは制限のないリストであるため、他の値を追加することができます。</help>
+    <label><!-- Relationship Type --></label>
+    <name>copado__Relationship_Type__c</name>
+    <picklistValues>
+        <masterLabel>blocking</masterLabel>
+        <translation>ブロックしている</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>duplicating</masterLabel>
+        <translation>重複している</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>fixing</masterLabel>
+        <translation>修正している</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>relates to</masterLabel>
+        <translation>関係している</translation>
+    </picklistValues>
+</CustomFieldTranslation>

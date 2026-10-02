@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Environment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Environment where this Quality Gate Condition will be evaluated. If no Pipeline is defined, this Condition will apply to all Pipelines where this Environment is connected to.</inlineHelpText>
+    <label>Environment</label>
+    <referenceTo>copado__Environment__c</referenceTo>
+    <relationshipLabel>Quality Gate Rule Conditions</relationshipLabel>
+    <relationshipName>Quality_Gate_Rule_Conditions</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

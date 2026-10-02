@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>一定時間 (たとえば 60 分) 経過しても関数のジョブからの応答がない場合に、 コパードにステータスを”失敗（Failed）”に更新させたい場合は、 ここで定義します。</help>
+    <label><!-- Timeout (minutes) --></label>
+    <name>copado__Timeout__c</name>
+</CustomFieldTranslation>

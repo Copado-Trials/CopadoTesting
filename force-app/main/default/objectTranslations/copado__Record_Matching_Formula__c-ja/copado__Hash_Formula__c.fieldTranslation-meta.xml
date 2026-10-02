@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>数式をハッシュ化すると、元の値がユニークで固定サイズのランダムな文字に置き換えられます。これにより読み取り不可となり、また値が外部IDフィールドの文字数制限を超えないようにする事ができます。</help>
+    <label><!-- Hash External Id Value --></label>
+    <name>copado__Hash_Formula__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Post Success Deployment Jobs --></label>
+    <name>copado__Post_Success_Deployment_Jobs__c</name>
+    <relationshipLabel><!-- Continuous Integrations (Post Success Deployment Jobs) --></relationshipLabel>
+</CustomFieldTranslation>

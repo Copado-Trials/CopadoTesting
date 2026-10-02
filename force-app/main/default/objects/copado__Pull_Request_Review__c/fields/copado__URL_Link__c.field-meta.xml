@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__URL_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(
+ ISBLANK(copado__Url__c),
+ &quot;&quot;,
+ HYPERLINK(copado__Url__c, &quot;Go to Review&quot;)
+)</formula>
+    <label>URL Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

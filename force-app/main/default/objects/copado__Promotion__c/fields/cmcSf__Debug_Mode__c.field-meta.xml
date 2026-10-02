@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Debug_Mode__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enabling this, you can see the source files deployed (as part of this promotion) to the destination org on your git repository branch named copadoDebug/&lt;PromotionNumber&gt;</description>
+    <inlineHelpText>Enabling this, you can see the source files deployed (as part of this promotion) to the destination org on your git repository branch named copadoDebug/&lt;PromotionNumber&gt;</inlineHelpText>
+    <label>Debug Mode</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

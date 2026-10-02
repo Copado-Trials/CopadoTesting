@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ユーザーストーリー</label>
+    <name>copado__User_Story__c</name>
+    <relationshipLabel>静的コード分析結果</relationshipLabel>
+</CustomFieldTranslation>

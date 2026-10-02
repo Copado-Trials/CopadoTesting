@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ResultDataJson__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field contain any additional step result information once the step has finished, for example for a flow step after the step completes the flow step can put some date which is result of step execution in this field and then use it in next step using {$Job.PrevStep.JSONResult.XXX} dynamic expression</description>
+    <inlineHelpText>This field contains any additional step result information once the step has finished.</inlineHelpText>
+    <label>Result Data Json</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

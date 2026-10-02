@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パッケージバージョン</value>
+    </caseValues>
+    <fieldSets>
+        <label>SFDXエクステンションフィールド</label>
+        <name>cmcSf__SFDX_Extension_Fields</name>
+    </fieldSets>
+    <fieldSets>
+        <label>SFDXパッケージバージョンライトニングページ</label>
+        <name>cmcSf__SFDX_PackageVersion_CustomFields</name>
+    </fieldSets>
+    <nameFieldLabel>アーティファクトのバージョン名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The API version specified is not valid. It must be in the format, Number.0 --></errorMessage>
+        <name>cmcSf__Api_Version_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Package version number specified is not valid. It must be in the format,  {whole number}.{whole number}.{whole number}.{whole number} or {whole number}.{whole number}.{whole number}.NEXT --></errorMessage>
+        <name>cmcSf__Package_Version_Number_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Tag field is used to create a Git tag during package version creation. Ensure there are no spaces or character sequences that are not allowed for the Git tag. For more details, review the Git documentation https://git-scm.com/docs/git-check-ref-format --></errorMessage>
+        <name>cmcSf__Tag_Restriction</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Merge_Version --></label>
+        <name>copado__Merge_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Promote_Beta_to_Released --></label>
+        <name>copado__Promote_Beta_to_Released</name>
+    </webLinks>
+</CustomObjectTranslation>

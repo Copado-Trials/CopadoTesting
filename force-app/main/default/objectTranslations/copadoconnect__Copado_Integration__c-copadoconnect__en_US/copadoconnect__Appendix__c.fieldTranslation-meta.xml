@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>
+        <!-- When creating one to multiple project mapping between JIRA/ADO and Salesforce, use
+        this field by providing unique text values for each Copado Integration record under same
+        project Key. This is used only for JIRA/ADO as provider. -->
+    </help>
+    <label><!-- Appendix --></label>
+    <name>copadoconnect__Appendix__c</name>
+</CustomFieldTranslation>

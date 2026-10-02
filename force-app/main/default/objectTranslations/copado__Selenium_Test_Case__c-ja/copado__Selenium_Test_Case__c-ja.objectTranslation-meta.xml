@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Seleniumテストケース</value>
+    </caseValues>
+    <nameFieldLabel>Selenium テストケース名</nameFieldLabel>
+    <webLinks>
+        <label><!-- New_Version --></label>
+        <name>copado__New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Promote_Version --></label>
+        <name>copado__Promote_Version</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Quick_Run --></label>
+        <name>copado__Quick_Run</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Rollback_to_Previous_Version --></label>
+        <name>copado__Rollback_to_Previous_Version</name>
+    </webLinks>
+</CustomObjectTranslation>

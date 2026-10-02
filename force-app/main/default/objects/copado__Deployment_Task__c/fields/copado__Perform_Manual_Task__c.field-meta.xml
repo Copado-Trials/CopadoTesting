@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Perform_Manual_Task__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Perform Deployment Task</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Before Deployment</fullName>
+                <default>true</default>
+                <label>Before Deployment</label>
+            </value>
+            <value>
+                <fullName>After Deployment</fullName>
+                <default>false</default>
+                <label>After Deployment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

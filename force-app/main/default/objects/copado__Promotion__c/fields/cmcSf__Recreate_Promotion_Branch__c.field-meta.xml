@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Recreate_Promotion_Branch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When performing the merge, if a promotion branch exists, it will be re-created from the target branch. Otherwise the existing promotion branch would be used (Default).</description>
+    <label>Recreate Promotion Branch</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

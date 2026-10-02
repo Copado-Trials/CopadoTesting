@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この項目には、このユーザーストーリーに関連する、現在進行中または失敗したテストの合計数が表示されます。これらのテストは、このユーザー ストーリーをプロモートする前に、さらなる注意または解決が必要な場合があります。</help>
+    <label><!-- Pending Tests --></label>
+    <name>copado__Pending_Tests__c</name>
+</CustomFieldTranslation>

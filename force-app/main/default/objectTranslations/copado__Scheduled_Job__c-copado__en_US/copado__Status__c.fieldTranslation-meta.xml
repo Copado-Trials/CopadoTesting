@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Failure</masterLabel>
+        <translation><!-- Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Success</masterLabel>
+        <translation><!-- Success --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

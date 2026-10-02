@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このテストスイートを実行した後に実行するオプションのApexコードです。変数 {!NS} を使って、実行中の環境の名前空間に置き換えることができます。</help>
+    <label><!-- Apex code after test --></label>
+    <name>copado__Apex_code_after_test__c</name>
+</CustomFieldTranslation>

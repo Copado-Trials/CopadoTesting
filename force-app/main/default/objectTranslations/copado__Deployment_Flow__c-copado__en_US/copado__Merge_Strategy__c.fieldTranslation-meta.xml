@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- When a conflicted file cannot be semantically merged during an Auto Resolve, the entire file is overwritten by default. You can choose to overwrite only the conflicting lines and merge the mergeable lines; Copado uses the &quot;Theirs&quot; git merge strategy. --></help>
+    <label><!-- Auto Resolve Conflict Strategy --></label>
+    <name>copado__Merge_Strategy__c</name>
+    <picklistValues>
+        <masterLabel>Overwrite conflicting lines only</masterLabel>
+        <translation><!-- Overwrite conflicting lines only --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overwrite file</masterLabel>
+        <translation><!-- Overwrite file --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

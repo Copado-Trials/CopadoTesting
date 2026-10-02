@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Git Backup Datetime --></label>
+    <name>copado__Last_Git_Backup_Datetime__c</name>
+</CustomFieldTranslation>

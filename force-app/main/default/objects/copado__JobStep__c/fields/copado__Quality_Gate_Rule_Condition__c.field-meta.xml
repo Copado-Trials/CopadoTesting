@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Quality_Gate_Rule_Condition__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The scope, filter, and acceptance criteria defined for the quality gate rule referenced in the job step.</description>
+    <inlineHelpText>The scope, filter, and acceptance criteria defined for the quality gate rule referenced in the job step.</inlineHelpText>
+    <label>Quality Gate Rule Condition</label>
+    <referenceTo>copado__Quality_Gate_Rule_Condition__c</referenceTo>
+    <relationshipLabel>Job Steps</relationshipLabel>
+    <relationshipName>Job_Steps</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

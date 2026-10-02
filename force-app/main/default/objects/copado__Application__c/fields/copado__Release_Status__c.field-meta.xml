@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Release_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Release Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GA</fullName>
+                <default>false</default>
+                <label>GA</label>
+            </value>
+            <value>
+                <fullName>Beta</fullName>
+                <default>false</default>
+                <label>Beta</label>
+            </value>
+            <value>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+                <label>Pilot</label>
+            </value>
+            <value>
+                <fullName>Development</fullName>
+                <default>false</default>
+                <label>Development</label>
+            </value>
+            <value>
+                <fullName>Definition</fullName>
+                <default>false</default>
+                <label>Definition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

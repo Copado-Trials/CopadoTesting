@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the object from the dropdown to configure the formula. The fields available for the formula are based on the selected object and source org. --></help>
+    <label>オブジェクト （廃止）</label>
+    <name>copado__Object__c</name>
+</CustomFieldTranslation>

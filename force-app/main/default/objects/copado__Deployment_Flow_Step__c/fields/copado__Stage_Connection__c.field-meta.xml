@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Stage_Connection__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Stage Connection where the source environment belongs to.</inlineHelpText>
+    <label>Stage Connection</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>You can only select Stage Connections that belong to the same Pipeline.</errorMessage>
+        <filterItems>
+            <field>copado__Stage_Connection__c.copado__Pipeline__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.copado__Deployment_Flow__c</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>copado__Stage_Connection__c</referenceTo>
+    <relationshipLabel>Pipeline Connections</relationshipLabel>
+    <relationshipName>Stage_Connections</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ActionsList__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(copado__Actions__c , &quot;Promotion&quot; ), &quot;Promotion; &quot;,null) &amp;
+IF(INCLUDES(copado__Actions__c , &quot;PromotionDeployment&quot; ), &quot;Promotion Deployment; &quot;,null) &amp;
+IF(INCLUDES(copado__Actions__c , &quot;Commit&quot; ), &quot;Commit; &quot;,null) &amp;
+IF(INCLUDES(copado__Actions__c , &quot;PackageCreation&quot; ), &quot;Package Creation; &quot;,null) &amp;
+IF(INCLUDES(copado__Actions__c , &quot;PackageDistribution&quot; ), &quot;Package Distribution; &quot;,null) &amp;
+IF(INCLUDES(copado__Actions__c , &quot;Submit&quot; ), &quot;Submit; &quot;, null)</formula>
+    <label>Copado Actions</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

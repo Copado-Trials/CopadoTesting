@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__CodeScan</fullName>
+    <active>true</active>
+    <description>Record Type for CodeScan integration. Requires CodeScan licensing.</description>
+    <label>CodeScan</label>
+    <picklistValues>
+        <picklist>copado__CodeScan_Version__c</picklist>
+        <values>
+            <fullName>Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-premise SonarQube</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>レコードのステータス更新や他のレコードの作成など、より具体的な操作を行うために使用するフローのAPI名です。</help>
+    <label><!-- Flow or Class API Name --></label>
+    <name>copado__Automated_Action_Callback__c</name>
+</CustomFieldTranslation>

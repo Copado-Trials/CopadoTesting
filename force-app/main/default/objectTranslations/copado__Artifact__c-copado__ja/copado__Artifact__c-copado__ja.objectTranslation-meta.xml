@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>パッケージ</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- SFDX Package Lightning Page --></label>
+        <name>cmcSf__SFDX_Package_CustomFields</name>
+    </fieldSets>
+    <nameFieldLabel>パッケージ名</nameFieldLabel>
+    <recordTypes>
+        <description>バージョン管理システム重視のパッケージ</description>
+        <label>Gitパッケージ</label>
+        <name>copado__Git_Artifact</name>
+    </recordTypes>
+    <recordTypes>
+        <description>セールスフォースアンロック・第二世代マネージドパッケージ</description>
+        <label>セールスフォースパッケージ</label>
+        <name>copado__Package_Artifact</name>
+    </recordTypes>
+    <recordTypes>
+        <description>ユーザーストーリーバンドル</description>
+        <label>ユーザーストーリーバンドル</label>
+        <name>copado__User_Story_Bundle</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- The API version specified is not valid. It must be in the format, Number.0 --></errorMessage>
+        <name>cmcSf__Api_Version_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No Namespace cannot be set to true for a Managed package --></errorMessage>
+        <name>cmcSf__No_Namespace_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>パッケージ名はDXフォルダ構造に使用されています。そのため、パッケージ名は編集できません。</errorMessage>
+        <name>copado__ArtifactNameCannotChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>パッケージのリポジトリリレーションは、アンロックパッケージと第2世代パッケージのために必須で、第1世代パッケージでは空である必要があります。</errorMessage>
+        <name>copado__Artifact_Repo_Control_For_Package_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>パッケージ名にスペースを含めることはできません</errorMessage>
+        <name>copado__Name_should_not_contain_empty_space</name>
+    </validationRules>
+    <webLinks>
+        <label>新しいバージョンを生成</label>
+        <name>copado__Generate_New_Version</name>
+    </webLinks>
+    <webLinks>
+        <label>プロジェクト定義ファイルを生成</label>
+        <name>copado__Generate_Project_Definition_File</name>
+    </webLinks>
+    <webLinks>
+        <label>メタデータを管理</label>
+        <name>copado__Manage_Metadata</name>
+    </webLinks>
+    <webLinks>
+        <label>組織定義依存関係を管理</label>
+        <name>copado__Manage_Org_Definition_Dependencies</name>
+    </webLinks>
+    <webLinks>
+        <label>パッケージの内容を管理</label>
+        <name>copado__Manage_Package_Selection</name>
+    </webLinks>
+</CustomObjectTranslation>

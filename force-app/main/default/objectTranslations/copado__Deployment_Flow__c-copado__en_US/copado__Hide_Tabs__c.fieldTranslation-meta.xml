@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Tabs to hide in Branch Management detail window --></help>
+    <label><!-- Hide Tabs --></label>
+    <name>copado__Hide_Tabs__c</name>
+    <picklistValues>
+        <masterLabel>Auto Resolved Conflicts</masterLabel>
+        <translation><!-- Auto Resolved Conflicts --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commits Ahead</masterLabel>
+        <translation><!-- Commits Ahead --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commits Behind</masterLabel>
+        <translation><!-- Commits Behind --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance Scan Results</masterLabel>
+        <translation><!-- Compliance Scan Results --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment Error</masterLabel>
+        <translation><!-- Deployment Error --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>File Differences</masterLabel>
+        <translation><!-- File Differences --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merged Files</masterLabel>
+        <translation><!-- Merged Files --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selenium Test Groups</masterLabel>
+        <translation><!-- Selenium Test Groups --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

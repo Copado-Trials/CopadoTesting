@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>他チームから必要とされるユーザーストーリーの簡易説明文（最大255文字）。詳細な説明は、ノートフィールドに追加することができます。</help>
+    <label><!-- Deliverable --></label>
+    <name>copado__Deliverable__c</name>
+</CustomFieldTranslation>

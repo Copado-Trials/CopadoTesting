@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>値を入力した場合、この日付以降の修正のみが差分に追加されます。</help>
+    <label><!-- From Date --></label>
+    <name>copado__From_Date__c</name>
+</CustomFieldTranslation>

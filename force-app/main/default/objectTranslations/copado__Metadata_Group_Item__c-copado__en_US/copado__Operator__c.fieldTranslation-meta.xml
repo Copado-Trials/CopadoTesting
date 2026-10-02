@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Match &apos;All&apos; metadata of this type, or only metadata whose name matches a pattern? --></help>
+    <label><!-- Metadata Name --></label>
+    <name>copado__Operator__c</name>
+</CustomFieldTranslation>

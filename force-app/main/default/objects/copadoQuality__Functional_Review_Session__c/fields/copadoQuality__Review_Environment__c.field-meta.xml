@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copadoQuality__Review_Environment__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/&quot;+copadoQuality__Functional_Review__r.copadoQuality__Review_Environment__c,  copadoQuality__Functional_Review__r.copadoQuality__Review_Environment__r.Name , &quot;_blank&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Review Environment</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

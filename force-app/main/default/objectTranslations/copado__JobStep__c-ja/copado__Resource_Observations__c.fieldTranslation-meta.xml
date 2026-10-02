@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ステップが正常に完了した後に利用可能なリソースを登録します。これらのリソースには、関数コンテキスト内でローカルに品質ゲートを適用することができます。</help>
+    <label><!-- Resource Observations --></label>
+    <name>copado__Resource_Observations__c</name>
+    <picklistValues>
+        <masterLabel>Local branch ready</masterLabel>
+        <translation>ローカルブランチ準備完了</translation>
+    </picklistValues>
+</CustomFieldTranslation>

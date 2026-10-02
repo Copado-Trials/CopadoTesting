@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Release_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>copado__Project__c</fields>
+    <fields>copado__Type__c</fields>
+    <fields>copado__Version__c</fields>
+    <fields>copado__Status__c</fields>
+    <fields>copado__Planned_Date__c</fields>
+    <fields>copado__Completion_Date__c</fields>
+    <label>Release Compact Layout</label>
+</CompactLayout>

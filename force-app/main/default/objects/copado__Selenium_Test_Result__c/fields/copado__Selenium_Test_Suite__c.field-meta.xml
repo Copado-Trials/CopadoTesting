@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Selenium_Test_Suite__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Selenium Test Suite</label>
+    <referenceTo>copado__Selenium_Test_Suite__c</referenceTo>
+    <relationshipLabel>Selenium Test Results</relationshipLabel>
+    <relationshipName>Selenium_Test_Results</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

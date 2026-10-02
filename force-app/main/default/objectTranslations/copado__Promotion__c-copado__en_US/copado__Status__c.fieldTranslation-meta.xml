@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation><!-- Cancelled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation><!-- Completed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed with errors</masterLabel>
+        <translation><!-- Completed with errors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Conflicts Resolved</masterLabel>
+        <translation><!-- Conflicts Resolved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merge Conflict</masterLabel>
+        <translation><!-- Merge Conflict --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Scheduled</masterLabel>
+        <translation><!-- Scheduled --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validated</masterLabel>
+        <translation><!-- Validated --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation failed</masterLabel>
+        <translation><!-- Validation failed --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Test_Level_Validation_for_MFP</fullName>
+    <active>true</active>
+    <description>Prevent users from saving a User Story with &quot;Run Relevant Tests&quot; selected in the Promotion Test Level field when the User Story belongs to a Metadata Format Pipeline</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL(copado__Promotion_Test_Level__c, &apos;RunRelevantTests&apos;),
+  OR(
+    AND(
+      NOT(ISBLANK(copado__Project__c)),
+      ISPICKVAL(copado__Project__r.copado__Deployment_Flow__r.copado__Platform__c, &apos;Salesforce&apos;)
+    ),
+    AND(
+      ISBLANK(copado__Project__c),
+      NOT(ISBLANK(copado__Release__c)),
+      ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Platform__c, &apos;Salesforce&apos;)
+    )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>copado__Promotion_Test_Level__c</errorDisplayField>
+    <errorMessage>“Run Relevant Tests” is not supported for Metadata Format Pipelines. Please select a different test level.</errorMessage>
+</ValidationRule>

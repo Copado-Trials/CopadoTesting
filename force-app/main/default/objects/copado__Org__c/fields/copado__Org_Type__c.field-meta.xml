@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Org_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Org Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Production/Developer</fullName>
+                <default>true</default>
+                <label>Production/Developer</label>
+            </value>
+            <value>
+                <fullName>Sandbox</fullName>
+                <default>false</default>
+                <label>Sandbox</label>
+            </value>
+            <value>
+                <fullName>Scratch Org - Test only</fullName>
+                <default>false</default>
+                <label>Scratch Org - Test only</label>
+            </value>
+            <value>
+                <fullName>Scratch Org</fullName>
+                <default>false</default>
+                <label>Scratch Org</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

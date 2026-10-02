@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このタイプのメタデータ「すべて」に一致、または、名前がパターンに一致するメタデータにのみ？</help>
+    <label><!-- Metadata Name --></label>
+    <name>copado__Operator__c</name>
+</CustomFieldTranslation>

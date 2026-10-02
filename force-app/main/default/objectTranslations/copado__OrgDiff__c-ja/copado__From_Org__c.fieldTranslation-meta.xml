@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>メタデータを比較したいソースクレデンシャルを選択します。このソースクレデンシャルは、メタデータを移行するものになります。。</help>
+    <label><!-- Source Credential --></label>
+    <name>copado__From_Org__c</name>
+    <relationshipLabel><!-- Org Differences (Source Credential) --></relationshipLabel>
+</CustomFieldTranslation>

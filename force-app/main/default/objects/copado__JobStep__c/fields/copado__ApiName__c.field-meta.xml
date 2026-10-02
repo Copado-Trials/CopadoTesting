@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__ApiName__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>API name of the job that triggered the result. This information can be used for reporting purposes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>API name of the job that triggered the result. This information can be used for reporting purposes.</inlineHelpText>
+    <label>Api Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

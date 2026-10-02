@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>追加したプロファイルセットをフルプロファイルセットのデプロイメントステップに移動させるかどうかを選択します。 これにより、メタデータステップからプロファイルセットが除去されます。</help>
+    <label><!-- Create Full Profiles Step --></label>
+    <name>copado__Create_Full_Profiles_Step__c</name>
+</CustomFieldTranslation>

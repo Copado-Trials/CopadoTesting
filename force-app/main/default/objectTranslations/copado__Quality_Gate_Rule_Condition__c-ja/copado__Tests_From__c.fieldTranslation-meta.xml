@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>品質ゲートの一部として実行されるテストの取得先を選択します。</help>
+    <label><!-- Tests From --></label>
+    <name>copado__Tests_From__c</name>
+    <picklistValues>
+        <masterLabel>Application</masterLabel>
+        <translation>アプリケーション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Feature</masterLabel>
+        <translation>フィーチャー（機能）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>User Story</masterLabel>
+        <translation>ユーザーストーリー</translation>
+    </picklistValues>
+</CustomFieldTranslation>

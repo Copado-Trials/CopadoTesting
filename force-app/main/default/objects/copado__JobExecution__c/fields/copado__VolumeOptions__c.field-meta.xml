@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__VolumeOptions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>In this field, you can introduce a list of JSON options with the configuration for the volumes used in every new job execution.</description>
+    <inlineHelpText>In this field, you can introduce a list of JSON options with the configuration for the volumes used in every new job execution.</inlineHelpText>
+    <label>VolumeOptions</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

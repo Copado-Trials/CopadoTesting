@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>品質ゲートルール条件</value>
+    </caseValues>
+    <nameFieldLabel>品質ゲートルール条件名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The selected platform does not match the chosen pipeline or environment platform value. --></errorMessage>
+        <name>copado__ConsistentPlatform</name>
+    </validationRules>
+</CustomObjectTranslation>

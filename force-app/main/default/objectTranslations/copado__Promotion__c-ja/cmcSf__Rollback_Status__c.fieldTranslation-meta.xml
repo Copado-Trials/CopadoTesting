@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Rollback Status --></label>
+    <name>cmcSf__Rollback_Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed</masterLabel>
+        <translation>完了</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation>失敗</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation>進行中</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress (Validation Only)</masterLabel>
+        <translation>進行中（検証のみ）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not Started</masterLabel>
+        <translation>未着手</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validated</masterLabel>
+        <translation>検証済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validation Failed</masterLabel>
+        <translation>検証失敗</translation>
+    </picklistValues>
+</CustomFieldTranslation>

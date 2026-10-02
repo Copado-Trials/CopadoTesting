@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Used to define the order of execution in the context of User Story Deployment --></help>
+    <label><!-- Execution Sequence --></label>
+    <name>copado__ExecutionSequence__c</name>
+    <picklistValues>
+        <masterLabel>After Deployment</masterLabel>
+        <translation><!-- After Deployment --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Before Deployment</masterLabel>
+        <translation><!-- Before Deployment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

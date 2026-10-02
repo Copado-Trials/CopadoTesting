@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The name of the Apex class implementing UninstallHandler which will be executed in the subscriber org before the managed package is uninstalled. --></help>
+    <label><!-- Uninstall Script --></label>
+    <name>cmcSf__Uninstall_Script__c</name>
+</CustomFieldTranslation>

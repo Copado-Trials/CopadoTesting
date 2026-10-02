@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ジョブ・ステップ</value>
+    </caseValues>
+    <nameFieldLabel>ジョブ・ステップ名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Execution Sequence is required for Deployment steps --></errorMessage>
+        <name>copado__Execution_Sequence_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Skip Condition cannot be changed when a User Story is associated with this Job Step. --></errorMessage>
+        <name>copado__Prevent_SkipCondition_Change_With_US</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- JobTemplate, Execution, or User Story is required --></errorMessage>
+        <name>copado__Template_OR_Execution_Is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

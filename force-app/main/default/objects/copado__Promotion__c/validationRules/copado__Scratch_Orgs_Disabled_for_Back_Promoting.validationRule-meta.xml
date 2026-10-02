@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Scratch_Orgs_Disabled_for_Back_Promoting</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(copado__Back_Promotion__c == true,ISPICKVAL(copado__Destination_Org_Credential__r.copado__Org_Type__c,&apos;Scratch Org&apos;))</errorConditionFormula>
+    <errorMessage>Back Promotions to Scratch Orgs are not allowed</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Last date and time when the source and target branch were in Sync (no commits ahead or behind). --></help>
+    <label><!-- Last Merge Base --></label>
+    <name>copado__Last_Merge_Base__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- The Git operation executed by the Copado. --></help>
+    <label><!-- Git Operation --></label>
+    <name>copado__Git_Operation__c</name>
+    <picklistValues>
+        <masterLabel>Commit Files</masterLabel>
+        <translation><!-- Commit Files --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Destructive Changes</masterLabel>
+        <translation><!-- Destructive Changes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

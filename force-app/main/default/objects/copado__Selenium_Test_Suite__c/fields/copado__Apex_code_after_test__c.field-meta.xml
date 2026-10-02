@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Apex_code_after_test__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Optional Apex code to execute after running this test suite. You can use variable {!NS} to be replaced with the Namespace for the running Environment.</inlineHelpText>
+    <label>Apex code after test</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>15</visibleLines>
+</CustomField>

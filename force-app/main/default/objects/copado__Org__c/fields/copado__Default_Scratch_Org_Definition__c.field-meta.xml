@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Default_Scratch_Org_Definition__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Will be used for Review app creation out of promotions. Otherwise every scratch org may be created by their own scratch org definition either with a template or without.</inlineHelpText>
+    <label>Default Scratch Org Definition</label>
+    <referenceTo>copado__Scratch_Org_Definition__c</referenceTo>
+    <relationshipLabel>Credentials</relationshipLabel>
+    <relationshipName>Org_Credentials</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

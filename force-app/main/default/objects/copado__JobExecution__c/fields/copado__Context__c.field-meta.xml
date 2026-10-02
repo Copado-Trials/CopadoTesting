@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Context__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK( copado__Deployment__c )), HYPERLINK(&quot;/&quot;+copado__Deployment__r.copado__Promotion__c, &quot;Promotion: &quot;+copado__Deployment__r.copado__Promotion__r.Name, &quot;_self&quot;),
+    IF(NOT(ISBLANK( copado__Promotion__c )), HYPERLINK(&quot;/&quot;+copado__Promotion__c, &quot;Promotion: &quot;+copado__Promotion__r.Name, &quot;_self&quot;),
+        IF(NOT(ISBLANK( copado__UserStoryCommit__c )), HYPERLINK(&quot;/&quot;+copado__UserStoryCommit__c, &quot;Commit: &quot;+copado__UserStoryCommit__r.Name, &quot;_self&quot;),
+            IF(NOT(ISBLANK( copado__Snapshot__c )), HYPERLINK(&quot;/&quot;+copado__Snapshot__c, &quot;Git Snapshot: &quot;+copado__Snapshot__r.Name, &quot;_self&quot;),
+                IF(NOT(ISBLANK( copado__ParentRecord_Id__c )), HYPERLINK(&quot;/&quot;+copado__ParentRecord_Id__c, &quot;Parent Record&quot;, &quot;_self&quot;), &quot;&quot;)
+            )
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Context</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Calculated when the Sprint status is changed to In Progress by adding up the points assigned to all User Stories in the Sprint. This value is only calculated once at the beginning of a Sprint. --></help>
+    <label><!-- Initial Planned Velocity --></label>
+    <name>copado__InitialPlannedVelocity__c</name>
+</CustomFieldTranslation>

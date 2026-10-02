@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>copado__Status__c</name>
+    <picklistValues>
+        <masterLabel>Failed</masterLabel>
+        <translation><!-- Failed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In progress</masterLabel>
+        <translation><!-- In progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pending</masterLabel>
+        <translation><!-- Pending --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Success</masterLabel>
+        <translation><!-- Success --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Timed out</masterLabel>
+        <translation><!-- Timed out --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Manual_Task_Owner__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If &apos;Manual Approval&apos;, &apos;Manual Test&apos;, or &apos;Pull Request&apos; is selected as the type, who should this task be assigned to?</description>
+    <inlineHelpText>If &apos;Manual Approval&apos;, &apos;Manual Test&apos;, or &apos;Pull Request&apos; is selected as the type, who should this task be assigned to?</inlineHelpText>
+    <label>Manual Task Owner</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Quality_Gates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

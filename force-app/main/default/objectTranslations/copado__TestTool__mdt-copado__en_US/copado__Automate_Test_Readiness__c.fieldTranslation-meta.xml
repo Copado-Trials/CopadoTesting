@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If ticked, test records created in the Test object or as a quality gate are automatically marked as Ready to Run. No manual configuration is required before their execution. --></help>
+    <label><!-- Automate Test Readiness --></label>
+    <name>copado__Automate_Test_Readiness__c</name>
+</CustomFieldTranslation>

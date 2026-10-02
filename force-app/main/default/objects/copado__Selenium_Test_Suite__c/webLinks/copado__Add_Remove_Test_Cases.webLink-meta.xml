@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Add_Remove_Test_Cases</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Add / Remove Test Cases</masterLabel>
+    <openType>sidebar</openType>
+    <page>copado__SeleniumTestCasesPerSuite</page>
+    <protected>false</protected>
+</WebLink>

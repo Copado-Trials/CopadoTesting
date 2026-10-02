@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Environment records are created automatically when Credentials are authenticated. The Environment may have multiple Credentials which correspond to different users of the same Environment. --></help>
+    <label><!-- Environment --></label>
+    <name>copado__Environment__c</name>
+    <relationshipLabel><!-- Credentials --></relationshipLabel>
+</CustomFieldTranslation>

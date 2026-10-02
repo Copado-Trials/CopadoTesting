@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Prevent_RunSpecifiedTest_For_Environment</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(cmcSf__Apex_Test_Level__c,&apos;Run Specified Tests&apos;)</errorConditionFormula>
+    <errorMessage>We do not recommend to set “Run Specified Test” on an environment level, unless you are 100% sure that ALL deployments contain Apex. If this is the case, you can deactivate this Validation Rule.</errorMessage>
+</ValidationRule>

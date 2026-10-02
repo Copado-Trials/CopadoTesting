@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This is a non-mandatory field. You can use it to complement the Triggering Metadata Type in case you want specific Metadata items to trigger the tips. The Metadata items can be separated by &quot;;&quot;. Example standard-Account;standard-AppLauncher. --></help>
+    <label><!-- Triggering Metadata Items --></label>
+    <name>copado__Triggering_Metadata_Items__c</name>
+</CustomFieldTranslation>

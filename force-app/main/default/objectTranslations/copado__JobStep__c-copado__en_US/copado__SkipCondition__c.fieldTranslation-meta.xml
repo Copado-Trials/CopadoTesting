@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Expression that if evaluates to true, the step execution will be skipped and Copado will continue with the next step or complete the job execution. If left empty or the expression evaluates to false, the job step will execute as usual. --></help>
+    <label><!-- Skip Step Condition --></label>
+    <name>copado__SkipCondition__c</name>
+</CustomFieldTranslation>

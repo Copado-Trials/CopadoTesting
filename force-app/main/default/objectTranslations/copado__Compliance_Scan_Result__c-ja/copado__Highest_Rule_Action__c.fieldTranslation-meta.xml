@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>コンプライアンス調査結果の中で最も厳しい処置</help>
+    <label><!-- Highest Rule Action --></label>
+    <name>copado__Highest_Rule_Action__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>静的コード分析違反</value>
+    </caseValues>
+    <nameFieldLabel>静的コード分析違反名</nameFieldLabel>
+    <recordTypes>
+        <description>Codescan統合のためのレコードタイプです。 Codescanのライセンスが必要です。</description>
+        <label><!-- CodeScan --></label>
+        <name>copado__CodeScan</name>
+    </recordTypes>
+    <recordTypes>
+        <description>無料のPMD統合のためのレコードタイプ</description>
+        <label><!-- PMD --></label>
+        <name>copado__PMD</name>
+    </recordTypes>
+</CustomObjectTranslation>

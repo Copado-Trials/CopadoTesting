@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>継続的インテグレーション</value>
+    </caseValues>
+    <fieldSets>
+        <label>カスタムフィールド</label>
+        <name>copado__CustomFields</name>
+    </fieldSets>
+    <nameFieldLabel>継続的インテグレーション名</nameFieldLabel>
+    <sharingReasons>
+        <label>継続的インテグレーションの許可</label>
+        <name>copado__ContinuousIntegrationPermission</name>
+    </sharingReasons>
+</CustomObjectTranslation>

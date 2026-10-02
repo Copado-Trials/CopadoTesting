@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Read only field used internally for system property replacement. --></help>
+    <label><!-- Pipeline Id --></label>
+    <name>copado__Pipeline_Id__c</name>
+</CustomFieldTranslation>

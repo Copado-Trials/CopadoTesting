@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>最新のジョブ実行</label>
+    <name>copadoQuality__Latest_Job_Execution__c</name>
+    <relationshipLabel>エクステンション設定</relationshipLabel>
+</CustomFieldTranslation>

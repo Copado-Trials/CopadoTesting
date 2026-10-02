@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>レポート作成のためにロールバックされた元のデプロイメントを特定します。</help>
+    <label><!-- Rolled back Deployment --></label>
+    <name>copado__Rolled_back_Deployment__c</name>
+    <relationshipLabel><!-- Deployments (Rolled back Deployment) --></relationshipLabel>
+</CustomFieldTranslation>

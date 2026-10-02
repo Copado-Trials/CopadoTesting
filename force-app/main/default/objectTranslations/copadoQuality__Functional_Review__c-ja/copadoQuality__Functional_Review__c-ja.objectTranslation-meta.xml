@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- レビュー --></value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- RelatedList --></label>
+        <name>copadoQuality__RelatedList</name>
+    </fieldSets>
+    <nameFieldLabel><!-- Functional Review Title --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Target url has to start with a protocol.(exp: https://) --></errorMessage>
+        <name>copadoQuality__Protocol_Control</name>
+    </validationRules>
+</CustomObjectTranslation>

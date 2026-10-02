@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ブランチ管理の詳細画面で非表示にするタブ</help>
+    <label><!-- Hide Tabs --></label>
+    <name>copado__Hide_Tabs__c</name>
+    <picklistValues>
+        <masterLabel>Auto Resolved Conflicts</masterLabel>
+        <translation>自動解決されたコンフリクト</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commits Ahead</masterLabel>
+        <translation>コミット（Ahead）</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commits Behind</masterLabel>
+        <translation>コミット（Behind)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Compliance Scan Results</masterLabel>
+        <translation>コンプライアンススキャン結果</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deployment Error</masterLabel>
+        <translation>デプロイメントエラー</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>File Differences</masterLabel>
+        <translation>ファイル差分</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Merged Files</masterLabel>
+        <translation>マージされたファイル</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selenium Test Groups</masterLabel>
+        <translation>Seleniumテストグループ</translation>
+    </picklistValues>
+</CustomFieldTranslation>

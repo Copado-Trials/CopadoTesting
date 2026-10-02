@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Should_be_differents</fullName>
+    <active>true</active>
+    <errorConditionFormula>copado__From_Org__c =  copado__To_Org__c</errorConditionFormula>
+    <errorDisplayField>copado__To_Org__c</errorDisplayField>
+    <errorMessage>The Org&apos;s to be compared can not be the same.</errorMessage>
+</ValidationRule>

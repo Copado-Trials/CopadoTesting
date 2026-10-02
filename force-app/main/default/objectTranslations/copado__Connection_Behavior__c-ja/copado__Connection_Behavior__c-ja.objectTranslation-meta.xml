@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>接続動作</value>
+    </caseValues>
+    <nameFieldLabel>接続動作名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Batch Size fields for Promotion or Back Promotion needs to be between 1 and 2000 --></errorMessage>
+        <name>copado__Batch_Size_Valid_Interval</name>
+    </validationRules>
+</CustomObjectTranslation>

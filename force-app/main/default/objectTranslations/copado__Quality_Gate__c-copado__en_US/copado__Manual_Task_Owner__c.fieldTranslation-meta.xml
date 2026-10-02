@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- If &apos;Manual Approval&apos;, &apos;Manual Test&apos;, or &apos;Pull Request&apos; is selected as the type, who should this task be assigned to? --></help>
+    <label><!-- Manual Task Owner --></label>
+    <name>copado__Manual_Task_Owner__c</name>
+    <relationshipLabel><!-- Automations --></relationshipLabel>
+</CustomFieldTranslation>

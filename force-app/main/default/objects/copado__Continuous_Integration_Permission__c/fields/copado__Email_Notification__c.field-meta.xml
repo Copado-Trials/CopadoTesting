@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Email_Notification__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Email Notification</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On Build Failure</fullName>
+                <default>false</default>
+                <label>On Build Failure</label>
+            </value>
+            <value>
+                <fullName>On Build Success</fullName>
+                <default>false</default>
+                <label>On Build Success</label>
+            </value>
+            <value>
+                <fullName>On Deploy Failure</fullName>
+                <default>false</default>
+                <label>On Deploy Failure</label>
+            </value>
+            <value>
+                <fullName>On Deploy Success</fullName>
+                <default>false</default>
+                <label>On Deploy Success</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

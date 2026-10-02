@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Optional Apex code to execute before running this test suite.  It can be used to clean up or create data. You can use variable {!NS} to be replaced with the Namespace for the running Environment. --></help>
+    <label><!-- Apex code before test --></label>
+    <name>copado__Apex_code_before_test__c</name>
+</CustomFieldTranslation>

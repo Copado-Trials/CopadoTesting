@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Temporary_with_Dates</fullName>
+    <active>true</active>
+    <errorConditionFormula>and (
+ ISPICKVAL( copado__Type__c ,&quot;Temporary&quot;),
+  or (
+   ISNULL( copado__End_Time__c ),
+   ISNULL( copado__Start_Time__c  )
+  )
+)</errorConditionFormula>
+    <errorDisplayField>copado__Type__c</errorDisplayField>
+    <errorMessage>Specify End and Start time for Temporary permissions.</errorMessage>
+</ValidationRule>

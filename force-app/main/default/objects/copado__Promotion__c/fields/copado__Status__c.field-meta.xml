@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>true</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Completed with errors</fullName>
+                <default>false</default>
+                <label>Completed with errors</label>
+            </value>
+            <value>
+                <fullName>Validated</fullName>
+                <default>false</default>
+                <label>Validated</label>
+            </value>
+            <value>
+                <fullName>Validation failed</fullName>
+                <default>false</default>
+                <label>Validation failed</label>
+            </value>
+            <value>
+                <fullName>Merge Conflict</fullName>
+                <default>false</default>
+                <label>Merge Conflict</label>
+            </value>
+            <value>
+                <fullName>Conflicts Resolved</fullName>
+                <default>false</default>
+                <label>Conflicts Resolved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

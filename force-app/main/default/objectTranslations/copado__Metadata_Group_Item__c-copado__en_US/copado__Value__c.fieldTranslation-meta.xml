@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Match only metadata whose name matches this value (ignored if Metadata Name = &apos;All&apos; is selected) --></help>
+    <label><!-- Value --></label>
+    <name>copado__Value__c</name>
+</CustomFieldTranslation>

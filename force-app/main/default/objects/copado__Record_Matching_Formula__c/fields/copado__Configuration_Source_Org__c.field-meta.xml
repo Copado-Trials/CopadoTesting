@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Configuration_Source_Org__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <inlineHelpText>The Credential from where Copado retrieves the list of objects and fields available to build the formula.</inlineHelpText>
+    <label>Configuration Schema Credential</label>
+    <referenceTo>copado__Org__c</referenceTo>
+    <relationshipLabel>Record Matching Formulas</relationshipLabel>
+    <relationshipName>Record_Matching_Formulas</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

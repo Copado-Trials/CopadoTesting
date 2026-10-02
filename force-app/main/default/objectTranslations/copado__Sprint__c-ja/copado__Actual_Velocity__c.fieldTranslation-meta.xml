@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この値は、スプリント内のユーザーストーリーのステータスが [完了] に変更されたときに、そのユーザー ストーリーの計画ポイント合計を合計して計算されます。このステータスは、実速度ステータス(Actual Velocity Statuses)カスタムメタデータタイプで設定できます。詳細については、Copado Sprint Velocityの記事を参照してください。</help>
+    <label><!-- Actual Velocity --></label>
+    <name>copado__Actual_Velocity__c</name>
+</CustomFieldTranslation>

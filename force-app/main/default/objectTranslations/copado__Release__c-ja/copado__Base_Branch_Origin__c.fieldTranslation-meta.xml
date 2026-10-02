@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このリリースブランチが作成された親ブランチを指定します。Copado はこの情報を用いて差分（diff）を計算し、どのコンポーネントが変更されたかを正確に特定することで、検証、デプロイメント、およびアーティファクト・ユーザーストーリーが正確に作成されるようにします。</help>
+    <label><!-- Base Branch Origin --></label>
+    <name>copado__Base_Branch_Origin__c</name>
+</CustomFieldTranslation>

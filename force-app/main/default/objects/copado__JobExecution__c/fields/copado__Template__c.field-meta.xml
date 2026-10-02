@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>It is a reusable template with a list of steps that can be executed as part of different processes such as a commit, a promotion or a deployment.</description>
+    <inlineHelpText>The Job Template used in the Job Execution process.</inlineHelpText>
+    <label>Template</label>
+    <referenceTo>copado__JobTemplate__c</referenceTo>
+    <relationshipLabel>Job Executions</relationshipLabel>
+    <relationshipName>JobExecutions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

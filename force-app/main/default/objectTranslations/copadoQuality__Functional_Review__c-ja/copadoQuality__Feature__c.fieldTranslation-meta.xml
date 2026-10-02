@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>レビューが特定の機能に関するものかどうかを指定します。</help>
+    <label><!-- Feature --></label>
+    <name>copadoQuality__Feature__c</name>
+    <relationshipLabel><!-- Functional Reviews --></relationshipLabel>
+</CustomFieldTranslation>

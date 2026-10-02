@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If “Regression Test” or “User Story Test” is selected, then all Credentials associated to that Test Group must be linked to the same environment.</description>
+    <inlineHelpText>If “Regression Test” or “User Story Test” is selected, then all Credentials associated to that Test Group must be linked to the same environment.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Default</fullName>
+                <default>false</default>
+                <label>Default</label>
+            </value>
+            <value>
+                <fullName>Regression Test</fullName>
+                <default>false</default>
+                <label>Regression Test</label>
+            </value>
+            <value>
+                <fullName>User Story Test</fullName>
+                <default>false</default>
+                <label>User Story Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

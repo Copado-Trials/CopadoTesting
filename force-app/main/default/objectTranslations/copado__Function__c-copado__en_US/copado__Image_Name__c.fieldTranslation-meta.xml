@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Name of the docker image provided by Copado. Check our documentation site to find all available images. --></help>
+    <label><!-- Image Name --></label>
+    <name>copado__Image_Name__c</name>
+</CustomFieldTranslation>

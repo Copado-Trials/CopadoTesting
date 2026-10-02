@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>プルリクエストを承認したレビュー担当者の数を表示します。Git プロバイダでレビューアがプルリクエストを承認すると、自動的に更新されます。プロバイダによっては、データはウェブフック経由で入手できる場合もあれば、OAuth 認証が必要な場合もあります。</help>
+    <label><!-- Reviewer Approvals Count --></label>
+    <name>copado__Reviewer_Approvals_Count__c</name>
+</CustomFieldTranslation>

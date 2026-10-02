@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Is_Public__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>On setting this checkbox, this system property will be shared with &quot;All the Company&quot; Public Group</description>
+    <inlineHelpText>On setting this checkbox, this system property will be shared with &quot;All the Company&quot; Public Group</inlineHelpText>
+    <label>Is Public?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

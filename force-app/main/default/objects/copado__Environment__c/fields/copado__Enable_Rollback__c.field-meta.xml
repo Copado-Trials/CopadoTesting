@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Enable_Rollback__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable Rollbacks for any Deployments/Promotions have this Environment as destination. Rollbacks will be available for Deployments/Promotions created after this feature is enabled</description>
+    <inlineHelpText>Enable Rollbacks for any Deployments/Promotions have this Environment as destination. Rollbacks will be available for Deployments/Promotions created after this feature is enabled</inlineHelpText>
+    <label>Enable Rollback</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

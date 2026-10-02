@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Value automatically updated by Copado whenever there are Apex Classes added or committed in the User Story. --></help>
+    <label><!-- Has Apex Code --></label>
+    <name>copado__Has_Apex_Code__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Code_Coverage__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Calculate and store the code coverage percentage by running the Apex tests included in this package version.</inlineHelpText>
+    <label>Code Coverage</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

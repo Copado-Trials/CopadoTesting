@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パッケージバージョンはベータ版として作成され、リリースのためにプロモートすることができます。バージョンがリリースされると、このチェックボックスにチェックが入ります。</help>
+    <label><!-- Is released --></label>
+    <name>copado__Is_released__c</name>
+</CustomFieldTranslation>

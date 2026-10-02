@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>このパッケージバージョンに含まれる Apex テストを実行して、コードカバー率を計算して保存します。</help>
+    <label><!-- Code Coverage --></label>
+    <name>cmcSf__Code_Coverage__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Connection_Behavior__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The default Behavior for Connections into this Environment</description>
+    <label>Incoming Connection Behavior</label>
+    <referenceTo>copado__Connection_Behavior__c</referenceTo>
+    <relationshipLabel>Environment Default Behavior</relationshipLabel>
+    <relationshipName>Environments</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

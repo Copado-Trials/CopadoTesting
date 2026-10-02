@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>実績ポイントと実績ポイント（その他）の合計。ユーザーストーリーの作業を異なるスコープに分割する必要がある場合、このフィールドを実績ポイント（その他）Actual Points Other と共に使用します。</help>
+    <label><!-- Total Actual Points --></label>
+    <name>copado__Total_Actual_Points__c</name>
+</CustomFieldTranslation>

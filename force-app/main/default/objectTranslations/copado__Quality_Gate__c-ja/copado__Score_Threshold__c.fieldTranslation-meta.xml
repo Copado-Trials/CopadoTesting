@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>タイプとして「静的コード分析」が選択されている場合、どのような静的分析スコアを合格とみなすべきでしょうか。</help>
+    <label><!-- Static Analysis Score Threshold --></label>
+    <name>copado__Score_Threshold__c</name>
+</CustomFieldTranslation>

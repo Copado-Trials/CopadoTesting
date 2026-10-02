@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Test_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If &apos;Apex Test with Validation&apos; is selected as the type, what test level should be performed. &apos;Run Specified Tests&apos; will run whatever tests are included on the user stories being deployed</description>
+    <inlineHelpText>If &apos;Apex Test with Validation&apos; is selected as the type, what test level should be performed. &apos;Run Specified Tests&apos; will run whatever tests are included on the user stories being deployed</inlineHelpText>
+    <label>Apex Test Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>copado__Test_Level</valueSetName>
+    </valueSet>
+</CustomField>

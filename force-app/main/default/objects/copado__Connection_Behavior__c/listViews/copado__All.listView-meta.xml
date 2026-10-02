@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__All</fullName>
+    <columns>NAME</columns>
+    <columns>copado__Promotion_Behavior__c</columns>
+    <columns>copado__Back_Promotion_Behavior__c</columns>
+    <columns>copado__Story_Status_After_Deployment__c</columns>
+    <columns>copado__Description__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Last Status --></label>
+    <name>copado__Last_Status__c</name>
+    <picklistValues>
+        <masterLabel>Completed successfully</masterLabel>
+        <translation><!-- Completed successfully --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Completed with errors</masterLabel>
+        <translation><!-- Completed with errors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>In Progress</masterLabel>
+        <translation><!-- In Progress --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Provider Failure</masterLabel>
+        <translation><!-- Provider Failure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Queued</masterLabel>
+        <translation><!-- Queued --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Starting</masterLabel>
+        <translation><!-- Starting --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Describes why the User Story was cancelled, so that this information is available. --></help>
+    <label><!-- Cancellation Reason --></label>
+    <name>copado__Cancellation_Reason__c</name>
+</CustomFieldTranslation>

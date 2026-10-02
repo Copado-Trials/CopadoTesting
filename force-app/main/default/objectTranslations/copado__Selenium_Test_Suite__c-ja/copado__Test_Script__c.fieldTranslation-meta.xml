@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この検索は、コパード変更管理テストスクリプトに関連しています。</help>
+    <label><!-- Test Script --></label>
+    <name>copado__Test_Script__c</name>
+    <relationshipLabel><!-- Selenium Test Suites --></relationshipLabel>
+</CustomFieldTranslation>

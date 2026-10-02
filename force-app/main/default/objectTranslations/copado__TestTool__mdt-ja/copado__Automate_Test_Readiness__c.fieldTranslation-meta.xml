@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>チェックを入れると、Test オブジェクトまたは品質ゲートとして作成されたテストレコードは、自動的に準備完了（Ready to Run)としてマークされます。実行前に手動で設定する必要はありません。</help>
+    <label><!-- Automate Test Readiness --></label>
+    <name>copado__Automate_Test_Readiness__c</name>
+</CustomFieldTranslation>

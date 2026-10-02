@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>オートメーションルール</value>
+    </caseValues>
+    <nameFieldLabel>オートメーション・ルール名</nameFieldLabel>
+    <validationRules>
+        <errorMessage>同時に環境とステージ項目を選択することはできません。細かいフィルターは環境を用いて、より広いフィルターはステージにて定義してください。</errorMessage>
+        <name>copado__Stage_and_Environment_both_populated</name>
+    </validationRules>
+</CustomObjectTranslation>

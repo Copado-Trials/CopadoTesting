@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>API品質ゲートルールの設定が完了しているかどうかを検証するApex クラスの名前です。この検証は、ユーザーが新しい品質ゲートルールを保存する際にトリガーされます。検証に失敗した場合、ユーザーが不足している設定を完了するまで品質ゲートルールを保存することはできません。Apex クラスは「QualityGateReadinessInterface」という名前のインターフェースを実装する必要があります。</help>
+    <label><!-- Quality Gates Readiness Logic --></label>
+    <name>copado__Quality_Gates_Readiness_Logic__c</name>
+</CustomFieldTranslation>

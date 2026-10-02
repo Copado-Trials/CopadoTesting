@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>この依存関係を満たすために成果物を提供するチーム</help>
+    <label><!-- Parent User Story Team --></label>
+    <name>copado__Provider_Team__c</name>
+    <relationshipLabel><!-- User Story Dependencies (Provider Team) --></relationshipLabel>
+</CustomFieldTranslation>

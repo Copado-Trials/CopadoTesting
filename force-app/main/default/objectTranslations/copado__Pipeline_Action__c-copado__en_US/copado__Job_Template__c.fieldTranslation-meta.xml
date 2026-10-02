@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- This field defines the job template corresponding to the action being configured. If you want to select a different job template for this action in a particular environment, you will override the template set in the pipeline. --></help>
+    <label><!-- Job Template --></label>
+    <name>copado__Job_Template__c</name>
+    <relationshipLabel><!-- Pipeline Actions --></relationshipLabel>
+</CustomFieldTranslation>

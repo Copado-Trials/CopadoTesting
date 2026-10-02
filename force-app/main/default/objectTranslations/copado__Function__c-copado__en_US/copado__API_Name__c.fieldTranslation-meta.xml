@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Provide a unique API name. --></help>
+    <label><!-- API Name --></label>
+    <name>copado__API_Name__c</name>
+</CustomFieldTranslation>

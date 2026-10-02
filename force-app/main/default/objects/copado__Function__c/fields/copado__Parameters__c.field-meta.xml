@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Parameters__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A parameter is a piece of information taken from outside the function that the function needs to be executed.</description>
+    <inlineHelpText>This is used to validate if all required parameters are set before calling the execution.</inlineHelpText>
+    <label>Parameters</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>20</visibleLines>
+</CustomField>

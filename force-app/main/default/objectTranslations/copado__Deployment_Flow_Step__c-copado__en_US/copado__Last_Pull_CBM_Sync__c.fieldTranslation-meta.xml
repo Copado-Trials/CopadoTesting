@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Last date and time when the CBM Sync button was clicked to merge and deploy changes to the source environment. --></help>
+    <label><!-- Last Pull CBM Sync --></label>
+    <name>copado__Last_Pull_CBM_Sync__c</name>
+</CustomFieldTranslation>

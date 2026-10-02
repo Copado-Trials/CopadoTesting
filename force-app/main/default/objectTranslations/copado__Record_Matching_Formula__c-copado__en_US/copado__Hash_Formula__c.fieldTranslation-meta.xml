@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Hashing the Formula will replace the original value with a unique, fixed-size set of random characters. It will ensure the value will not exceed the External Id field character limit but it will not be readable. --></help>
+    <label><!-- Hash External Id Value --></label>
+    <name>copado__Hash_Formula__c</name>
+</CustomFieldTranslation>

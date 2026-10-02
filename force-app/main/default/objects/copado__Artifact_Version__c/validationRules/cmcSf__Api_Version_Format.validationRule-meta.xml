@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>cmcSf__Api_Version_Format</fullName>
+    <active>true</active>
+    <errorConditionFormula>copado__Artifact__r.RecordType.DeveloperName = &apos;Package_Artifact&apos;  &amp;&amp; ISPICKVAL(copado__Artifact__r.copado__Pipeline__r.copado__Platform__c, &apos;SFDX&apos;) &amp;&amp; NOT(ISBLANK(cmcSf__Api_Version__c)) &amp;&amp; NOT(REGEX(cmcSf__Api_Version__c, &quot;^\\d*.0&quot;))</errorConditionFormula>
+    <errorDisplayField>cmcSf__Api_Version__c</errorDisplayField>
+    <errorMessage>The API version specified is not valid. It must be in the format, Number.0</errorMessage>
+</ValidationRule>

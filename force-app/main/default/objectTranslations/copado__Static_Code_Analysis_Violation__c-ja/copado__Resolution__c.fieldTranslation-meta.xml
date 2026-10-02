@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Resolution --></label>
+    <name>copado__Resolution__c</name>
+    <picklistValues>
+        <masterLabel>False Positive</masterLabel>
+        <translation>偽陽性</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed</masterLabel>
+        <translation>修理済み</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removed</masterLabel>
+        <translation>削除</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresolved</masterLabel>
+        <translation>未解決の</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Won&apos;t fix</masterLabel>
+        <translation>修正することはありません</translation>
+    </picklistValues>
+</CustomFieldTranslation>

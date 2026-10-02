@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Promotion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup field to the promotion that triggered the result.</description>
+    <inlineHelpText>Lookup field to the promotion that triggered the result.</inlineHelpText>
+    <label>Promotion</label>
+    <referenceTo>copado__Promotion__c</referenceTo>
+    <relationshipLabel>Results</relationshipLabel>
+    <relationshipName>Results</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

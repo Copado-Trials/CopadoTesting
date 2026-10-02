@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>着信接続の動作</label>
+    <name>copado__Connection_Behavior__c</name>
+    <relationshipLabel>環境のデフォルト動作</relationshipLabel>
+</CustomFieldTranslation>

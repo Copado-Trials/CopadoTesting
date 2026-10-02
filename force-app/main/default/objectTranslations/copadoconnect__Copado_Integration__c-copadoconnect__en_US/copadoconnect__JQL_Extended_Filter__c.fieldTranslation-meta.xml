@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- JQL filter defines the syncing criteria. To check for duplicates, validate the jql filter before activating.Syncing will fail if multiple integration records (with same JIRA projects) have the same JQL filter values. --></help>
+    <label><!-- JQL Extended Filter --></label>
+    <name>copadoconnect__JQL_Extended_Filter__c</name>
+</CustomFieldTranslation>

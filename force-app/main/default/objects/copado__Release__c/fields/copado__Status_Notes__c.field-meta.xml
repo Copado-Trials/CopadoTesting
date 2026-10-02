@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Status_Notes__c</fullName>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Describe the outcome of the release. If it was released, how it went? If canceled, why?</inlineHelpText>
+    <label>Status Notes</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

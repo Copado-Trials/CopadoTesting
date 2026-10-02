@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>パッケージングでは、ネームスペースのプレフィックスは、AppExchange 上の他の開発者のパッケージと区別するための 1 文字から 15 文字の英数字の識別子になります。ロック解除されたパッケージには必要ありません。</help>
+    <label><!-- Package Namespace --></label>
+    <name>copado__Package_Namespace__c</name>
+</CustomFieldTranslation>

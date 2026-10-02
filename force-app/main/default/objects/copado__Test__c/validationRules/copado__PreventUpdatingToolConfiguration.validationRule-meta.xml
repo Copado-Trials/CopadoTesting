@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__PreventUpdatingToolConfiguration</fullName>
+    <active>true</active>
+    <description>This rule prevents users from modifying the Tool Configuration after the test is created.</description>
+    <errorConditionFormula>AND( NOT( ISNEW() ) ,
+ ISCHANGED( copado__ExtensionConfiguration__c ) )</errorConditionFormula>
+    <errorMessage>This Tool Configuration cannot be modified. Please create a new Test and select the Tool Configuration needed.</errorMessage>
+</ValidationRule>

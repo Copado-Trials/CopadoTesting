@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- List of environments to be excluded when a stage is selected. You can select up to 13 environments. --></help>
+    <label><!-- Excluded Environments --></label>
+    <name>copado__Excluded_Environments__c</name>
+</CustomFieldTranslation>

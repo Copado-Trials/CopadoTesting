@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Test Level to apply in the deployment of the User Story. --></help>
+    <label>プロモーションテストレベル</label>
+    <name>copado__Promotion_Test_Level__c</name>
+    <picklistValues>
+        <masterLabel>NoTestRun</masterLabel>
+        <translation><!-- NoTestRun --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RunAllTestsInOrg</masterLabel>
+        <translation><!-- RunAllTestsInOrg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RunLocalTests</masterLabel>
+        <translation><!-- RunLocalTests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RunRelevantTests</masterLabel>
+        <translation><!-- RunRelevantTests --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RunSpecifiedTests</masterLabel>
+        <translation><!-- RunSpecifiedTests --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Field used to link an external result to the Result record. --></help>
+    <label><!-- External Result Link --></label>
+    <name>copado__Link__c</name>
+</CustomFieldTranslation>

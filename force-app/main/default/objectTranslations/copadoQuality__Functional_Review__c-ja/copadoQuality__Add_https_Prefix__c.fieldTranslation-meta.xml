@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ターゲットレビュー URL に「https://」を自動的に追加するには、このチェックボックスをオンにしてください。別のプロトコルを使用する場合は、無効にしてください。</help>
+    <label><!-- Add https Prefix --></label>
+    <name>copadoQuality__Add_https_Prefix__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>依存関係のステータスが、完了、延期、または未実施に設定されるたびに、値はTrue に設定されます。</help>
+    <label><!-- Skip Dependency --></label>
+    <name>copado__Skip_Dependency__c</name>
+</CustomFieldTranslation>

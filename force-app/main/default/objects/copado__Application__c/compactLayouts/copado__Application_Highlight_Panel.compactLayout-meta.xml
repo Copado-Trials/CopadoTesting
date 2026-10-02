@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Application_Highlight_Panel</fullName>
+    <fields>Name</fields>
+    <fields>copado__Release_Status__c</fields>
+    <fields>copado__Stability_Icon__c</fields>
+    <fields>copado__Parent_Application__c</fields>
+    <fields>copado__Product_Manager__c</fields>
+    <label>Application Highlight Panel</label>
+</CompactLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Automatically populated with the User Story generated when you click &apos;Create Artifact&apos;. If a User Story is already linked here when the button is clicked, Copado will automatically recreate its feature branch and metadata to match the release branch. --></help>
+    <label><!-- Artifact User Story --></label>
+    <name>copado__Artifact_User_Story__c</name>
+    <relationshipLabel><!-- Releases --></relationshipLabel>
+</CustomFieldTranslation>

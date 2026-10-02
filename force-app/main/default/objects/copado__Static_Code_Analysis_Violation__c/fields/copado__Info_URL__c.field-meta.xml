@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Info_URL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Link to the PMD documentation about the rule violated.</description>
+    <label>Info URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

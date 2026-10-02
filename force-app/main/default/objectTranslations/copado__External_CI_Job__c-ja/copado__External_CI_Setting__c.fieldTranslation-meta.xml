@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- External CI Setting --></label>
+    <name>copado__External_CI_Setting__c</name>
+    <relationshipLabel><!-- External CI Jobs --></relationshipLabel>
+</CustomFieldTranslation>

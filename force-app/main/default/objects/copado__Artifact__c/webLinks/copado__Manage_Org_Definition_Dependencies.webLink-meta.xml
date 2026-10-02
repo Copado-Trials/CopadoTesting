@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Manage_Org_Definition_Dependencies</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Manage Org Definition Dependencies</masterLabel>
+    <openType>sidebar</openType>
+    <page>copado__PackageArtifactOrgDefinition</page>
+    <protected>false</protected>
+</WebLink>

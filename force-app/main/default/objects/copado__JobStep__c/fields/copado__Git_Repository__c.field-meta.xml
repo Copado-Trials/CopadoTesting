@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Git_Repository__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Id of the Git repository record linked to the pipeline.</description>
+    <externalId>false</externalId>
+    <formula>copado__Git_RepositoryId__c</formula>
+    <inlineHelpText>Id of the Git repository record linked to the pipeline to which the job step appliies.</inlineHelpText>
+    <label>Git Repository</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Resolution --></label>
+    <name>copado__Resolution__c</name>
+    <picklistValues>
+        <masterLabel>False Positive</masterLabel>
+        <translation><!-- False Positive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fixed</masterLabel>
+        <translation><!-- Fixed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Removed</masterLabel>
+        <translation><!-- Removed --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unresolved</masterLabel>
+        <translation><!-- Unresolved --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Won&apos;t fix</masterLabel>
+        <translation><!-- Won&apos;t fix --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

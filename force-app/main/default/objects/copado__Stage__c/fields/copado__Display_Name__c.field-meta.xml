@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Display_Name__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Name used in the user interface where this stage is displayed</inlineHelpText>
+    <label>Display Name</label>
+    <length>80</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Compliance Rule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Compliance Rules</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Criteria Page Fields --></label>
+        <name>copado__Criteria_Page_Fields</name>
+    </fieldSets>
+    <recordTypes>
+        <description><!-- Use this record type to define scan rules run by Copado. --></description>
+        <label><!-- Copado --></label>
+        <name>copado__Copado</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this record type to define scan rules for 3rd party systems. --></description>
+        <label><!-- Other --></label>
+        <name>copado__Other</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Matching Criteria, Record Count and Record Count Criteria are required fields. --></errorMessage>
+        <name>copado__Required_Criteria_Fields</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Manage_Criteria --></label>
+        <name>copado__Manage_Criteria</name>
+    </webLinks>
+</CustomObjectTranslation>

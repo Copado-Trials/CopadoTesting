@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Schedule__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Schedule</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Deploy now</fullName>
+                <default>false</default>
+                <label>Deploy now</label>
+            </value>
+            <value>
+                <fullName>Deploy later</fullName>
+                <default>false</default>
+                <label>Deploy later</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

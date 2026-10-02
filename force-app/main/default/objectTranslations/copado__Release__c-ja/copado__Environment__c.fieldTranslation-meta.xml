@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>リリースブランチの内容が検証またはデプロイメントされる、ターゲットとなる統合環境です。これはアーティファクト・ユーザーストーリーの出発点となり、作成時に自動的に割り当てられます。</help>
+    <label><!-- Environment --></label>
+    <name>copado__Environment__c</name>
+    <relationshipLabel><!-- Releases --></relationshipLabel>
+</CustomFieldTranslation>

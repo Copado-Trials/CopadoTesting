@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Merge_Conflict__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <inlineHelpText>Indicates that this promotion includes a manual conflict resolution.</inlineHelpText>
+    <label>Merge Conflict</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
